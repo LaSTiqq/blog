@@ -1,0 +1,39 @@
+{% load i18n %}
+<div class="container">
+	<div class="row gx-0">
+		<div class="col-12 col-sm-4 col-md-5 d-flex align-items-center justify-content-center mb-3 mb-md-0">
+			<figcaption class="blockquote-footer my-0 text-white text-center">
+				<small>{% trans 'Page is translated into three languages but translations may vary' %}</small>
+			</figcaption>
+		</div>
+		<div class="col-3 col-sm-2 col-md-1 text-center socials">
+			<a href="https://www.facebook.com/lastiqq/" title="Facebook" target="_blank" rel="noopener" class="link-white">
+				<i class="fab fa-facebook"></i>
+			</a>
+		</div>
+		<div class="col-3 col-sm-2 col-md-1 text-center socials">
+			<a href="https://www.instagram.com/lauriss_1313/" title="Instagram" target="_blank" rel="noopener" class="link-white">
+				<i class="fab fa-instagram"></i>
+			</a>
+		</div>
+		<div class="col-3 col-sm-2 col-md-1 text-center socials">
+			<a href="https://github.com/LaSTiqq" title="GitHub" target="_blank" rel="noopener" class="link-white">
+				<i class="fab fa-github"></i>
+			</a>
+		</div>
+		<div class="col-3 col-sm-2 col-md-1 text-center socials">
+			<a href="https://bitbucket.org/lauriss/" title="BitBucket" target="_blank" rel="noopener" class="link-white">
+				<i class="fab fa-bitbucket"></i>
+			</a>
+		</div>
+		{% if request.resolver_match.url_name == 'home' or request.resolver_match.url_name == 'blog' %} 
+		<div class="col-md-3">
+			<a href="{% if request.resolver_match.url_name == 'home' %}{% url 'home' %}#top{% else %}{% url 'blog' %}#top{% endif %}" aria-label="{% trans 'Go up' %}">
+				<div id="arrow" class="overlay">
+					<i class="fas fa-arrow-up"></i>
+				</div>
+			</a>
+		</div>
+		{% endif %}
+	</div>
+</div>

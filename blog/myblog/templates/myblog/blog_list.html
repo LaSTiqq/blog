@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block title %} {% trans 'Blog' %} {% endblock %}
+{% block content %}
+	<a name="top"></a>
+	<br>
+	<h1 class="text-center fw-bold">{% trans 'Blog' %}</h1>
+	<br>
+	<figcaption class="blockquote-footer text-center light-gray fs-6">
+		{% trans 'This section contains my personal solutions to the problems that I have encountered, as well as those solutions that exist, but which I have modified.' %} 
+		{% trans 'The articles do not claim to be unique, but they can be a good addition to the materials that already are available.' %} 
+		{% trans 'This is a collection of my knowledge and experience, which I want to share with others.' %} 
+		{% trans 'The knowledge base will be supplemented with new articles as the author has free time' %}.
+	</figcaption>
+	<hr>
+	{% for item in blog %}
+		{% if item.published %}
+			<div class="card bg-dark border-light">
+				<div class="card-header border-light">
+					{% trans 'Tag' %}: <a href="{{ item.tag.get_absolute_url }}" data-bs-toggle="tooltip" data-bs-placement="top" 
+					data-bs-trigger="hover" title="{% trans 'Sort by tag' %}" class="links">{{ item.tag }}</a>
+				</div>
+				<div class="card-body">
+					<h4 class="card-title">{{ item.title }}</h4>
+					<div class="row">
+						<div class="col-12 col-lg-4">
+							<img src="{{ item.preview_image }}" alt="Preview image" class="img-fluid mx-auto mb-2 d-block">
+						</div>
+						<div class="col-12 col-lg-8">
+							<p class="card-text">{{ item.preview_text }}</p>
+							<a href="{{ item.get_absolute_url }}" class="btn btn-outline-light">{% trans 'Read more' %}...</a>
+						</div>
+					</div>
+				</div>
+				<div class="card-footer border-light">
+					<small class="light-gray">{% trans 'Last updated' %}: {{ item.updated_at }}</small><br>
+					<small class="light-gray">{% trans 'Created at' %}: {{ item.created_at }}</small>
+				</div>
+			</div>
+			<hr>
+		{% endif %}
+	{% endfor %}
+{% endblock %}

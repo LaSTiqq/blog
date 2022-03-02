@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block title %} {{ title }} {% endblock %}
+{% block content %}
+	{% for item in blog %}
+		{% if item.published %}
+			{% if forloop.first %}
+				<br><h1 class="text-center fw-bold">{% trans 'All related articles with' %} <i>{{ item.tag }}</i></h1><br>
+			{% endif %}
+			<div class="card bg-dark border-light">
+				<div class="card-header border-light">
+					<i class="fas fa-undo"></i>&nbsp;
+					<a class="links {% if request.resolver_match.url_name == 'blog' %}active{% endif %}" href="{% url 'blog' %}">
+						{% trans 'Back to all articles' %}</a>
+				</div>
+				<div class="card-body">
+					<h4 class="card-title">{{ item.title }}</h4>
+					<div class="row">
+						<div class="col-12 col-lg-4">
+							<img src="{{ item.preview_image }}" alt="Preview image" class="img-fluid mx-auto mb-2 d-block">
+						</div>
+						<div class="col-12 col-lg-8">
+							<p class="card-text">{{ item.preview_text }}</p>
+							<a href="{{ item.get_absolute_url }}" class="btn btn-outline-light">{% trans 'Read more' %}...</a>
+						</div>
+					</div>
+				</div>
+				<div class="card-footer border-light">
+					<small class="light-gray">{% trans 'Last updated' %}: {{ item.updated_at }}</small><br>
+					<small class="light-gray">{% trans 'Created at' %}: {{ item.created_at }}</small>
+				</div>
+			</div>
+			<hr>
+		{% endif %}
+	{% endfor %}
+{% endblock %}

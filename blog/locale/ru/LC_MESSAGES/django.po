@@ -1,0 +1,429 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-02 23:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\myblog\templates\myblog\blog_list.html:4
+#: .\myblog\templates\myblog\blog_list.html:8 .\templates\inc\_nav.html:23
+msgid "Blog"
+msgstr "Блог"
+
+#: .\myblog\templates\myblog\blog_list.html:11
+msgid ""
+"This section contains my personal solutions to the problems that I have "
+"encountered, as well as those solutions that exist, but which I have "
+"modified."
+msgstr ""
+"В данном разделе собраны мои личные решения проблем, с которыми я "
+"сталкивался, а также те решения, которые существуют, но которые я "
+"видоизменял."
+
+#: .\myblog\templates\myblog\blog_list.html:12
+msgid ""
+"The articles do not claim to be unique, but they can be a good addition to "
+"the materials that already are available."
+msgstr ""
+"Статьи не претендуют на уникальность, однако могут быть хорошим дополнением "
+"к уже доступным материалам."
+
+#: .\myblog\templates\myblog\blog_list.html:13
+msgid ""
+"This is a collection of my knowledge and experience, which I want to share "
+"with others."
+msgstr "Это сборник моих знаний и опыта, которым я хочу делиться с другими."
+
+#: .\myblog\templates\myblog\blog_list.html:14
+msgid ""
+"The knowledge base will be supplemented with new articles as the author has "
+"free time"
+msgstr ""
+"База знаний будет дополняться новыми статьями по мере появления у автора "
+"свободного времени"
+
+#: .\myblog\templates\myblog\blog_list.html:21
+msgid "Tag"
+msgstr "Тэг"
+
+#: .\myblog\templates\myblog\blog_list.html:22
+msgid "Sort by tag"
+msgstr "Сортировать по тэгу"
+
+#: .\myblog\templates\myblog\blog_list.html:32
+#: .\myblog\templates\myblog\blog_list_by_tag.html:25
+msgid "Read more"
+msgstr "Читать дальше"
+
+#: .\myblog\templates\myblog\blog_list.html:37
+#: .\myblog\templates\myblog\blog_list_by_tag.html:30
+msgid "Last updated"
+msgstr "Обновлено"
+
+#: .\myblog\templates\myblog\blog_list.html:38
+#: .\myblog\templates\myblog\blog_list_by_tag.html:31
+msgid "Created at"
+msgstr "Создано"
+
+#: .\myblog\templates\myblog\blog_list_by_tag.html:9
+msgid "All related articles with"
+msgstr "Все связанные статьи с"
+
+#: .\myblog\templates\myblog\blog_list_by_tag.html:15
+msgid "Back to all articles"
+msgstr "Обратно ко всем статьям"
+
+#: .\myblog\templates\myblog\index.html:4 .\templates\inc\_nav.html:20
+msgid "About me"
+msgstr "Про меня"
+
+#: .\myblog\templates\myblog\index.html:13
+msgid "I in 2016 year"
+msgstr "Я в 2016 году"
+
+#: .\myblog\templates\myblog\index.html:18
+msgid "Hi! My name is Lauris"
+msgstr "Привет! Меня зовут Лаурис"
+
+#: .\myblog\templates\myblog\index.html:20
+msgid "In summer 2021 I succesfully graduated"
+msgstr "Летом 2021 года я успешно окончил"
+
+#: .\myblog\templates\myblog\index.html:21
+msgid "Rezekne Academy of Technologies"
+msgstr "Резекненскую Академию Технологий"
+
+#: .\myblog\templates\myblog\index.html:22
+msgid "and got bachelors degree as software engineer"
+msgstr "и получил степень бакалавра, как программист-инженер"
+
+#: .\myblog\templates\myblog\index.html:23
+msgid ""
+"When I was working on my diploma project I realised that in programming, WEB "
+"development attracts me the most. I fell in love with creating websites"
+msgstr ""
+"Когда я работал над своим дипломным проектом, я понял, что больше всего в "
+"программировании меня привлекает WEB разработка. Я влюбился в создание сайтов"
+
+#: .\myblog\templates\myblog\index.html:24
+msgid ""
+"Since march 2021 till february 2022 I participated in a project where I've "
+"developed"
+msgstr ""
+"С марта 2021 года до февраля 2022 года я учавствовал в проекте, где "
+"разработал"
+
+#: .\myblog\templates\myblog\index.html:26
+msgid "website for local company"
+msgstr "сайт для местной фирмы"
+
+#: .\myblog\templates\myblog\index.html:27
+msgid ""
+"I keep growing as WEB developer and I think that I'm ready for gradual start "
+"at the freelance field"
+msgstr ""
+"Я продолжаю расти, как WEB разработчик и считаю, что готов для постепенного "
+"старта в сфере фриланса"
+
+#: .\myblog\templates\myblog\index.html:28
+msgid ""
+"This website I developed to tell my story, to demonstrate what I already can "
+"do, and to describe what I can currently offer to you"
+msgstr ""
+"Я разработал этот сайт, чтобы рассказать свою историю, продемонстрировать, "
+"что я уже умею и что я могу уже сейчас предложить Вам"
+
+#: .\myblog\templates\myblog\index.html:33
+msgid "Table of contents"
+msgstr "Содержание"
+
+#: .\myblog\templates\myblog\index.html:35
+#: .\myblog\templates\myblog\index.html:83
+msgid "Technologies"
+msgstr "Технологиии"
+
+#: .\myblog\templates\myblog\index.html:37
+#: .\myblog\templates\myblog\index.html:219
+msgid "Diploma"
+msgstr "Диплом"
+
+#: .\myblog\templates\myblog\index.html:39
+#: .\myblog\templates\myblog\index.html:232
+msgid "Services and prices"
+msgstr "Услуги и цены"
+
+#: .\myblog\templates\myblog\index.html:41
+#: .\myblog\templates\myblog\index.html:271
+msgid "Portfolio"
+msgstr "Портфолио"
+
+#: .\myblog\templates\myblog\index.html:46
+msgid "Contacts"
+msgstr "Контакты"
+
+#: .\myblog\templates\myblog\index.html:84
+msgid "What I work with?"
+msgstr "С чем я работаю?"
+
+#: .\myblog\templates\myblog\index.html:85
+msgid "As usual, every WEB developer knowledge is based on three whales below"
+msgstr ""
+"Как принято, знания каждого WEB разработчика основаны на трех китах ниже"
+
+#: .\myblog\templates\myblog\index.html:95
+msgid "Skeleton of every website"
+msgstr "Скелет каждого сайта"
+
+#: .\myblog\templates\myblog\index.html:106
+msgid "Place where skeleton get some dress"
+msgstr "Место, где скелет приобретает одежду"
+
+#: .\myblog\templates\myblog\index.html:117
+msgid "Place where skeleton learns to move"
+msgstr "Место, где скелет учится двигаться"
+
+#: .\myblog\templates\myblog\index.html:122
+msgid "Next are CSS tools which extends styling options"
+msgstr ""
+"Следующими идут CSS инструменты, которые расширяют возможности стилизации"
+
+#: .\myblog\templates\myblog\index.html:132
+msgid ""
+"One of the main usage benefits - it allows easily make adaptive design for "
+"websites (for tablets, phones)"
+msgstr ""
+"Одно из главных достоинств - позволяет легко делать адаптивные дизайны "
+"сайтов (для планшетов, телефонов)"
+
+#: .\myblog\templates\myblog\index.html:145
+msgid ""
+"SCSS is main syntax of SASS. Increases speed of writing styles by optimized "
+"syntax of CSS"
+msgstr ""
+"SCSS это главный синтаксис SASS. Ускоряет написание стилей оптимизированным "
+"синтаксисом CSS"
+
+#: .\myblog\templates\myblog\index.html:151
+msgid ""
+"Mentioned above technologies usually are called as frontend technologies"
+msgstr "Перечисленные выше технологии принято называть технологиями фронтенда"
+
+#: .\myblog\templates\myblog\index.html:154
+msgid ""
+"Next are backend technologies which allows publish websites to the Internet "
+"and maintain them"
+msgstr ""
+"Ниже перечислены технологиии бекенда, которые позволяют публиковать сайты в "
+"интернет и поддерживать их"
+
+#: .\myblog\templates\myblog\index.html:164
+msgid "Young programmers friendly programming language"
+msgstr "Дружелюбный к молодым программистам язык программирования"
+
+#: .\myblog\templates\myblog\index.html:177
+msgid "Python based WEB framework"
+msgstr "WEB фреймворк на языке Python"
+
+#: .\myblog\templates\myblog\index.html:184
+msgid ""
+"The last one thing for many websites is database. Currently I'm using these "
+"two"
+msgstr ""
+"Последнее для многих сайтов это база данных. Обычно я использую этих двух"
+
+#: .\myblog\templates\myblog\index.html:194
+msgid ""
+"Database for production purposes. One of the most simplest and popular "
+"databases"
+msgstr ""
+"База данных для развертывания. Одна из простейших и популярных баз данных"
+
+#: .\myblog\templates\myblog\index.html:207
+msgid ""
+"Database for testing purposes. The SQLite is default short-hand database in "
+"Django"
+msgstr ""
+"База данных для тестирования. SQLite в Django это сокращенная база данных по "
+"умолчанию"
+
+#: .\myblog\templates\myblog\index.html:220
+msgid "Proof of quality!"
+msgstr "Гарант качества!"
+
+#: .\myblog\templates\myblog\index.html:221
+msgid ""
+"To make it easier to believe in my story I provide my diploma scan as proof "
+"of my qualification"
+msgstr ""
+"Чтобы было проще поверить в мой рассказ, я предоставляю в качестве "
+"доказательства своей квалификации скан своего диплома"
+
+#: .\myblog\templates\myblog\index.html:233
+msgid "What I can offer?"
+msgstr "Что я могу предложить?"
+
+#: .\myblog\templates\myblog\index.html:237
+msgid "Frontend"
+msgstr "Фронтенд"
+
+#: .\myblog\templates\myblog\index.html:239
+msgid "Template building"
+msgstr "Построение структуры шаблона"
+
+#: .\myblog\templates\myblog\index.html:240
+msgid "Styling"
+msgstr "Стилизация"
+
+#: .\myblog\templates\myblog\index.html:241
+msgid "Interactivity"
+msgstr "Интерактивность"
+
+#: .\myblog\templates\myblog\index.html:242
+msgid "Adaptive design for phones and tablets"
+msgstr "Адаптивный дизайн для телефонов и планшетов"
+
+#: .\myblog\templates\myblog\index.html:243
+msgid "Possibility to follow the progress on"
+msgstr "Возможность следить за прогрессом на"
+
+#: .\myblog\templates\myblog\index.html:245
+msgid "Preferable and relatively fast"
+msgstr "Предпочтительно и относительно быстро"
+
+#: .\myblog\templates\myblog\index.html:247
+#: .\myblog\templates\myblog\index.html:260
+msgid "Average price range"
+msgstr "Приблизительный диапазон цен"
+
+#: .\myblog\templates\myblog\index.html:251
+msgid "Backend"
+msgstr "Бекенд"
+
+#: .\myblog\templates\myblog\index.html:253
+msgid "Backend logic on Django"
+msgstr "Логика бекенда на Django"
+
+#: .\myblog\templates\myblog\index.html:254
+msgid "Login, admin, comments etc. functionality"
+msgstr "Логин, админ, комментарии и др. функциональности"
+
+#: .\myblog\templates\myblog\index.html:255
+msgid "Database connection (if necessary)"
+msgstr "Подключение базы данных (если необходимо)"
+
+#: .\myblog\templates\myblog\index.html:256
+msgid "Moving to production"
+msgstr "Развертывание сайта"
+
+#: .\myblog\templates\myblog\index.html:257
+msgid "Only relatively simple cases"
+msgstr "Только относительно простые случаи"
+
+#: .\myblog\templates\myblog\index.html:258
+msgid "Non-preferable and might take some time"
+msgstr "Не предпочтительно и может потребовать больше времени"
+
+#: .\myblog\templates\myblog\index.html:263
+msgid "Prices are set very approximately. We all can discuss personally"
+msgstr "Цены установлены очень приблизительно. Мы можем все обсудить лично"
+
+#: .\myblog\templates\myblog\index.html:272
+msgid "Current examples of my work"
+msgstr "Текущие примеры моей работы"
+
+#: .\myblog\templates\myblog\index.html:276
+msgid "Recently I worked in a project where I've developed"
+msgstr "Не так давно я работал в проекте, где разработал"
+
+#: .\myblog\templates\myblog\index.html:278
+msgid ""
+"website for local company. It was my first real work as WEB developer. It's "
+"the first example"
+msgstr ""
+"сайт для местной фирмы. Это была моя первая реальная работа в качестве WEB "
+"разработчика. Это первый пример"
+
+#: .\myblog\templates\myblog\index.html:279
+msgid ""
+"Second example you're seeing now. I tried my best to build and design this "
+"website completely different from the previous one. Backend was included"
+msgstr ""
+"Второй пример Вы видите сейчас. Я старался сделать совершенно не похожий на "
+"предыдущий сайт. Бекенд был использован"
+
+#: .\myblog\templates\myblog\index.html:280
+msgid "Both of the websites are adaptive"
+msgstr "Оба сайта адаптивны"
+
+#: .\myblog\templates\myblog\index.html:294
+msgid ""
+"I expect that further examples will be available at the freelance website "
+"where I'm planning collect not just more examples but also feedbacks"
+msgstr ""
+"Я предполагаю, что дальнейшие примеры будут доступны на бирже фриланса, где "
+"я планирую собирать не только примеры работ, но и отзывы"
+
+#: .\templates\admin\base_site.html:4
+msgid "Django site admin"
+msgstr "Администратор сайта Django"
+
+#: .\templates\admin\base_site.html:11
+msgid "Django administration"
+msgstr "Django администрирование"
+
+#: .\templates\base.html:11
+msgid ""
+"Lauris Stirna. Frontend developer: template building, styling, "
+"interactivity. Individual approach"
+msgstr ""
+"Лаурис Стирна. Фронтенд разработчик: построение структуры шаблона, "
+"стилизация, интерактивность. Индивидуальный подход"
+
+#: .\templates\base.html:44
+msgid "Move backward"
+msgstr "Назад"
+
+#: .\templates\base.html:60
+msgid "Move forward"
+msgstr "Вперёд"
+
+#: .\templates\cookielaw\banner.html:9
+msgid "Cookies"
+msgstr "Печенья"
+
+#: .\templates\cookielaw\banner.html:14
+msgid "This site uses \"cookies\". By continuing you agree to use of it"
+msgstr ""
+"Этот сайт использует куки (cookies). Продолжая, вы соглашаетесь на их "
+"использование"
+
+#: .\templates\cookielaw\banner.html:18
+msgid "What are the cookies?"
+msgstr "Что такое куки?"
+
+#: .\templates\cookielaw\banner.html:21
+msgid "Accept and close"
+msgstr "Согласиться и закрыть"
+
+#: .\templates\inc\_foo.html:6
+msgid "Page is translated into three languages but translations may vary"
+msgstr "Страница переведена на три языка, но переводы могут отличаться"
+
+#: .\templates\inc\_foo.html:31
+msgid "Go up"
+msgstr "Наверх"

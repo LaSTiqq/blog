@@ -1,0 +1,300 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block title %} {% trans 'About me' %} {% endblock %}
+{% block static_content %}
+<div class="container text-white">
+	<div class="row">
+		<!-- Main-->
+		<!-- Photo -->
+		<div class="col-12 col-lg-4">
+			<figure class="figure d-block text-center mt-4">
+				<img src="{% static 'img/self_photo.png' %}" alt="Self photo" class="figure-img img-fluid rounded">
+				<figcaption class="figure-caption text-center light-gray fs-6">{% trans 'I in 2016 year' %}</figcaption>
+			</figure>
+		</div>
+		<!-- Story -->
+		<div class="col-12 col-lg-5 story">
+			<h2 class="text-center text-warning mt-4">{% trans 'Hi! My name is Lauris' %}.</h2>
+			<figcaption class="blockquote-footer text-white fst-italic fs-6 my-4">
+				{% trans 'In summer 2021 I succesfully graduated' %}
+				<a href="https://2021.rta.lv/en/" target="_blank" rel="noopener" title="RTA" class="links">{% trans 'Rezekne Academy of Technologies' %}</a> 
+				{% trans 'and got bachelors degree as software engineer' %}.<br><br>
+				{% trans 'When I was working on my diploma project I realised that in programming, WEB development attracts me the most. I fell in love with creating websites' %}.<br><br>
+				{% trans "Since march 2021 till february 2022 I participated in a project where I've developed" %}
+				<a href="https://en.wikipedia.org/wiki/Single-page_application" target="_blank" rel="noopener" title="Single Page Application" class="links"> SPA </a>
+				{% trans 'website for local company' %}.<br><br>
+				{% trans "I keep growing as WEB developer and I think that I'm ready for gradual start at the freelance field" %}.<br><br>
+				{% trans 'This website I developed to tell my story, to demonstrate what I already can do, and to describe what I can currently offer to you' %}.
+			</figcaption>
+		</div>
+		<!-- Table of contents -->
+		<div class="col-12 col-lg-3">
+			<h2 class="text-center text-warning my-4">{% trans 'Table of contents' %}</h2>
+			<ul class="anchors text-center fs-5 ps-0 mb-3">
+				<li><a href="{% url 'home' %}#technologies" class="link-white" aria-label="{% trans 'Technologies' %}">{% trans 'Technologies' %}&nbsp;</a>
+					<i class="fas fa-angle-left green-colored"></i></li>
+				<li><a href="{% url 'home' %}#diploma" class="link-white" aria-label="{% trans 'Diploma' %}">{% trans 'Diploma' %}&nbsp;</a>
+					<i class="fas fa-angle-left green-colored"></i></li>
+				<li><a href="{% url 'home' %}#offers" class="link-white" aria-label="{% trans 'Services and prices' %}">{% trans 'Services and prices'%}&nbsp;</a>
+					<i class="fas fa-angle-left green-colored"></i></li>
+				<li><a href="{% url 'home' %}#examples" class="link-white" aria-label="{% trans 'Portfolio' %}">{% trans 'Portfolio' %}&nbsp;</a>
+					<i class="fas fa-angle-left green-colored"></i></li>
+			</ul>
+			<!-- Socials -->
+			<div class="row text-center text-warning">
+				<h2 class="text-center my-4">{% trans 'Contacts' %}</h2>
+				<div class="col-3">
+					<a href="https://www.facebook.com/lastiqq/" title="Facebook" target="_blank" rel="noopener" class="link-white">
+						<i class="fab fa-facebook"></i>
+					</a>
+				</div>
+				<div class="col-3">
+					<a href="https://www.instagram.com/lauriss_1313/" title="Instagram" target="_blank" rel="noopener" class="link-white">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+				<div class="col-3">
+					<a href="https://github.com/LaSTiqq" title="GitHub" target="_blank" rel="noopener" class="link-white">
+						<i class="fab fa-github"></i>
+					</a>
+				</div>
+				<div class="col-3">
+					<a href="https://bitbucket.org/lauriss/" title="BitBucket" target="_blank" rel="noopener" class="link-white">
+						<i class="fab fa-bitbucket"></i>
+					</a>
+				</div>
+				<div class="col-12">
+					<p class="fs-5 mt-3 green-colored">
+						lavrencij13@gmail.com<br>
+						lavrencij@inbox.lv<br>
+						lavrencij@mail.ru
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<!-- Technologies -->
+		<a name="technologies"></a>
+		<!-- HTML, CSS, JavaScript -->
+        <figure class="text-center mt-1">
+            <h1 class="fw-bold">{% trans 'Technologies' %}</h1>
+            <figcaption class="blockquote-footer light-gray fs-5 mt-2">{% trans 'What I work with?' %}</figcaption>
+			<p class="text-center mb-0">{% trans 'As usual, every WEB developer knowledge is based on three whales below' %}</p>
+        </figure>
+		<br><br>
+		<div class="col-12 col-md-4 mb-2">
+			<div class="card bg-dark text-white border-white h-100">
+				<img src="{% static 'img/html.png' %}" class="mx-auto d-block mt-3" alt="HTML" height="115" width="115">
+				<div class="card-body">
+					<h2 class="card-title text-center fw-bold fs-5">
+						<a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener" title="HTML" class="links">HTML</a>
+					</h2>
+					<p class="card-text text-center">{% trans 'Skeleton of every website' %}</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-md-4 mb-2">
+			<div class="card bg-dark text-white border-white h-100">
+				<img src="{% static 'img/css.png' %}" class="mx-auto d-block mt-3" alt="CSS" height="115" width="115">
+				<div class="card-body">
+					<h2 class="card-title text-center fw-bold fs-5">
+						<a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noopener" title="CSS" class="links">CSS</a>
+					</h2>
+					<p class="card-text text-center">{% trans 'Place where skeleton get some dress' %}</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-md-4 mb-2">
+			<div class="card bg-dark text-white border-white h-100">
+				<img src="{% static 'img/js.png' %}" class="mx-auto d-block mt-3" alt="JavaScript" height="115" width="115">
+				<div class="card-body">
+					<h2 class="card-title text-center fw-bold fs-5">
+						<a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener" title="JavaScript" class="links">JavaScript</a>
+					</h2>
+					<p class="card-text text-center">{% trans 'Place where skeleton learns to move' %}</p>
+				</div>
+			</div>
+		</div>
+		<!-- Bootstrap, SCSS -->
+		<p class="text-center mt-2">{% trans 'Next are CSS tools which extends styling options' %}</p>
+		<div class="col-md-2"></div>
+		<div class="col-12 col-md-4 mb-2">
+			<div class="card bg-dark text-white border-white h-100">
+				<img src="{% static 'img/bootstrap.png' %}" class="mx-auto d-block mt-3" alt="Bootstrap" height="115" width="115">
+				<div class="card-body">
+					<h2 class="card-title text-center fw-bold fs-5">
+						<a href="https://getbootstrap.com/" target="_blank" rel="noopener" title="Bootstrap" class="links">Bootstrap</a>
+					</h2>
+					<p class="card-text text-center">
+						{% trans 'One of the main usage benefits - it allows easily make adaptive design for websites (for tablets, phones)' %}
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-md-4 mb-2">
+			<div class="card bg-dark text-white border-white h-100">
+				<img src="{% static 'img/sass.png' %}" class="mx-auto d-block mt-3" alt="SCSS" height="115" width="115">
+				<div class="card-body">
+					<h2 class="card-title text-center fw-bold fs-5">
+						<a href="https://sass-lang.com/" target="_blank" rel="noopener" title="SCSS" class="links">SASS - SCSS</a>
+					</h2>
+					<p class="card-text text-center">
+						{% trans 'SCSS is main syntax of SASS. Increases speed of writing styles by optimized syntax of CSS' %}
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2"></div>
+		<p class="text-center mt-2">{% trans 'Mentioned above technologies usually are called as frontend technologies' %}.</p>
+		<hr>
+		<!-- Python, Django -->
+		<p class="text-center mt-1">{% trans 'Next are backend technologies which allows publish websites to the Internet and maintain them' %}</p>
+		<div class="col-md-2"></div>
+		<div class="col-12 col-md-4 mb-2">
+			<div class="card bg-dark text-white border-white h-100">
+				<img src="{% static 'img/python.png' %}" class="mx-auto d-block mt-3" alt="Python" height="115" width="115">
+				<div class="card-body">
+					<h2 class="card-title text-center fw-bold fs-5">
+						<a href="https://www.python.org/" target="_blank" rel="noopener" title="Python" class="links">Python</a>
+					</h2>
+					<p class="card-text text-center">
+						{% trans 'Young programmers friendly programming language' %}
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-md-4 mb-2">
+			<div class="card bg-dark text-white border-white h-100">
+				<img src="{% static 'img/django.png' %}" class="mx-auto d-block mt-3" alt="Django" height="115" width="115">
+				<div class="card-body">
+					<h2 class="card-title text-center fw-bold fs-5">
+						<a href="https://www.djangoproject.com/" target="_blank" rel="noopener" title="Django" class="links">Django</a>
+					</h2>
+					<p class="card-text text-center">
+						{% trans 'Python based WEB framework' %}
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2"></div>
+		<!-- MySQL, SQLite -->
+		<p class="text-center mt-2">{% trans "The last one thing for many websites is database. Currently I'm using these two" %}</p>
+		<div class="col-md-2"></div>
+		<div class="col-12 col-md-4 mb-2">
+			<div class="card bg-dark text-white border-white h-100">
+				<img src="{% static 'img/mysql.png' %}" class="mx-auto d-block mt-3" alt="MySQL" height="115" width="115">
+				<div class="card-body">
+					<h2 class="card-title text-center fw-bold fs-5">
+						<a href="https://www.mysql.com/" target="_blank" rel="noopener" title="MySQL" class="links">MySQL</a>
+					</h2>
+					<p class="card-text text-center">
+						{% trans 'Database for production purposes. One of the most simplest and popular databases' %}
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 col-md-4 mb-2">
+			<div class="card bg-dark text-white border-white h-100">
+				<img src="{% static 'img/sqlite.png' %}" class="mx-auto d-block mt-3" alt="SQLite" height="115" width="115">
+				<div class="card-body">
+					<h2 class="card-title text-center fw-bold fs-5">
+						<a href="https://www.sqlite.org/index.html" target="_blank" rel="noopener" title="SQLite" class="links">SQLite</a>
+					</h2>
+					<p class="card-text text-center">
+						{% trans 'Database for testing purposes. The SQLite is default short-hand database in Django' %}
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+	<hr>
+	<div class="row">
+		<!-- Diploma -->
+		<a name="diploma"></a>
+		<figure class="text-center mt-1">
+            <h1 class="fw-bold">{% trans 'Diploma' %}</h1>
+            <figcaption class="blockquote-footer light-gray fs-5 mt-2">{% trans 'Proof of quality!' %}</figcaption>
+			<p class="text-center mb-0">{% trans 'To make it easier to believe in my story I provide my diploma scan as proof of my qualification' %}</p>
+        </figure>
+		<div class="col-12 text-center">
+			<img src="{% static 'img/diploma.jpg' %}" alt="Diploma" class="img-fluid">
+		</div>
+	</div>
+	<hr>
+	<div class="row offers">
+		<!-- Services and prices -->
+		<a name="offers"></a>
+		<figure class="text-center mt-1 mb-0">
+            <h1 class="fw-bold">{% trans 'Services and prices' %}</h1>
+            <figcaption class="blockquote-footer light-gray text-center fs-5 mt-2">{% trans 'What I can offer?' %}</figcaption>
+        </figure>
+		<!-- Frontend -->
+		<div class="col-12 col-md-6">
+			<h2 class="text-center text-warning fw-bold mb-3">{% trans 'Frontend' %}</h2>
+			<ul class="services1">
+				<li>{% trans 'Template building' %};</li>
+				<li>{% trans 'Styling' %};</li>
+				<li>{% trans 'Interactivity' %};</li>
+				<li>{% trans 'Adaptive design for phones and tablets' %};</li>
+				<li>{% trans 'Possibility to follow the progress on' %}
+					<a href="https://pages.github.com/" target="_blank" rel="noopener" title="GitHub Pages" class="links"> GitHub Pages</a>;</li>
+				<li>{% trans 'Preferable and relatively fast' %}.</li>
+			</ul>
+			<p class="text-center fs-5 fw-bold green-colored">{% trans 'Average price range' %}:<span> 50-100&euro;</span></p>
+		</div>
+		<!-- Backend -->
+		<div class="col-12 col-md-6">
+			<h2 class="text-center text-warning fw-bold mb-3">{% trans 'Backend' %}</h2>
+			<ul class="services2">
+				<li>{% trans 'Backend logic on Django' %};</li>
+				<li>{% trans 'Login, admin, comments etc. functionality' %};</li>
+				<li>{% trans 'Database connection (if necessary)' %};</li>
+				<li>{% trans 'Moving to production' %};</li>
+				<li>{% trans 'Only relatively simple cases' %};</li>
+				<li>{% trans 'Non-preferable and might take some time' %}.</li>
+			</ul>
+			<p class="text-center fs-5 fw-bold green-colored">{% trans 'Average price range' %}:<span> 100-200&euro;</span></p>
+		</div>
+		<div class="col-12">
+			<p class="text-center light-gray">{% trans 'Prices are set very approximately. We all can discuss personally' %}.</p>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<!-- Examples -->
+		<a name="examples"></a>
+		<figure class="text-center mt-1 mb-0">
+            <h1 class="fw-bold">{% trans 'Portfolio' %}</h1>
+            <figcaption class="blockquote-footer light-gray text-center fs-5 mt-2">{% trans 'Current examples of my work' %}</figcaption>
+        </figure>
+		<div class="col-12 col-md-6 story">
+			<figcaption class="blockquote-footer text-white mt-3 fst-italic fs-6">
+				{% trans "Recently I worked in a project where I've developed" %}
+				<a href="https://en.wikipedia.org/wiki/Single-page_application" target="_blank" rel="noopener" title="Single Page Application" class="links"> SPA </a>
+				{% trans "website for local company. It was my first real work as WEB developer. It's the first example" %}.<br><br>
+				{% trans "Second example you're seeing now. I tried my best to build and design this website completely different from the previous one. Backend was included" %}.<br><br>
+				{% trans 'Both of the websites are adaptive' %}.
+			</figcaption>
+		</div>
+		<div class="col-12 col-md-6 examples">
+			<p class="text-center mt-3">
+				<i class="fas fa-angle-right green-colored"></i>
+				<a href="https://www.affix.lv/" target="_blank" rel="noopener" title="Affix" class="link-white fs-4">&nbsp;affix.lv&nbsp;</a>
+				<i class="fas fa-angle-left green-colored"></i>
+				<br>
+				<i class="fas fa-angle-right green-colored"></i>
+				<a href="https://www.laurisstirna.id.lv/" target="_blank" rel="noopener" title="This website" class="link-white fs-4">&nbsp;laurisstirna.id.lv&nbsp;</a>
+				<i class="fas fa-angle-left green-colored"></i>
+				<br><br>
+				<p class="text-center light-gray">
+					{% trans "I expect that further examples will be available at the freelance website where I'm planning collect not just more examples but also feedbacks" %}.
+				</p>
+			</p>
+		</div>
+	</div>
+</div>
+{% endblock %}
