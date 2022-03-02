@@ -15,8 +15,8 @@
 *.wmv
 
 # Self
-affix/affix/settings.py
-affix/affix/urls.py
-affix/affix/static
-affix/db.sqlite3
+blog/blog/settings.py
+blog/blog/urls.py
+blog/blog/static
+blog/db.sqlite3
 venv/
