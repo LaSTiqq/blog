@@ -11,7 +11,7 @@
 			<div class="card bg-dark border-light">
 				<div class="card-header border-light">
 					<i class="fas fa-undo"></i>&nbsp;
-					<a class="links {% if request.resolver_match.url_name == 'blog' %}active{% endif %}" href="{% url 'blog' %}">
+					<a class="links {% if request.resolver_match.url_name == 'blog' %}active{% endif %}" href="{% url 'myblog:blog' %}">
 						{% trans 'Back to all articles' %}</a>
 				</div>
 				<div class="card-body">

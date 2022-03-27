@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-02 23:29+0200\n"
+"POT-Creation-Date: 2022-03-27 23:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,20 +93,20 @@ msgid "About me"
 msgstr "Про меня"
 
 #: .\myblog\templates\myblog\index.html:13
-msgid "I in 2016 year"
-msgstr "Я в 2016 году"
+msgid "I in 2019 year"
+msgstr "Я в 2019 году"
 
 #: .\myblog\templates\myblog\index.html:18
 msgid "Hi! My name is Lauris"
 msgstr "Привет! Меня зовут Лаурис"
 
 #: .\myblog\templates\myblog\index.html:20
-msgid "In summer 2021 I succesfully graduated"
-msgstr "Летом 2021 года я успешно окончил"
+msgid "In summer 2021 I graduated a"
+msgstr "Летом 2021 года я окончил"
 
 #: .\myblog\templates\myblog\index.html:21
 msgid "Rezekne Academy of Technologies"
-msgstr "Резекненскую Академию Технологий"
+msgstr "Резекненскую Академию технологий"
 
 #: .\myblog\templates\myblog\index.html:22
 msgid "and got bachelors degree as software engineer"
@@ -371,12 +371,13 @@ msgid "Both of the websites are adaptive"
 msgstr "Оба сайта адаптивны"
 
 #: .\myblog\templates\myblog\index.html:294
+msgid "I expect that further examples will be available at the my "
+msgstr "Я предполагаю, что дальнейшие примеры будут доступны на моём "
+
+#: .\myblog\templates\myblog\index.html:296
 msgid ""
-"I expect that further examples will be available at the freelance website "
-"where I'm planning collect not just more examples but also feedbacks"
-msgstr ""
-"Я предполагаю, что дальнейшие примеры будут доступны на бирже фриланса, где "
-"я планирую собирать не только примеры работ, но и отзывы"
+"account. There will be stored not just the next examples but also a feedbacks"
+msgstr "профиле. Там будут собраны и следующие работы, и отзывы"
 
 #: .\templates\admin\base_site.html:4
 msgid "Django site admin"
@@ -386,7 +387,7 @@ msgstr "Администратор сайта Django"
 msgid "Django administration"
 msgstr "Django администрирование"
 
-#: .\templates\base.html:11
+#: .\templates\base.html:10
 msgid ""
 "Lauris Stirna. Frontend developer: template building, styling, "
 "interactivity. Individual approach"
@@ -394,11 +395,11 @@ msgstr ""
 "Лаурис Стирна. Фронтенд разработчик: построение структуры шаблона, "
 "стилизация, интерактивность. Индивидуальный подход"
 
-#: .\templates\base.html:44
+#: .\templates\base.html:42
 msgid "Move backward"
 msgstr "Назад"
 
-#: .\templates\base.html:60
+#: .\templates\base.html:57
 msgid "Move forward"
 msgstr "Вперёд"
 

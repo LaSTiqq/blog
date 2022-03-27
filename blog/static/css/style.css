@@ -29,7 +29,7 @@ img {
   margin: 0 auto;
 }
 .links {
-  color: #2b9a2f;
+  color: rgb(31, 129, 109);
   text-decoration: none;
   font-weight: bold;
   transition: 0.6s;
@@ -281,8 +281,8 @@ button[value="lv"]::before {
   /****** HOVERS ******/
   /********************/
   footer .overlay:hover {
-	background: rgba(0, 0, 221, 0.9);
-	transition: 0.6s;
+    background: rgba(0, 0, 221, 0.9);
+    transition: 0.6s;
   }
   #arrow i:hover {
     bottom: 38px;
@@ -321,8 +321,8 @@ button[value="lv"]::before {
   /****** HOVERS ******/
   /********************/
   footer .overlay:hover {
-	background: rgba(0, 0, 221, 0.9);
-	transition: 0.6s;
+    background: rgba(0, 0, 221, 0.9);
+    transition: 0.6s;
   }
   #arrow i:hover {
     bottom: 36px;

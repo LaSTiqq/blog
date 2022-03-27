@@ -10,19 +10,19 @@
 		<div class="col-12 col-lg-4">
 			<figure class="figure d-block text-center mt-4">
 				<img src="{% static 'img/self_photo.png' %}" alt="Self photo" class="figure-img img-fluid rounded">
-				<figcaption class="figure-caption text-center light-gray fs-6">{% trans 'I in 2016 year' %}</figcaption>
+				<figcaption class="figure-caption text-center light-gray fs-6">{% trans 'I in 2019 year' %}</figcaption>
 			</figure>
 		</div>
 		<!-- Story -->
 		<div class="col-12 col-lg-5 story">
 			<h2 class="text-center text-warning mt-4">{% trans 'Hi! My name is Lauris' %}.</h2>
 			<figcaption class="blockquote-footer text-white fst-italic fs-6 my-4">
-				{% trans 'In summer 2021 I succesfully graduated' %}
-				<a href="https://2021.rta.lv/en/" target="_blank" rel="noopener" title="RTA" class="links">{% trans 'Rezekne Academy of Technologies' %}</a> 
+				{% trans 'In summer 2021 I graduated a' %}
+				<a href="https://2021.rta.lv/en/" target="_blank" rel="noopener" class="links">{% trans 'Rezekne Academy of Technologies' %}</a> 
 				{% trans 'and got bachelors degree as software engineer' %}.<br><br>
 				{% trans 'When I was working on my diploma project I realised that in programming, WEB development attracts me the most. I fell in love with creating websites' %}.<br><br>
 				{% trans "Since march 2021 till february 2022 I participated in a project where I've developed" %}
-				<a href="https://en.wikipedia.org/wiki/Single-page_application" target="_blank" rel="noopener" title="Single Page Application" class="links"> SPA </a>
+				<a href="https://en.wikipedia.org/wiki/Single-page_application" target="_blank" rel="noopener" class="links"> SPA </a>
 				{% trans 'website for local company' %}.<br><br>
 				{% trans "I keep growing as WEB developer and I think that I'm ready for gradual start at the freelance field" %}.<br><br>
 				{% trans 'This website I developed to tell my story, to demonstrate what I already can do, and to describe what I can currently offer to you' %}.
@@ -32,13 +32,13 @@
 		<div class="col-12 col-lg-3">
 			<h2 class="text-center text-warning my-4">{% trans 'Table of contents' %}</h2>
 			<ul class="anchors text-center fs-5 ps-0 mb-3">
-				<li><a href="{% url 'home' %}#technologies" class="link-white" aria-label="{% trans 'Technologies' %}">{% trans 'Technologies' %}&nbsp;</a>
+				<li><a href="{% url 'myblog:home' %}#technologies" class="link-white" aria-label="{% trans 'Technologies' %}">{% trans 'Technologies' %}&nbsp;</a>
 					<i class="fas fa-angle-left green-colored"></i></li>
-				<li><a href="{% url 'home' %}#diploma" class="link-white" aria-label="{% trans 'Diploma' %}">{% trans 'Diploma' %}&nbsp;</a>
+				<li><a href="{% url 'myblog:home' %}#diploma" class="link-white" aria-label="{% trans 'Diploma' %}">{% trans 'Diploma' %}&nbsp;</a>
 					<i class="fas fa-angle-left green-colored"></i></li>
-				<li><a href="{% url 'home' %}#offers" class="link-white" aria-label="{% trans 'Services and prices' %}">{% trans 'Services and prices'%}&nbsp;</a>
+				<li><a href="{% url 'myblog:home' %}#offers" class="link-white" aria-label="{% trans 'Services and prices' %}">{% trans 'Services and prices'%}&nbsp;</a>
 					<i class="fas fa-angle-left green-colored"></i></li>
-				<li><a href="{% url 'home' %}#examples" class="link-white" aria-label="{% trans 'Portfolio' %}">{% trans 'Portfolio' %}&nbsp;</a>
+				<li><a href="{% url 'myblog:home' %}#examples" class="link-white" aria-label="{% trans 'Portfolio' %}">{% trans 'Portfolio' %}&nbsp;</a>
 					<i class="fas fa-angle-left green-colored"></i></li>
 			</ul>
 			<!-- Socials -->
@@ -274,7 +274,7 @@
 		<div class="col-12 col-md-6 story">
 			<figcaption class="blockquote-footer text-white mt-3 fst-italic fs-6">
 				{% trans "Recently I worked in a project where I've developed" %}
-				<a href="https://en.wikipedia.org/wiki/Single-page_application" target="_blank" rel="noopener" title="Single Page Application" class="links"> SPA </a>
+				<a href="https://en.wikipedia.org/wiki/Single-page_application" target="_blank" rel="noopener" class="links"> SPA </a>
 				{% trans "website for local company. It was my first real work as WEB developer. It's the first example" %}.<br><br>
 				{% trans "Second example you're seeing now. I tried my best to build and design this website completely different from the previous one. Backend was included" %}.<br><br>
 				{% trans 'Both of the websites are adaptive' %}.
@@ -291,7 +291,9 @@
 				<i class="fas fa-angle-left green-colored"></i>
 				<br><br>
 				<p class="text-center light-gray">
-					{% trans "I expect that further examples will be available at the freelance website where I'm planning collect not just more examples but also feedbacks" %}.
+					{% trans 'I expect that further examples will be available at the my ' %}
+						<a href="https://www.upwork.com/" target="_blank" rel="noopener" class="links"> UpWork</a>
+					{% trans 'account. There will be stored not just the next examples but also a feedbacks' %}.
 				</p>
 			</p>
 		</div>

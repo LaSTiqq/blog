@@ -15,6 +15,9 @@
 *.wmv
 
 # Self
+blog/templates/robots.txt
+blog/myblog/sitemaps.py
+blog/myblog/migrations
 blog/blog/settings.py
 blog/blog/urls.py
 blog/blog/static

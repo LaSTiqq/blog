@@ -28,7 +28,7 @@
 		</div>
 		{% if request.resolver_match.url_name == 'home' or request.resolver_match.url_name == 'blog' %} 
 		<div class="col-md-3">
-			<a href="{% if request.resolver_match.url_name == 'home' %}{% url 'home' %}#top{% else %}{% url 'blog' %}#top{% endif %}" aria-label="{% trans 'Go up' %}">
+			<a href="{% if request.resolver_match.url_name == 'home' %}{% url 'myblog:home' %}#top{% else %}{% url 'myblog:blog' %}#top{% endif %}" aria-label="{% trans 'Go up' %}">
 				<div id="arrow" class="overlay">
 					<i class="fas fa-arrow-up"></i>
 				</div>

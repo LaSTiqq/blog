@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-02 23:29+0200\n"
+"POT-Creation-Date: 2022-03-27 23:15+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,16 +93,16 @@ msgid "About me"
 msgstr "Par mani"
 
 #: .\myblog\templates\myblog\index.html:13
-msgid "I in 2016 year"
-msgstr "Es 2016. gadā"
+msgid "I in 2019 year"
+msgstr "Es 2019. gadā"
 
 #: .\myblog\templates\myblog\index.html:18
 msgid "Hi! My name is Lauris"
 msgstr "Čau! Mani sauc Lauris"
 
 #: .\myblog\templates\myblog\index.html:20
-msgid "In summer 2021 I succesfully graduated"
-msgstr "2021. gada vasarā es veiksmīgi absolvēju"
+msgid "In summer 2021 I graduated a"
+msgstr "2021. gada vasarā es absolvēju"
 
 #: .\myblog\templates\myblog\index.html:21
 msgid "Rezekne Academy of Technologies"
@@ -373,12 +373,13 @@ msgid "Both of the websites are adaptive"
 msgstr "Abas mājaslapas ir adaptīvas"
 
 #: .\myblog\templates\myblog\index.html:294
+msgid "I expect that further examples will be available at the my "
+msgstr "Es plānoju, ka visi tālākie piemēri būs pieejami manā "
+
+#: .\myblog\templates\myblog\index.html:296
 msgid ""
-"I expect that further examples will be available at the freelance website "
-"where I'm planning collect not just more examples but also feedbacks"
-msgstr ""
-"Es plānoju, ka visi tālākie piemēri būs pieejami freelance biržā, kur es "
-"taisos ievākt gan jaunus piemērus, gan atsauksmes"
+"account. There will be stored not just the next examples but also a feedbacks"
+msgstr "profilā. Tur glabāsies gan nākamie piemēri, gan atsauksmes"
 
 #: .\templates\admin\base_site.html:4
 msgid "Django site admin"
@@ -388,7 +389,7 @@ msgstr "Django lapas administrātors"
 msgid "Django administration"
 msgstr "Django administrācija"
 
-#: .\templates\base.html:11
+#: .\templates\base.html:10
 msgid ""
 "Lauris Stirna. Frontend developer: template building, styling, "
 "interactivity. Individual approach"
@@ -396,11 +397,11 @@ msgstr ""
 "Lauris Stirna. Frontend izstrādātājs: šablona struktūras izbūve, "
 "stilizācija, interaktivitāte. Individuāla pieeja"
 
-#: .\templates\base.html:44
+#: .\templates\base.html:42
 msgid "Move backward"
 msgstr "Atpakaļ"
 
-#: .\templates\base.html:60
+#: .\templates\base.html:57
 msgid "Move forward"
 msgstr "Uz priekšu"
 

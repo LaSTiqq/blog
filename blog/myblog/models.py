@@ -17,7 +17,7 @@ class Blog(models.Model):
 		return self.title
 
 	def get_absolute_url(self):
-		return reverse('blog_detail', kwargs={'slug': self.slug})
+		return reverse('myblog:blog_detail', kwargs={'slug': self.slug})
 
 	class Meta:
 		verbose_name = 'Запись'
@@ -28,7 +28,7 @@ class BlogTag(models.Model):
 	name = models.CharField(max_length=72, db_index=True, verbose_name='Имя тэга')
 
 	def get_absolute_url(self):
-		return reverse('tag', kwargs={'tag_id': self.pk})
+		return reverse('myblog:tag', kwargs={'tag_id': self.pk})
 
 	def __str__(self):
 		return self.name
