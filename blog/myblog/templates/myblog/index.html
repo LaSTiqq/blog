@@ -1,7 +1,8 @@
 {% extends 'base.html' %}
 {% load static %}
 {% load i18n %}
-{% block title %} {% trans 'About me' %} {% endblock %}
+{% block title %}About{% endblock %}
+{% block canonical %}<link rel="canonical" href="https://www.laurisstirna.id.lv/">{% endblock %}
 {% block static_content %}
 <div class="container text-white">
 	<div class="row">
@@ -24,8 +25,8 @@
 				{% trans "Since march 2021 till february 2022 I participated in a project where I've developed" %}
 				<a href="https://en.wikipedia.org/wiki/Single-page_application" target="_blank" rel="noopener" class="links"> SPA </a>
 				{% trans 'website for local company' %}.<br><br>
-				{% trans "I keep growing as WEB developer and I think that I'm ready for gradual start at the freelance field" %}.<br><br>
-				{% trans 'This website I developed to tell my story, to demonstrate what I already can do, and to describe what I can currently offer to you' %}.
+				{% trans 'This website was developed to tell my story and to demonstrate what I can do' %}. 
+				{% trans 'I tried my best to build and design it completely different from the previous one' %}.
 			</figcaption>
 		</div>
 		<!-- Table of contents -->
@@ -42,8 +43,8 @@
 					<i class="fas fa-angle-left green-colored"></i></li>
 			</ul>
 			<!-- Socials -->
-			<div class="row text-center text-warning">
-				<h2 class="text-center my-4">{% trans 'Contacts' %}</h2>
+			<div class="row text-center">
+				<h2 class="text-warning my-3">{% trans 'Contacts' %}</h2>
 				<div class="col-3">
 					<a href="https://www.facebook.com/lastiqq/" title="Facebook" target="_blank" rel="noopener" class="link-white">
 						<i class="fab fa-facebook"></i>
@@ -64,12 +65,23 @@
 						<i class="fab fa-bitbucket"></i>
 					</a>
 				</div>
+				<div class="col-12 my-2">
+					<a href="https://www.upwork.com/freelancers/~014e00fa02480ff4ce" target="_blank" rel="noopener" class="links fs-5">
+						Upwork {% trans 'profile' %}
+					</a>
+				</div>
 				<div class="col-12">
-					<p class="fs-5 mt-3 green-colored">
-						lavrencij13@gmail.com<br>
-						lavrencij@inbox.lv<br>
-						lavrencij@mail.ru
-					</p>
+					<ul class="p-0" style="list-style: none;">
+						<li>
+							<i class="far fa-envelope me-2"></i><spam class="green-colored">lavrencij13@gmail.com</spam>
+						</li>
+						<li>
+							<i class="far fa-envelope me-2"></i><spam class="green-colored">lavrencij@inbox.lv</spam>
+						</li>
+						<li>
+							<i class="far fa-envelope me-2"></i><spam class="green-colored">lavrencij@mail.ru</spam>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -269,18 +281,9 @@
 		<a name="examples"></a>
 		<figure class="text-center mt-1 mb-0">
             <h1 class="fw-bold">{% trans 'Portfolio' %}</h1>
-            <figcaption class="blockquote-footer light-gray text-center fs-5 mt-2">{% trans 'Current examples of my work' %}</figcaption>
+            <figcaption class="blockquote-footer light-gray text-center fs-5 mt-2 mb-0">{% trans 'Current examples of my work' %}</figcaption>
         </figure>
-		<div class="col-12 col-md-6 story">
-			<figcaption class="blockquote-footer text-white mt-3 fst-italic fs-6">
-				{% trans "Recently I worked in a project where I've developed" %}
-				<a href="https://en.wikipedia.org/wiki/Single-page_application" target="_blank" rel="noopener" class="links"> SPA </a>
-				{% trans "website for local company. It was my first real work as WEB developer. It's the first example" %}.<br><br>
-				{% trans "Second example you're seeing now. I tried my best to build and design this website completely different from the previous one. Backend was included" %}.<br><br>
-				{% trans 'Both of the websites are adaptive' %}.
-			</figcaption>
-		</div>
-		<div class="col-12 col-md-6 examples">
+		<div class="col-12 examples">
 			<p class="text-center mt-3">
 				<i class="fas fa-angle-right green-colored"></i>
 				<a href="https://www.affix.lv/" target="_blank" rel="noopener" title="Affix" class="link-white fs-4">&nbsp;affix.lv&nbsp;</a>
@@ -289,11 +292,13 @@
 				<i class="fas fa-angle-right green-colored"></i>
 				<a href="https://www.laurisstirna.id.lv/" target="_blank" rel="noopener" title="This website" class="link-white fs-4">&nbsp;laurisstirna.id.lv&nbsp;</a>
 				<i class="fas fa-angle-left green-colored"></i>
-				<br><br>
+				<br>
 				<p class="text-center light-gray">
+					{% trans 'Both of the websites are adaptive and contains simple backend' %}.
+					<br>
 					{% trans 'I expect that further examples will be available at the my ' %}
-						<a href="https://www.upwork.com/freelancers/~014e00fa02480ff4ce" target="_blank" rel="noopener" class="links"> UpWork</a>
-					{% trans 'account. There will be stored not just the next examples but also a feedbacks' %}.
+						<a href="https://www.upwork.com/freelancers/~014e00fa02480ff4ce" target="_blank" rel="noopener" class="links"> Upwork</a>
+					{% trans 'account' %}. {% trans 'There will be stored not only them but also a feedbacks' %}.
 				</p>
 			</p>
 		</div>
