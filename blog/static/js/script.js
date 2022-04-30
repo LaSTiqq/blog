@@ -1,15 +1,21 @@
-document.getElementById("arrow").style.display = "none";
+const arrow = document.getElementById("arrow");
+
+if (arrow) {
+	arrow.style.display = "none";
+}
 
 window.onscroll = function () {
 	scrollFunction();
 };
 
 function scrollFunction() {
-if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-		// End value
-		document.getElementById("arrow").style.display = "block";
-	} else {
-		// Start value
-		document.getElementById("arrow").style.display = "none";
+if (arrow) {
+	if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+			// End value
+			arrow.style.display = "block";
+		} else {
+			// Start value
+			arrow.style.display = "none";
+		}
 	}
 }

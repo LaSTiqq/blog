@@ -4,7 +4,7 @@ from modeltranslation.admin import TranslationAdmin
 from django.utils.safestring import mark_safe
 
 class BlogAdmin(TranslationAdmin, admin.ModelAdmin):
-	fields = ('tag', 'title', 'slug', 'preview_text', 'content', 'published', 'preview_image', 'get_image')
+	fields = ('tag', 'title', 'slug', 'preview_text', 'content', 'keywords', 'published', 'preview_image', 'get_image')
 	readonly_fields = ('get_image',)
 	list_display = ('tag', 'title', 'get_image', 'published')
 	list_editable = ('published',)
