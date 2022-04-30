@@ -1,6 +1,9 @@
 {% extends 'base.html' %}
 {% load static %}
 {% load i18n %}
+{% block description %} 
+<meta name="description" content="{{ blog.preview_text_en }}">
+{% endblock %}
 {% block title %} {{ blog.tag }} {% endblock %}
 {% block content %}
 	<br><h1 class="text-end fw-bold"><a class="links" href="{{ blog.tag.get_absolute_url }}">[{{ blog.tag }}]</a> {{ blog.title }}</h1>
