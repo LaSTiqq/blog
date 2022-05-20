@@ -8,15 +8,20 @@ html {
 }
 main {
   flex: 1 1 auto;
-  background: rgb(33, 37, 41);
+  background: rgb(11, 14, 27);
   background: linear-gradient(
     0deg,
-    rgba(33, 37, 41, 1) 0%,
-    rgba(35, 67, 159, 1) 25%,
-    rgba(58, 95, 199, 1) 50%,
-    rgba(35, 67, 159, 1) 75%,
-    rgba(33, 37, 41, 1) 100%
+    rgba(11, 14, 27, 1) 0%,
+    rgba(6, 95, 141, 1) 25%,
+    rgba(3, 138, 201, 1) 40%,
+    rgba(2, 149, 216, 1) 50%,
+    rgba(3, 136, 198, 1) 60%,
+    rgba(6, 95, 141, 1) 75%,
+    rgba(11, 14, 27, 1) 100%
   );
+}
+footer {
+  background-color: rgba(11, 14, 27, 1);
 }
 .wrapper {
   min-height: 100%;
