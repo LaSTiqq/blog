@@ -23,6 +23,15 @@ main {
 footer {
   background-color: rgba(11, 14, 27, 1);
 }
+nav {
+  font-size: 18px;
+}
+nav,
+h1,
+h2,
+.oswald {
+  font-family: "Oswald", sans-serif;
+}
 .wrapper {
   min-height: 100%;
 }

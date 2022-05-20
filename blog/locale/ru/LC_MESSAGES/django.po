@@ -147,7 +147,7 @@ msgstr "Содержание"
 #: .\myblog\templates\myblog\index.html:36
 #: .\myblog\templates\myblog\index.html:95
 msgid "Technologies"
-msgstr "Технологиии"
+msgstr "Технологии"
 
 #: .\myblog\templates\myblog\index.html:38
 #: .\myblog\templates\myblog\index.html:231
