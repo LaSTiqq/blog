@@ -16,21 +16,20 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 		<!-- Main-->
 		<!-- Photo -->
 		<div class="col-12 col-lg-4">
-			<figure class="figure d-block text-center mt-4">
+			<figure class="figure d-block text-center mt-5">
 				<img src="{% static 'img/self_photo.png' %}" alt="Self photo" class="figure-img img-fluid rounded">
-				<figcaption class="figure-caption text-center light-gray fs-6">{% trans 'I in 2019 year' %}</figcaption>
 			</figure>
 		</div>
 		<!-- Story -->
 		<div class="col-12 col-lg-5 story">
-			<h2 class="text-center text-warning mt-4">{% trans 'Hi! My name is Lauris' %}.</h2>
-			<figcaption class="blockquote-footer text-white fst-italic fs-6 my-4">
+			<h2 class="text-center text-primary mt-4">{% trans 'Hi! My name is Lauris' %}.</h2>
+			<figcaption class="blockquote-footer text-white fst-italic fs-6 mt-4">
 				{% trans 'In summer 2021 I graduated a' %}
-				<a href="https://2021.rta.lv/en/" target="_blank" rel="noopener" class="links">{% trans 'Rezekne Academy of Technologies' %}</a> 
+				<a href="https://2021.rta.lv/en/" target="_blank" rel="noopener" class="link-info">{% trans 'Rezekne Academy of Technologies' %}</a> 
 				{% trans 'and got bachelors degree as software engineer' %}.<br><br>
 				{% trans 'When I was working on my diploma project I realised that in programming, WEB development attracts me the most. I fell in love with creating websites' %}.<br><br>
 				{% trans "Since march 2021 till february 2022 I participated in a project where I've developed" %}
-				<a href="https://en.wikipedia.org/wiki/Single-page_application" target="_blank" rel="noopener" class="links"> SPA </a>
+				<a href="https://en.wikipedia.org/wiki/Single-page_application" target="_blank" rel="noopener" class="link-info">SPA</a>
 				{% trans 'website for local company' %}.<br><br>
 				{% trans 'This website was developed to tell my story and to demonstrate what I can do' %}. 
 				{% trans 'I tried my best to build and design it completely different from the previous one' %}.
@@ -73,20 +72,20 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 					</a>
 				</div>
 				<div class="col-12 my-2">
-					<a href="https://www.upwork.com/freelancers/~014e00fa02480ff4ce" target="_blank" rel="noopener" class="links fs-5">
+					<a href="https://www.upwork.com/freelancers/~014e00fa02480ff4ce" target="_blank" rel="noopener" class="link-info fs-5">
 						Upwork {% trans 'profile' %}
 					</a>
 				</div>
 				<div class="col-12">
 					<ul class="p-0" style="list-style: none;">
 						<li>
-							<i class="far fa-envelope me-2"></i><spam class="green-colored oswald">lavrencij13@gmail.com</spam>
+							<i class="far fa-envelope text-danger me-2"></i><spam class="green-colored oswald">lavrencij13@gmail.com</spam>
 						</li>
 						<li>
-							<i class="far fa-envelope me-2"></i><spam class="green-colored oswald">lavrencij@inbox.lv</spam>
+							<i class="far fa-envelope text-danger me-2"></i><spam class="green-colored oswald">lavrencij@inbox.lv</spam>
 						</li>
 						<li>
-							<i class="far fa-envelope me-2"></i><spam class="green-colored oswald">lavrencij@mail.ru</spam>
+							<i class="far fa-envelope text-danger me-2"></i><spam class="green-colored oswald">lavrencij@mail.ru</spam>
 						</li>
 					</ul>
 				</div>
@@ -99,7 +98,7 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 		<a name="technologies"></a>
 		<!-- HTML, CSS, JavaScript -->
         <figure class="text-center mt-1">
-            <h1 class="fw-bold">{% trans 'Technologies' %}</h1>
+            <h1 class="fw-bold text-warning">{% trans 'Technologies' %}</h1>
             <figcaption class="blockquote-footer light-gray fs-5 mt-2">{% trans 'What I work with?' %}</figcaption>
 			<p class="text-center mb-0">{% trans 'As usual, every WEB developer knowledge is based on three whales below' %}</p>
         </figure>
@@ -109,7 +108,7 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 				<img src="{% static 'img/html.png' %}" class="mx-auto d-block mt-3" alt="HTML" height="115" width="115">
 				<div class="card-body">
 					<h2 class="card-title text-center fw-bold fs-5">
-						<a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener" title="HTML" class="links">HTML</a>
+						<a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener" title="HTML" class="link-info">HTML</a>
 					</h2>
 					<p class="card-text text-center">{% trans 'Skeleton of every website' %}</p>
 				</div>
@@ -120,7 +119,7 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 				<img src="{% static 'img/css.png' %}" class="mx-auto d-block mt-3" alt="CSS" height="115" width="115">
 				<div class="card-body">
 					<h2 class="card-title text-center fw-bold fs-5">
-						<a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noopener" title="CSS" class="links">CSS</a>
+						<a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noopener" title="CSS" class="link-info">CSS</a>
 					</h2>
 					<p class="card-text text-center">{% trans 'Place where skeleton get some dress' %}</p>
 				</div>
@@ -131,7 +130,7 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 				<img src="{% static 'img/js.png' %}" class="mx-auto d-block mt-3" alt="JavaScript" height="115" width="115">
 				<div class="card-body">
 					<h2 class="card-title text-center fw-bold fs-5">
-						<a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener" title="JavaScript" class="links">JavaScript</a>
+						<a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener" title="JavaScript" class="link-info">JavaScript</a>
 					</h2>
 					<p class="card-text text-center">{% trans 'Place where skeleton learns to move' %}</p>
 				</div>
@@ -145,7 +144,7 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 				<img src="{% static 'img/bootstrap.png' %}" class="mx-auto d-block mt-3" alt="Bootstrap" height="115" width="115">
 				<div class="card-body">
 					<h2 class="card-title text-center fw-bold fs-5">
-						<a href="https://getbootstrap.com/" target="_blank" rel="noopener" title="Bootstrap" class="links">Bootstrap</a>
+						<a href="https://getbootstrap.com/" target="_blank" rel="noopener" title="Bootstrap" class="link-info">Bootstrap</a>
 					</h2>
 					<p class="card-text text-center">
 						{% trans 'One of the main usage benefits - it allows easily make adaptive design for websites (for tablets, phones)' %}
@@ -158,7 +157,7 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 				<img src="{% static 'img/sass.png' %}" class="mx-auto d-block mt-3" alt="SCSS" height="115" width="115">
 				<div class="card-body">
 					<h2 class="card-title text-center fw-bold fs-5">
-						<a href="https://sass-lang.com/" target="_blank" rel="noopener" title="SCSS" class="links">SASS - SCSS</a>
+						<a href="https://sass-lang.com/" target="_blank" rel="noopener" title="SCSS" class="link-info">SASS - SCSS</a>
 					</h2>
 					<p class="card-text text-center">
 						{% trans 'SCSS is main syntax of SASS. Increases speed of writing styles by optimized syntax of CSS' %}
@@ -177,7 +176,7 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 				<img src="{% static 'img/python.png' %}" class="mx-auto d-block mt-3" alt="Python" height="115" width="115">
 				<div class="card-body">
 					<h2 class="card-title text-center fw-bold fs-5">
-						<a href="https://www.python.org/" target="_blank" rel="noopener" title="Python" class="links">Python</a>
+						<a href="https://www.python.org/" target="_blank" rel="noopener" title="Python" class="link-info">Python</a>
 					</h2>
 					<p class="card-text text-center">
 						{% trans 'Young programmers friendly programming language' %}
@@ -190,7 +189,7 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 				<img src="{% static 'img/django.png' %}" class="mx-auto d-block mt-3" alt="Django" height="115" width="115">
 				<div class="card-body">
 					<h2 class="card-title text-center fw-bold fs-5">
-						<a href="https://www.djangoproject.com/" target="_blank" rel="noopener" title="Django" class="links">Django</a>
+						<a href="https://www.djangoproject.com/" target="_blank" rel="noopener" title="Django" class="link-info">Django</a>
 					</h2>
 					<p class="card-text text-center">
 						{% trans 'Python based WEB framework' %}
@@ -207,7 +206,7 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 				<img src="{% static 'img/mysql.png' %}" class="mx-auto d-block mt-3" alt="MySQL" height="115" width="115">
 				<div class="card-body">
 					<h2 class="card-title text-center fw-bold fs-5">
-						<a href="https://www.mysql.com/" target="_blank" rel="noopener" title="MySQL" class="links">MySQL</a>
+						<a href="https://www.mysql.com/" target="_blank" rel="noopener" title="MySQL" class="link-info">MySQL</a>
 					</h2>
 					<p class="card-text text-center">
 						{% trans 'Database for production purposes. One of the most simplest and popular databases' %}
@@ -220,7 +219,7 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 				<img src="{% static 'img/sqlite.png' %}" class="mx-auto d-block mt-3" alt="SQLite" height="115" width="115">
 				<div class="card-body">
 					<h2 class="card-title text-center fw-bold fs-5">
-						<a href="https://www.sqlite.org/index.html" target="_blank" rel="noopener" title="SQLite" class="links">SQLite</a>
+						<a href="https://www.sqlite.org/index.html" target="_blank" rel="noopener" title="SQLite" class="link-info">SQLite</a>
 					</h2>
 					<p class="card-text text-center">
 						{% trans 'Database for testing purposes. The SQLite is default short-hand database in Django' %}
@@ -235,7 +234,7 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 		<!-- Diploma -->
 		<a name="diploma"></a>
 		<figure class="text-center mt-1">
-            <h1 class="fw-bold">{% trans 'Diploma' %}</h1>
+            <h1 class="fw-bold text-warning">{% trans 'Diploma' %}</h1>
             <figcaption class="blockquote-footer light-gray fs-5 mt-2">{% trans 'Proof of quality!' %}</figcaption>
 			<p class="text-center mb-0">{% trans 'To make it easier to believe in my story I provide my diploma scan as proof of my qualification' %}</p>
         </figure>
@@ -248,26 +247,26 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 		<!-- Services and prices -->
 		<a name="offers"></a>
 		<figure class="text-center mt-1 mb-0">
-            <h1 class="fw-bold">{% trans 'Services and prices' %}</h1>
+            <h1 class="fw-bold text-warning">{% trans 'Services and prices' %}</h1>
             <figcaption class="blockquote-footer light-gray text-center fs-5 mt-2">{% trans 'What I can offer?' %}</figcaption>
         </figure>
 		<!-- Frontend -->
 		<div class="col-12 col-md-6">
-			<h2 class="text-center text-warning fw-bold mb-3">{% trans 'Frontend' %}</h2>
+			<h2 class="text-center text-danger fw-bold mb-3">{% trans 'Frontend' %}</h2>
 			<ul class="services1">
 				<li>{% trans 'Template building' %};</li>
 				<li>{% trans 'Styling' %};</li>
 				<li>{% trans 'Interactivity' %};</li>
 				<li>{% trans 'Adaptive design for phones and tablets' %};</li>
 				<li>{% trans 'Possibility to follow the progress on' %}
-					<a href="https://pages.github.com/" target="_blank" rel="noopener" title="GitHub Pages" class="links"> GitHub Pages</a>;</li>
+					<a href="https://pages.github.com/" target="_blank" rel="noopener" title="GitHub Pages" class="link-info"> GitHub Pages</a>;</li>
 				<li>{% trans 'Preferable and relatively fast' %}.</li>
 			</ul>
 			<p class="text-center fs-5 fw-bold oswald green-colored">{% trans 'Average price range' %}:<span> 50-100&euro;</span></p>
 		</div>
 		<!-- Backend -->
 		<div class="col-12 col-md-6">
-			<h2 class="text-center text-warning fw-bold mb-3">{% trans 'Backend' %}</h2>
+			<h2 class="text-center text-danger fw-bold mb-3">{% trans 'Backend' %}</h2>
 			<ul class="services2">
 				<li>{% trans 'Backend logic on Django' %};</li>
 				<li>{% trans 'Login, admin, comments etc. functionality' %};</li>
@@ -287,7 +286,7 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 		<!-- Examples -->
 		<a name="examples"></a>
 		<figure class="text-center mt-1 mb-0">
-            <h1 class="fw-bold">{% trans 'Portfolio' %}</h1>
+            <h1 class="fw-bold text-warning">{% trans 'Portfolio' %}</h1>
             <figcaption class="blockquote-footer light-gray text-center fs-5 mt-2 mb-0">{% trans 'Current examples of my work' %}</figcaption>
         </figure>
 		<div class="col-12 examples">
@@ -304,7 +303,7 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 					{% trans 'Both of the websites are adaptive and contains simple backend' %}.
 					<br>
 					{% trans 'I expect that further examples will be available at the my ' %}
-						<a href="https://www.upwork.com/freelancers/~014e00fa02480ff4ce" target="_blank" rel="noopener" class="links"> Upwork</a>
+						<a href="https://www.upwork.com/freelancers/~014e00fa02480ff4ce" target="_blank" rel="noopener" class="link-info"> Upwork</a>
 					{% trans 'account' %}. {% trans 'There will be stored not only them but also a feedbacks' %}.
 				</p>
 			</p>
