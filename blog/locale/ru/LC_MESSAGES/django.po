@@ -381,7 +381,7 @@ msgstr "Печенья"
 #: .\templates\cookielaw\banner.html:14
 msgid "This site uses \"cookies\". By continuing you agree to use of it"
 msgstr ""
-"Этот сайт использует куки (cookies). Продолжая, вы соглашаетесь на их "
+"Этот сайт использует печенья (англ. cookies). Продолжая, вы соглашаетесь на их "
 "использование"
 
 #: .\templates\cookielaw\banner.html:18
