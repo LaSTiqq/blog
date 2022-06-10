@@ -45,7 +45,7 @@ msgid ""
 "This is a collection of my knowledge and experience, which I want to share "
 "with others."
 msgstr ""
-"Tas ir manas zināšanu un pieredzes krājums, ar kuru es gribu dalīties ar "
+"Tas ir manu zināšanu un pieredzes krājums, ar kuru es gribu dalīties ar "
 "citiem."
 
 #: .\myblog\templates\myblog\blog_list.html:15
