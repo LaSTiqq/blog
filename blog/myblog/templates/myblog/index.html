@@ -2,18 +2,14 @@
 {% load static %}
 {% load i18n %}
 {% block description %}
-<meta name="description" content="Hi, I am currently unemployed WEB developer from Latvia. I am trying start succesful freelance carrier at the Upwork.
-Mainly I am frontend developer, but I also worked with simple backend. Feel free to contact me. Individual approach is guaranted.">
-{% endblock %}
-{% block keywords %}
-<meta name="keywords" content="Frontend, HTML markup, CSS styling, JavaScript, Bootstrap, Backend, Python, Django">
+<meta name="description" content="I am currently unemployed software engineer from Latvia. I am trying to start succesful carrier as a 
+frontend developer but I also worked with simple backend. Feel free to contact me">
 {% endblock %}
 {% block title %}Lauris Stirna :: About{% endblock %}
 {% block canonical %}<link rel="canonical" href="https://www.laurisstirna.id.lv/">{% endblock %}
 {% block static_content %}
 <div class="container text-white">
 	<div class="row">
-		<!-- Main-->
 		<!-- Photo -->
 		<div class="col-12 col-lg-4">
 			<figure class="figure d-block text-center mt-5">
@@ -22,10 +18,10 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 		</div>
 		<!-- Story -->
 		<div class="col-12 col-lg-5 story">
-			<h2 class="text-center text-primary mt-4">{% trans 'Hi! My name is Lauris' %}.</h2>
+			<h2 class="text-center text-primary mt-5">{% trans 'Hi! My name is Lauris' %}.</h2>
 			<figcaption class="blockquote-footer text-white fst-italic fs-6 mt-4">
 				{% trans 'In summer 2021 I graduated a' %}
-				<a href="https://2021.rta.lv/en/" target="_blank" rel="noopener" class="link-info">{% trans 'Rezekne Academy of Technologies' %}</a> 
+				<a href="https://rta.lv/" target="_blank" rel="noopener" class="link-info">{% trans 'Rezekne Academy of Technologies' %}</a> 
 				{% trans 'and got bachelors degree as software engineer' %}.<br><br>
 				{% trans 'When I was working on my diploma project I realised that in programming, WEB development attracts me the most. I fell in love with creating websites' %}.<br><br>
 				{% trans "Since march 2021 till february 2022 I participated in a project where I've developed" %}
@@ -37,8 +33,8 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 		</div>
 		<!-- Table of contents -->
 		<div class="col-12 col-lg-3">
-			<h2 class="text-center text-warning my-4">{% trans 'Table of contents' %}</h2>
-			<ul class="anchors text-center fs-5 ps-0 mb-3">
+			<h2 class="text-center text-warning mt-5 mb-4">{% trans 'Table of contents' %}</h2>
+			<ul class="anchors text-center fs-5 ps-0">
 				<li><a href="{% url 'myblog:home' %}#technologies" class="link-white" aria-label="{% trans 'Technologies' %}">{% trans 'Technologies' %}&nbsp;</a>
 					<i class="fas fa-angle-left green-colored"></i></li>
 				<li><a href="{% url 'myblog:home' %}#diploma" class="link-white" aria-label="{% trans 'Diploma' %}">{% trans 'Diploma' %}&nbsp;</a>
@@ -50,7 +46,7 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 			</ul>
 			<!-- Socials -->
 			<div class="row text-center">
-				<h2 class="text-warning my-3">{% trans 'Contacts' %}</h2>
+				<h2 class="text-warning mb-3">{% trans 'Contacts' %}</h2>
 				<div class="col-3">
 					<a href="https://www.facebook.com/lastiqq/" title="Facebook" target="_blank" rel="noopener" class="link-white">
 						<i class="fab fa-facebook"></i>
@@ -71,13 +67,8 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 						<i class="fab fa-bitbucket"></i>
 					</a>
 				</div>
-				<div class="col-12 my-2">
-					<a href="https://www.upwork.com/freelancers/~014e00fa02480ff4ce" target="_blank" rel="noopener" class="link-info fs-5">
-						Upwork {% trans 'profile' %}
-					</a>
-				</div>
 				<div class="col-12">
-					<ul class="p-0" style="list-style: none;">
+					<ul class="p-0 mt-3" style="list-style: none;">
 						<li>
 							<i class="far fa-envelope text-danger me-2"></i><spam class="green-colored oswald">lavrencij13@gmail.com</spam>
 						</li>
@@ -302,9 +293,6 @@ Mainly I am frontend developer, but I also worked with simple backend. Feel free
 				<p class="text-center light-gray">
 					{% trans 'Both of the websites are adaptive and contains simple backend' %}.
 					<br>
-					{% trans 'I expect that further examples will be available at the my ' %}
-						<a href="https://www.upwork.com/freelancers/~014e00fa02480ff4ce" target="_blank" rel="noopener" class="link-info"> Upwork</a>
-					{% trans 'account' %}. {% trans 'There will be stored not only them but also a feedbacks' %}.
 				</p>
 			</p>
 		</div>

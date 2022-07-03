@@ -1,12 +1,13 @@
 from django.views.generic.base import TemplateView
 from django.contrib.sitemaps.views import sitemap
-from .sitemaps import StaticSitemap
+from .sitemaps import StaticSitemap, BlogSitemap
 from django.urls import path
 from .views import MainView, BlogList, BlogByTag, BlogDetail
 
 app_name = 'myblog'
 
 sitemaps = {
+    'blog': BlogSitemap,
     'static': StaticSitemap,
 }
 
