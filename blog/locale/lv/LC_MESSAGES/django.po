@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-03 03:20+0300\n"
+"POT-Creation-Date: 2022-07-03 03:46+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
 
+#: .\myblog\templates\myblog\blog_list.html:8
 #: .\myblog\templates\myblog\blog_list.html:13 .\templates\inc\_nav.html:23
 msgid "Blog"
 msgstr "Blogs"
@@ -90,6 +91,10 @@ msgstr "Visi saistītie raksti ar"
 #: .\myblog\templates\myblog\blog_list_by_tag.html:16
 msgid "Back to all articles"
 msgstr "Atpakaļ pie visiem rakstiem"
+
+#: .\myblog\templates\myblog\index.html:8
+msgid "About"
+msgstr "Par mani"
 
 #: .\myblog\templates\myblog\index.html:21
 msgid "Hi! My name is Lauris"

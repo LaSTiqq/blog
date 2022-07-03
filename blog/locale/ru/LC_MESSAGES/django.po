@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-03 03:20+0300\n"
+"POT-Creation-Date: 2022-07-03 03:46+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,6 +20,7 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
+#: .\myblog\templates\myblog\blog_list.html:8
 #: .\myblog\templates\myblog\blog_list.html:13 .\templates\inc\_nav.html:23
 msgid "Blog"
 msgstr "Блог"
@@ -90,6 +91,10 @@ msgstr "Все связанные статьи с"
 #: .\myblog\templates\myblog\blog_list_by_tag.html:16
 msgid "Back to all articles"
 msgstr "Обратно ко всем статьям"
+
+#: .\myblog\templates\myblog\index.html:8
+msgid "About"
+msgstr "Про меня"
 
 #: .\myblog\templates\myblog\index.html:21
 msgid "Hi! My name is Lauris"

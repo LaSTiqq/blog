@@ -2,9 +2,9 @@
 {% load static %}
 {% load i18n %}
 {% block description %} 
-<meta name="description" content="{{ blog.preview_text_en }}">
+<meta name="description" content="{{ blog.preview_text }}">
 {% endblock %}
-{% block title %}{{ blog.tag }} - {{ blog.title_en }}{% endblock %}
+{% block title %}{{ blog.tag }} - {{ blog.title }}{% endblock %}
 {% block content %}
 	<br><h1 class="text-end fw-bold"><a class="links" href="{{ blog.tag.get_absolute_url }}">[{{ blog.tag }}]</a> {{ blog.title }}</h1>
 	<hr>
