@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-03 03:46+0300\n"
+"POT-Creation-Date: 2022-07-07 22:39+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,11 @@ msgstr ""
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #: .\myblog\templates\myblog\blog_list.html:8
-#: .\myblog\templates\myblog\blog_list.html:13 .\templates\inc\_nav.html:23
+#: .\myblog\templates\myblog\blog_list.html:12 .\templates\inc\_nav.html:23
 msgid "Blog"
 msgstr "Блог"
 
-#: .\myblog\templates\myblog\blog_list.html:16
+#: .\myblog\templates\myblog\blog_list.html:15
 msgid ""
 "This section contains my personal solutions to the problems that I have "
 "encountered, as well as those solutions that exist, but which I have "
@@ -35,7 +35,7 @@ msgstr ""
 "сталкивался, а также те решения, которые существуют, но которые я "
 "видоизменял."
 
-#: .\myblog\templates\myblog\blog_list.html:17
+#: .\myblog\templates\myblog\blog_list.html:16
 msgid ""
 "The articles do not claim to be unique, but they can be a good addition to "
 "the materials that already are available."
@@ -43,13 +43,13 @@ msgstr ""
 "Статьи не претендуют на уникальность, однако могут быть хорошим дополнением "
 "к уже доступным материалам."
 
-#: .\myblog\templates\myblog\blog_list.html:18
+#: .\myblog\templates\myblog\blog_list.html:17
 msgid ""
 "This is a collection of my knowledge and experience, which I want to share "
 "with others."
 msgstr "Это сборник моих знаний и опыта, которым я хочу делиться с другими."
 
-#: .\myblog\templates\myblog\blog_list.html:19
+#: .\myblog\templates\myblog\blog_list.html:18
 msgid ""
 "The knowledge base will be supplemented with new articles as the author has "
 "free time"
@@ -57,25 +57,25 @@ msgstr ""
 "База знаний будет дополняться новыми статьями по мере появления у автора "
 "свободного времени"
 
-#: .\myblog\templates\myblog\blog_list.html:26
+#: .\myblog\templates\myblog\blog_list.html:25
 msgid "Tag"
 msgstr "Тэг"
 
-#: .\myblog\templates\myblog\blog_list.html:27
+#: .\myblog\templates\myblog\blog_list.html:26
 msgid "Sort by tag"
 msgstr "Сортировать по тэгу"
 
-#: .\myblog\templates\myblog\blog_list.html:37
+#: .\myblog\templates\myblog\blog_list.html:36
 #: .\myblog\templates\myblog\blog_list_by_tag.html:26
 msgid "Read more"
 msgstr "Читать дальше"
 
-#: .\myblog\templates\myblog\blog_list.html:42
+#: .\myblog\templates\myblog\blog_list.html:41
 #: .\myblog\templates\myblog\blog_list_by_tag.html:31
 msgid "Last updated"
 msgstr "Обновлено"
 
-#: .\myblog\templates\myblog\blog_list.html:43
+#: .\myblog\templates\myblog\blog_list.html:42
 #: .\myblog\templates\myblog\blog_list_by_tag.html:32
 msgid "Created at"
 msgstr "Создано"
@@ -105,7 +105,7 @@ msgid "In summer 2021 I graduated a"
 msgstr "Летом 2021 года я окончил"
 
 #: .\myblog\templates\myblog\index.html:24
-msgid "Rezekne Academy of Technologies"
+msgid "Rezekne Academy of technologies"
 msgstr "Резекненскую Академию технологий"
 
 #: .\myblog\templates\myblog\index.html:25
@@ -355,11 +355,11 @@ msgstr "Администратор сайта Django"
 msgid "Django administration"
 msgstr "Django администрирование"
 
-#: .\templates\base.html:44
+#: .\templates\base.html:43
 msgid "Move backward"
 msgstr "Назад"
 
-#: .\templates\base.html:59
+#: .\templates\base.html:58
 msgid "Move forward"
 msgstr "Вперёд"
 

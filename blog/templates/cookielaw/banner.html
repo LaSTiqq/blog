@@ -2,14 +2,14 @@
 {% load i18n %}
 
 <div id="CookielawBanner">
-	<div class="cookie fw-bold">
+	<div class="cookie">
 		<div class="row">
 			<div class="col-12">
-				<h3 class="title fw-bold text-danger oswald">{% trans 'Cookies' %}</h3>
+				<h3 class="title fw-bold text-danger arimo mt-1">{% trans 'Cookies' %}</h3>
 			</div>
 			<div class="text-center">
 				<div class="col-12 text-dark">
-					<p class="mb-0">{% trans 'This site uses "cookies". By continuing you agree to use of it' %}.<br>
+					<p class="mb-0 fw-bold">{% trans 'This site uses "cookies". By continuing you agree to use of it' %}.<br>
 					</p>
 				</div>
 				<div class="col-12">
@@ -17,7 +17,7 @@
 						class="link-primary">{% trans 'What are the cookies?' %}</a>
 				</div>
 				<div class="col-12">
-					<a href="javascript:Cookielaw.createCookielawCookie();" class="btn btn-outline-dark mt-3">{% trans 'Accept and close' %}</a>
+					<a href="javascript:Cookielaw.createCookielawCookie();" class="btn btn-dark mt-3">{% trans 'Accept and close' %}</a>
 				</div>
 			</div>
 		</div>

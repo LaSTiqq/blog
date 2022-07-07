@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-03 03:46+0300\n"
+"POT-Creation-Date: 2022-07-07 22:39+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,11 +20,11 @@ msgstr ""
 "2);\n"
 
 #: .\myblog\templates\myblog\blog_list.html:8
-#: .\myblog\templates\myblog\blog_list.html:13 .\templates\inc\_nav.html:23
+#: .\myblog\templates\myblog\blog_list.html:12 .\templates\inc\_nav.html:23
 msgid "Blog"
 msgstr "Blogs"
 
-#: .\myblog\templates\myblog\blog_list.html:16
+#: .\myblog\templates\myblog\blog_list.html:15
 msgid ""
 "This section contains my personal solutions to the problems that I have "
 "encountered, as well as those solutions that exist, but which I have "
@@ -33,7 +33,7 @@ msgstr ""
 "Šajā sadaļā apkopoti mani personīgie risinājumi, kā arī tie risinājumi, "
 "atbildes uz kuriem jau eksistē, un es tos pielāgoju savām vajadzībām."
 
-#: .\myblog\templates\myblog\blog_list.html:17
+#: .\myblog\templates\myblog\blog_list.html:16
 msgid ""
 "The articles do not claim to be unique, but they can be a good addition to "
 "the materials that already are available."
@@ -41,7 +41,7 @@ msgstr ""
 "Raksti var nebūt unikāli, taču tie var būt labs papildinājums jau esošajiem "
 "materiāliem."
 
-#: .\myblog\templates\myblog\blog_list.html:18
+#: .\myblog\templates\myblog\blog_list.html:17
 msgid ""
 "This is a collection of my knowledge and experience, which I want to share "
 "with others."
@@ -49,7 +49,7 @@ msgstr ""
 "Tas ir manu zināšanu un pieredzes krājums, ar kuru es gribu dalīties ar "
 "citiem."
 
-#: .\myblog\templates\myblog\blog_list.html:19
+#: .\myblog\templates\myblog\blog_list.html:18
 msgid ""
 "The knowledge base will be supplemented with new articles as the author has "
 "free time"
@@ -57,25 +57,25 @@ msgstr ""
 "Zināšanu bāze tiks papildināta ar jauniem rakstiem tiklīdz autoram ir "
 "brīvais laiks"
 
-#: .\myblog\templates\myblog\blog_list.html:26
+#: .\myblog\templates\myblog\blog_list.html:25
 msgid "Tag"
 msgstr "Tags"
 
-#: .\myblog\templates\myblog\blog_list.html:27
+#: .\myblog\templates\myblog\blog_list.html:26
 msgid "Sort by tag"
 msgstr "Šķirot pēc taga"
 
-#: .\myblog\templates\myblog\blog_list.html:37
+#: .\myblog\templates\myblog\blog_list.html:36
 #: .\myblog\templates\myblog\blog_list_by_tag.html:26
 msgid "Read more"
 msgstr "Lasīt vairāk"
 
-#: .\myblog\templates\myblog\blog_list.html:42
+#: .\myblog\templates\myblog\blog_list.html:41
 #: .\myblog\templates\myblog\blog_list_by_tag.html:31
 msgid "Last updated"
 msgstr "Atjaunots"
 
-#: .\myblog\templates\myblog\blog_list.html:43
+#: .\myblog\templates\myblog\blog_list.html:42
 #: .\myblog\templates\myblog\blog_list_by_tag.html:32
 msgid "Created at"
 msgstr "Izveidots"
@@ -105,7 +105,7 @@ msgid "In summer 2021 I graduated a"
 msgstr "2021. gada vasarā es absolvēju"
 
 #: .\myblog\templates\myblog\index.html:24
-msgid "Rezekne Academy of Technologies"
+msgid "Rezekne Academy of technologies"
 msgstr "Rēzeknes Tehnoloģiju akadēmiju"
 
 #: .\myblog\templates\myblog\index.html:25
@@ -357,11 +357,11 @@ msgstr "Django lapas administrātors"
 msgid "Django administration"
 msgstr "Django administrācija"
 
-#: .\templates\base.html:44
+#: .\templates\base.html:43
 msgid "Move backward"
 msgstr "Atpakaļ"
 
-#: .\templates\base.html:59
+#: .\templates\base.html:58
 msgid "Move forward"
 msgstr "Uz priekšu"
 
