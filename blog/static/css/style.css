@@ -6,9 +6,6 @@ html {
 img {
   pointer-events: none;
 }
-ul {
-  list-style: none;
-}
 nav {
   font-size: 18px;
 }
@@ -130,6 +127,9 @@ button[value="lv"]::before {
 }
 .link-white i {
   font-size: 32px;
+}
+.emails {
+  list-style: none;
 }
 
 /****** SERVICES ******/
@@ -286,4 +286,5 @@ footer .overlay:hover {
 }
 
 /* Extra large devices (large desktops, less than 1400px) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
