@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Merriweather", serif;
   height: 100%;
 }
 img {
@@ -130,6 +130,10 @@ button[value="lv"]::before {
 }
 .emails {
   list-style: none;
+}
+.comments {
+  color: #f7ede2;
+  font-weight: bold;
 }
 
 /****** SERVICES ******/

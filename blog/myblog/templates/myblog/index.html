@@ -13,13 +13,13 @@ frontend developer but I also worked with simple backend. Feel free to contact m
 		<!-- Photo -->
 		<div class="col-12 col-lg-4">
 			<figure class="figure d-block text-center mt-5">
-				<img src="{% static 'img/self_photo.png' %}" alt="Self photo" class="figure-img img-fluid rounded">
+				<img src="{% static 'img/self_photo.png' %}" alt="Selfie" class="figure-img img-fluid rounded">
 			</figure>
 		</div>
 		<!-- Story -->
 		<div class="col-12 col-lg-5 story">
-			<h2 class="text-center text-primary mt-5 mb-4">{% trans 'Hi! My name is Lauris' %}.</h2>
-			<figcaption class="blockquote-footer text-white fst-italic fs-6 mt-4">
+			<h2 class="text-primary mt-5 mb-4">{% trans 'Hi! My name is Lauris' %}.</h2>
+			<figcaption class="blockquote-footer text-white fs-6 mt-4">
 				{% trans 'In summer 2021 I graduated a' %}
 				<a href="https://rta.lv/" target="_blank" rel="noopener" class="link-info">{% trans 'Rezekne Academy of technologies' %}</a> 
 				{% trans 'and got bachelors degree as software engineer' %}.<br><br>
@@ -46,38 +46,26 @@ frontend developer but I also worked with simple backend. Feel free to contact m
 			</ul>
 			<!-- Socials -->
 			<div class="row text-center">
-				<h2 class="text-warning mb-3">{% trans 'Contacts' %}</h2>
-				<div class="col-3">
+				<h2 class="text-warning my-3">{% trans 'Contacts' %}</h2>
+				<div class="col-12">
 					<a href="https://www.facebook.com/lastiqq/" title="Facebook" target="_blank" rel="noopener" class="link-white">
-						<i class="fab fa-facebook"></i>
+						<i class="fab fa-facebook me-4"></i>
 					</a>
-				</div>
-				<div class="col-3">
 					<a href="https://www.instagram.com/lauriss_1313/" title="Instagram" target="_blank" rel="noopener" class="link-white">
-						<i class="fab fa-instagram"></i>
+						<i class="fab fa-instagram mx-4"></i>
 					</a>
-				</div>
-				<div class="col-3">
 					<a href="https://github.com/LaSTiqq" title="GitHub" target="_blank" rel="noopener" class="link-white">
-						<i class="fab fa-github"></i>
+						<i class="fab fa-github mx-4"></i>
 					</a>
-				</div>
-				<div class="col-3">
 					<a href="https://bitbucket.org/lauriss/" title="BitBucket" target="_blank" rel="noopener" class="link-white">
-						<i class="fab fa-bitbucket"></i>
+						<i class="fab fa-bitbucket ms-4"></i>
 					</a>
 				</div>
 				<div class="col-12">
 					<ul class="emails p-0 mt-3">
-						<li>
-							<i class="far fa-envelope text-danger me-2"></i><spam class="green-colored arimo">lavrencij13@gmail.com</spam>
-						</li>
-						<li>
-							<i class="far fa-envelope text-danger me-2"></i><spam class="green-colored arimo">lavrencij@inbox.lv</spam>
-						</li>
-						<li>
-							<i class="far fa-envelope text-danger me-2"></i><spam class="green-colored arimo">lavrencij@mail.ru</spam>
-						</li>
+						<li><i class="far fa-envelope text-danger me-2"></i><spam class="green-colored arimo">lavrencij13@gmail.com</spam></li>
+						<li><i class="far fa-envelope text-danger me-2"></i><spam class="green-colored arimo">lavrencij@inbox.lv</spam></li>
+						<li><i class="far fa-envelope text-danger me-2"></i><spam class="green-colored arimo">lavrencij@mail.ru</spam></li>
 					</ul>
 				</div>
 			</div>
@@ -85,17 +73,16 @@ frontend developer but I also worked with simple backend. Feel free to contact m
 	</div>
 	<hr>
 	<div class="row">
-		<!-- Technologies -->
 		<a name="technologies"></a>
 		<!-- HTML, CSS, JavaScript -->
         <figure class="text-center mt-1">
             <h1 class="text-warning">{% trans 'Technologies' %}</h1>
             <figcaption class="blockquote-footer light-gray fs-5 mt-2">{% trans 'What I work with?' %}</figcaption>
-			<p class="text-center mb-0">{% trans 'As usual, every WEB developer knowledge is based on three whales below' %}</p>
+			<p class="text-center comments mb-0">{% trans 'As usual, every WEB developer knowledge is based on three whales below' %}</p>
         </figure>
 		<br><br>
 		<div class="col-12 col-md-4 mb-2">
-			<div class="card bg-dark text-white border-white h-100">
+			<div class="card bg-dark bg-gradient text-white border-white h-100">
 				<img src="{% static 'img/html.png' %}" class="mx-auto d-block mt-3" alt="HTML" height="115" width="115">
 				<div class="card-body">
 					<h2 class="card-title text-center fs-5">
@@ -106,7 +93,7 @@ frontend developer but I also worked with simple backend. Feel free to contact m
 			</div>
 		</div>
 		<div class="col-12 col-md-4 mb-2">
-			<div class="card bg-dark text-white border-white h-100">
+			<div class="card bg-dark bg-gradient text-white border-white h-100">
 				<img src="{% static 'img/css.png' %}" class="mx-auto d-block mt-3" alt="CSS" height="115" width="115">
 				<div class="card-body">
 					<h2 class="card-title text-center fs-5">
@@ -117,7 +104,7 @@ frontend developer but I also worked with simple backend. Feel free to contact m
 			</div>
 		</div>
 		<div class="col-12 col-md-4 mb-2">
-			<div class="card bg-dark text-white border-white h-100">
+			<div class="card bg-dark bg-gradient text-white border-white h-100">
 				<img src="{% static 'img/js.png' %}" class="mx-auto d-block mt-3" alt="JavaScript" height="115" width="115">
 				<div class="card-body">
 					<h2 class="card-title text-center fs-5">
@@ -128,10 +115,10 @@ frontend developer but I also worked with simple backend. Feel free to contact m
 			</div>
 		</div>
 		<!-- Bootstrap, SCSS -->
-		<p class="text-center mt-2">{% trans 'Next are CSS tools which extends styling options' %}</p>
+		<p class="text-center comments mt-2">{% trans 'Next are CSS tools which extends styling options' %}</p>
 		<div class="col-md-2"></div>
 		<div class="col-12 col-md-4 mb-2">
-			<div class="card bg-dark text-white border-white h-100">
+			<div class="card bg-dark bg-gradient text-white border-white h-100">
 				<img src="{% static 'img/bootstrap.png' %}" class="mx-auto d-block mt-3" alt="Bootstrap" height="115" width="115">
 				<div class="card-body">
 					<h2 class="card-title text-center fs-5">
@@ -144,7 +131,7 @@ frontend developer but I also worked with simple backend. Feel free to contact m
 			</div>
 		</div>
 		<div class="col-12 col-md-4 mb-2">
-			<div class="card bg-dark text-white border-white h-100">
+			<div class="card bg-dark bg-gradient text-white border-white h-100">
 				<img src="{% static 'img/sass.png' %}" class="mx-auto d-block mt-3" alt="SCSS" height="115" width="115">
 				<div class="card-body">
 					<h2 class="card-title text-center fs-5">
@@ -157,13 +144,13 @@ frontend developer but I also worked with simple backend. Feel free to contact m
 			</div>
 		</div>
 		<div class="col-md-2"></div>
-		<p class="text-center mt-2">{% trans 'Mentioned above technologies usually are called as frontend technologies' %}.</p>
+		<p class="text-center comments mt-2">{% trans 'Mentioned above technologies usually are called as frontend technologies' %}.</p>
 		<hr>
 		<!-- Python, Django -->
-		<p class="text-center mt-1">{% trans 'Next are backend technologies which allows publish websites to the Internet and maintain them' %}</p>
+		<p class="text-center comments mt-1">{% trans 'Next are backend technologies which allows publish websites to the Internet and maintain them' %}</p>
 		<div class="col-md-2"></div>
 		<div class="col-12 col-md-4 mb-2">
-			<div class="card bg-dark text-white border-white h-100">
+			<div class="card bg-dark bg-gradient text-white border-white h-100">
 				<img src="{% static 'img/python.png' %}" class="mx-auto d-block mt-3" alt="Python" height="115" width="115">
 				<div class="card-body">
 					<h2 class="card-title text-center fs-5">
@@ -176,7 +163,7 @@ frontend developer but I also worked with simple backend. Feel free to contact m
 			</div>
 		</div>
 		<div class="col-12 col-md-4 mb-2">
-			<div class="card bg-dark text-white border-white h-100">
+			<div class="card bg-dark bg-gradient text-white border-white h-100">
 				<img src="{% static 'img/django.png' %}" class="mx-auto d-block mt-3" alt="Django" height="115" width="115">
 				<div class="card-body">
 					<h2 class="card-title text-center fs-5">
@@ -190,10 +177,10 @@ frontend developer but I also worked with simple backend. Feel free to contact m
 		</div>
 		<div class="col-md-2"></div>
 		<!-- MySQL, SQLite -->
-		<p class="text-center mt-2">{% trans "The last one thing for many websites is database. Currently I'm using these two" %}</p>
+		<p class="text-center comments mt-2">{% trans "The last one thing for many websites is database. Currently I'm using these two" %}</p>
 		<div class="col-md-2"></div>
 		<div class="col-12 col-md-4 mb-2">
-			<div class="card bg-dark text-white border-white h-100">
+			<div class="card bg-dark bg-gradient text-white border-white h-100">
 				<img src="{% static 'img/mysql.png' %}" class="mx-auto d-block mt-3" alt="MySQL" height="115" width="115">
 				<div class="card-body">
 					<h2 class="card-title text-center fs-5">
@@ -206,7 +193,7 @@ frontend developer but I also worked with simple backend. Feel free to contact m
 			</div>
 		</div>
 		<div class="col-12 col-md-4 mb-2">
-			<div class="card bg-dark text-white border-white h-100">
+			<div class="card bg-dark bg-gradient text-white border-white h-100">
 				<img src="{% static 'img/sqlite.png' %}" class="mx-auto d-block mt-3" alt="SQLite" height="115" width="115">
 				<div class="card-body">
 					<h2 class="card-title text-center fs-5">
@@ -227,7 +214,7 @@ frontend developer but I also worked with simple backend. Feel free to contact m
 		<figure class="text-center mt-1">
             <h1 class="text-warning">{% trans 'Diploma' %}</h1>
             <figcaption class="blockquote-footer light-gray fs-5 mt-2">{% trans 'Proof of quality!' %}</figcaption>
-			<p class="text-center mb-0">{% trans 'To make it easier to believe in my story I provide my diploma scan as proof of my qualification' %}</p>
+			<p class="text-center comments mb-0">{% trans 'To make it easier to believe in my story I provide my diploma scan as proof of my qualification' %}</p>
         </figure>
 		<div class="col-12 text-center">
 			<img src="{% static 'img/diploma.jpg' %}" alt="Diploma" class="img-fluid">
@@ -290,10 +277,7 @@ frontend developer but I also worked with simple backend. Feel free to contact m
 				<a href="https://www.laurisstirna.id.lv/" target="_blank" rel="noopener" title="This website" class="link-white fs-4 arimo">&nbsp;laurisstirna.id.lv&nbsp;</a>
 				<i class="fas fa-angle-left green-colored"></i>
 				<br>
-				<p class="text-center light-gray">
-					{% trans 'Both of the websites are adaptive and contains simple backend' %}.
-					<br>
-				</p>
+				<p class="text-center light-gray">{% trans 'Both of the websites are adaptive and contains simple backend' %}.<br></p>
 			</p>
 		</div>
 	</div>

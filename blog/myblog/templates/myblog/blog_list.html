@@ -9,7 +9,7 @@ but which I have modified. The articles do not claim to be unique, but they can 
 {% block content %}
 	<a name="top"></a>
 	<br>
-	<h1 class="text-center">{% trans 'Blog' %}</h1>
+	<h1 class="text-center text-warning">{% trans 'Blog' %}</h1>
 	<br>
 	<figcaption class="blockquote-footer text-center light-gray fs-6">
 		{% trans 'This section contains my personal solutions to the problems that I have encountered, as well as those solutions that exist, but which I have modified.' %} 
@@ -20,7 +20,7 @@ but which I have modified. The articles do not claim to be unique, but they can 
 	<hr>
 	{% for item in blog %}
 		{% if item.published %}
-			<div class="card bg-dark border-light">
+			<div class="card bg-dark bg-gradient border-light">
 				<div class="card-header border-light">
 					{% trans 'Tag' %}: <a href="{{ item.tag.get_absolute_url }}" data-bs-toggle="tooltip" data-bs-placement="top" 
 					data-bs-trigger="hover" title="{% trans 'Sort by tag' %}" class="links arimo">{{ item.tag }}</a>
