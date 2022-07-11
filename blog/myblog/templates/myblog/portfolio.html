@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block title %}Lauris Stirna :: {% trans 'Portfolio' %}{% endblock %}
+{% block description %}
+<meta name="description" content="As I'm pretty young developer my huge projects could be counted on the fingers of
+one hand but I've already developed a SPA website to a local company. Second was this website.
+Currently I'm developing a new one but I can't share it just by now. I hope further this page will grow.">
+{% endblock %}
+{% block static_content %}
+<div class="container">
+	<div class="row">
+		<!-- Portfolio -->
+		<a name="examples"></a>
+		<h1 class="big mt-5">{% trans 'Portfolio' %}</h1>
+		<p class="mb-2 purple fw-bold">{% trans "As I'm pretty young developer my huge projects could be counted on the fingers of one hand but I've already developed a" %} 
+			<a href="https://developer.mozilla.org/en-US/docs/Glossary/SPA" rel="noopener" target="_blank" class="link-primary">SPA</a> 
+			{% trans 'website to a local company. Second was this website' %}.
+			{% trans "Currently I'm developing a new one but I can't share it just by now. I hope further this page will grow" %}.
+			{% trans 'Cheers to' %} <a href="https://eu.pythonanywhere.com/" rel="noopener" target="_blank">PythonAnywhere</a> - 
+			{% trans 'thanks to them both of the websites are in the Internet' %} :)</p>
+			<div class="col-12 examples">
+				<i class="fas fa-angle-right fs-4 orange"></i>
+				<a href="https://www.affix.lv/" target="_blank" rel="noopener" title="Affix"
+				class="links fs-4 arimo">&nbsp;affix.lv&nbsp;</a>
+				<i class="fas fa-angle-left fs-4 orange"></i>
+				<br>
+				<i class="fas fa-angle-right fs-4 orange"></i>
+				<a href="https://www.laurisstirna.id.lv/" target="_blank" rel="noopener" title="{% trans 'This website' %}"
+				class="links fs-4 arimo">&nbsp;laurisstirna.id.lv&nbsp;</a>
+				<i class="fas fa-angle-left fs-4 orange"></i>
+				<p class="purple fw-bold">{% trans 'My goal is to make a websites even bigger, more complicated and more entertaining. To interact more with backend, adaptivity and code simplicity' %}.</p>
+			</div>
+			<hr>
+			<div class="col-12">
+				<h1 class="text-end">{% trans 'Plans' %}</h1>
+			<h6 class="text-end purple fw-bold mb-3">{% trans "You can't be a programmer without learning new things so my next steps are" %}: </h6>
+			<ul class="text-end list-unstyled fs-5">
+				<li>{% trans 'Dive deep into' %} <strong>JavaScript</strong> <i class="fab fa-js-square links"></i></li>
+				<li>{% trans 'Keep improving' %} <strong>HTML</strong> <i class="fab fa-html5 links"></i> {% trans 'and' %} <strong>CSS</strong> <i class="fab fa-css3-alt links"></i></li>
+				<li>{% trans 'Learn' %} <strong>Vue.js</strong> <i class="fab fa-vuejs links"></i></li>
+				<li>{% trans 'Improve knowledge on' %} <strong>SCSS</strong> <i class="fab fa-sass links"></i></li>
+				<li>{% trans 'Learn something new at all' %} <i class="fas fa-code links"></i></li>
+			</ul>
+		</div>
+		<hr>
+		<div class="col-12">
+			<h1>{% trans 'Useful resources' %}</h1>
+			<h6 class="purple fw-bold mb-3">{% trans 'Here are collected most of useful links that I use' %}: </h6>
+			<ul class="fs-5">
+				<li>OS Templates - <a href="https://www.os-templates.com/" rel="noopener" target="_blank" class="link-primary">{% trans 'link' %}</a></li>
+				<li>Nicepage Templates - <a href="https://nicepage.com/templates" rel="noopener" target="_blank" class="link-primary">{% trans 'link' %}</a></li>
+				<li>Lorem Picsum - <a href="https://picsum.photos/" rel="noopener" target="_blank" class="link-primary">{% trans 'link' %}</a></li>
+				<li>Pixabay - <a href="https://pixabay.com/" rel="noopener" target="_blank" class="link-primary">{% trans 'link' %}</a></li>
+				<li>Logo Ipsum - <a href="https://logoipsum.com/" rel="noopener" target="_blank" class="link-primary">{% trans 'link' %}</a></li>
+				<li>Iconfinder - <a href="https://www.iconfinder.com/" rel="noopener" target="_blank" class="link-primary">{% trans 'link' %}</a></li>
+				<li>Icons8 - <a href="https://icons8.com/" rel="noopener" target="_blank" class="link-primary">{% trans 'link' %}</a></li>
+				<li>Material icons - <a href="https://fonts.google.com/icons?selected=Material+Icons" rel="noopener" target="_blank" class="link-primary">{% trans 'link' %}</a></li>
+				<li>Font awesome icons - <a href="https://fontawesome.com/" rel="noopener" target="_blank" class="link-primary">{% trans 'link' %}</a></li>
+				<li>TinyWow - <a href="https://tinywow.com/" rel="noopener" target="_blank" class="link-primary">{% trans 'link' %}</a></li>
+				<li>Project structure tree - <a href="https://tree.nathanfriend.io/" rel="noopener" target="_blank" class="link-primary">{% trans 'link' %}</a></li>
+				<li>Fontjoy - <a href="https://fontjoy.com/" rel="noopener" target="_blank" class="link-primary">{% trans 'link' %}</a></li>
+				<li>Unminify - <a href="https://unminify.com/" rel="noopener" target="_blank" class="link-primary">{% trans 'link' %}</a></li>
+				<li>Carbon - <a href="https://carbon.now.sh/" rel="noopener" target="_blank" class="link-primary">{% trans 'link' %}</a></li>
+				<li>ProfilePicMaker - <a href="https://pfpmaker.com/" rel="noopener" target="_blank" class="link-primary">{% trans 'link' %}</a></li>
+			</ul>
+		</div>
+		<hr>
+		<div class="col-12">
+			<h1 class="text-end">{% trans 'Thoughts' %}</h1>
+			<ol class="text-end list-unstyled fs-6 fst-italic">
+				<li>{% trans "You can't be a programmer without infinite learning new things" %}.</li>
+				<li>{% trans 'Good Googling often is enough to solve most of the problems' %}.</li>
+				<li>{% trans 'Learn English always' %}.</li>
+			</ol>
+		</div>
+	</div>
+</div>
+{% endblock %}

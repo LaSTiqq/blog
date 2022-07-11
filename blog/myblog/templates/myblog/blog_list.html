@@ -8,20 +8,18 @@ but which I have modified. The articles do not claim to be unique, but they can 
 {% block title %}Lauris Stirna :: {% trans 'Blog' %}{% endblock %}
 {% block content %}
 	<a name="top"></a>
-	<br>
-	<h1 class="text-center text-warning">{% trans 'Blog' %}</h1>
-	<br>
-	<figcaption class="blockquote-footer text-center light-gray fs-6">
+	<h1 class="big mt-5 mb-2">{% trans 'Blog' %}</h1>
+	<p class="purple fw-bold">
 		{% trans 'This section contains my personal solutions to the problems that I have encountered, as well as those solutions that exist, but which I have modified.' %} 
 		{% trans 'The articles do not claim to be unique, but they can be a good addition to the materials that already are available.' %} 
 		{% trans 'This is a collection of my knowledge and experience, which I want to share with others.' %} 
 		{% trans 'The knowledge base will be supplemented with new articles as the author has free time' %}.
-	</figcaption>
+	</p>
 	<hr>
 	{% for item in blog %}
 		{% if item.published %}
-			<div class="card bg-dark bg-gradient border-light">
-				<div class="card-header border-light">
+			<div class="card bg-light border-dark">
+				<div class="card-header border-dark">
 					{% trans 'Tag' %}: <a href="{{ item.tag.get_absolute_url }}" data-bs-toggle="tooltip" data-bs-placement="top" 
 					data-bs-trigger="hover" title="{% trans 'Sort by tag' %}" class="links arimo">{{ item.tag }}</a>
 				</div>
@@ -32,14 +30,14 @@ but which I have modified. The articles do not claim to be unique, but they can 
 							<img src="{{ item.preview_image }}" alt="Preview image" class="img-fluid mx-auto mb-2 d-block">
 						</div>
 						<div class="col-12 col-lg-8">
-							<p class="card-text fst-italic">{{ item.preview_text }}</p>
-							<a href="{{ item.get_absolute_url }}" class="btn btn-outline-light">{% trans 'Read more' %}...</a>
+							<p class="card-text fw-bold">{{ item.preview_text }}</p>
+							<a href="{{ item.get_absolute_url }}" class="btn btn-outline-dark">{% trans 'Read more' %}...</a>
 						</div>
 					</div>
 				</div>
-				<div class="card-footer border-light">
-					<small class="light-gray">{% trans 'Last updated' %}: {{ item.updated_at }}</small><br>
-					<small class="light-gray">{% trans 'Created at' %}: {{ item.created_at }}</small>
+				<div class="card-footer border-dark">
+					<small class="fw-bold">{% trans 'Last updated' %}: {{ item.updated_at }}</small><br>
+					<small class="fw-bold">{% trans 'Created at' %}: {{ item.created_at }}</small>
 				</div>
 			</div>
 			<hr>

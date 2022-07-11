@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-08 19:35+0300\n"
+"POT-Creation-Date: 2022-07-11 20:54+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,11 +20,11 @@ msgstr ""
 "2);\n"
 
 #: .\myblog\templates\myblog\blog_list.html:8
-#: .\myblog\templates\myblog\blog_list.html:12 .\templates\inc\_nav.html:23
+#: .\myblog\templates\myblog\blog_list.html:11 .\templates\inc\_nav.html:22
 msgid "Blog"
 msgstr "Blogs"
 
-#: .\myblog\templates\myblog\blog_list.html:15
+#: .\myblog\templates\myblog\blog_list.html:13
 msgid ""
 "This section contains my personal solutions to the problems that I have "
 "encountered, as well as those solutions that exist, but which I have "
@@ -33,7 +33,7 @@ msgstr ""
 "Šajā sadaļā apkopoti mani personīgie risinājumi, kā arī tie risinājumi, "
 "atbildes uz kuriem jau eksistē, un es tos pielāgoju savām vajadzībām."
 
-#: .\myblog\templates\myblog\blog_list.html:16
+#: .\myblog\templates\myblog\blog_list.html:14
 msgid ""
 "The articles do not claim to be unique, but they can be a good addition to "
 "the materials that already are available."
@@ -41,7 +41,7 @@ msgstr ""
 "Raksti var nebūt unikāli, taču tie var būt labs papildinājums jau esošajiem "
 "materiāliem."
 
-#: .\myblog\templates\myblog\blog_list.html:17
+#: .\myblog\templates\myblog\blog_list.html:15
 msgid ""
 "This is a collection of my knowledge and experience, which I want to share "
 "with others."
@@ -49,7 +49,7 @@ msgstr ""
 "Tas ir manu zināšanu un pieredzes krājums, ar kuru es gribu dalīties ar "
 "citiem."
 
-#: .\myblog\templates\myblog\blog_list.html:18
+#: .\myblog\templates\myblog\blog_list.html:16
 msgid ""
 "The knowledge base will be supplemented with new articles as the author has "
 "free time"
@@ -57,25 +57,25 @@ msgstr ""
 "Zināšanu bāze tiks papildināta ar jauniem rakstiem tiklīdz autoram ir "
 "brīvais laiks"
 
-#: .\myblog\templates\myblog\blog_list.html:25
+#: .\myblog\templates\myblog\blog_list.html:23
 msgid "Tag"
 msgstr "Tags"
 
-#: .\myblog\templates\myblog\blog_list.html:26
+#: .\myblog\templates\myblog\blog_list.html:24
 msgid "Sort by tag"
 msgstr "Šķirot pēc taga"
 
-#: .\myblog\templates\myblog\blog_list.html:36
+#: .\myblog\templates\myblog\blog_list.html:34
 #: .\myblog\templates\myblog\blog_list_by_tag.html:26
 msgid "Read more"
 msgstr "Lasīt vairāk"
 
-#: .\myblog\templates\myblog\blog_list.html:41
+#: .\myblog\templates\myblog\blog_list.html:39
 #: .\myblog\templates\myblog\blog_list_by_tag.html:31
 msgid "Last updated"
 msgstr "Atjaunots"
 
-#: .\myblog\templates\myblog\blog_list.html:42
+#: .\myblog\templates\myblog\blog_list.html:40
 #: .\myblog\templates\myblog\blog_list_by_tag.html:32
 msgid "Created at"
 msgstr "Izveidots"
@@ -92,262 +92,187 @@ msgstr "Visi saistītie raksti ar"
 msgid "Back to all articles"
 msgstr "Atpakaļ pie visiem rakstiem"
 
-#: .\myblog\templates\myblog\index.html:8
+#: .\myblog\templates\myblog\index.html:8 .\templates\inc\_nav.html:19
 msgid "About"
 msgstr "Par mani"
 
-#: .\myblog\templates\myblog\index.html:21
-msgid "Hi! My name is Lauris"
-msgstr "Čau! Mani sauc Lauris"
+#: .\myblog\templates\myblog\index.html:15
+msgid "About me"
+msgstr "Par mani"
 
-#: .\myblog\templates\myblog\index.html:23
-msgid "In summer 2021 I graduated a"
-msgstr "2021. gada vasarā es absolvēju"
+#: .\myblog\templates\myblog\index.html:16
+msgid ""
+"When I began to work on my diploma project I fell in love with creating "
+"websites"
+msgstr ""
+"Kad es uzsāku darbu pie sava diplomprojekta, es iemīlējos mājaslapu izveidē"
 
-#: .\myblog\templates\myblog\index.html:24
+#: .\myblog\templates\myblog\index.html:25
+msgid "Overall information"
+msgstr "Kopējā informācija"
+
+#: .\myblog\templates\myblog\index.html:27
+msgid "Qualification"
+msgstr "Kvalifikācija"
+
+#: .\myblog\templates\myblog\index.html:27
+msgid "Software engineer (bachelors degree)"
+msgstr "Programmēšanas inženieris (bakalaura grāds)"
+
+#: .\myblog\templates\myblog\index.html:28
+msgid "Graduated"
+msgstr "Absolvēju"
+
+#: .\myblog\templates\myblog\index.html:29
 msgid "Rezekne Academy of technologies"
 msgstr "Rēzeknes Tehnoloģiju akadēmiju"
 
-#: .\myblog\templates\myblog\index.html:25
-msgid "and got bachelors degree as software engineer"
-msgstr "un ieguvu bakalaura grādu, kā programmēšanas inženieris"
-
-#: .\myblog\templates\myblog\index.html:26
-msgid ""
-"When I was working on my diploma project I realised that in programming, WEB "
-"development attracts me the most. I fell in love with creating websites"
-msgstr ""
-"Kad es strādāju pie sava diplomprojekta, es sapratu, ka programmēšanā mani "
-"visvairāk piesaista WEB izstrāde. Es iemīlējos mājaslapu taisīšanā"
-
-#: .\myblog\templates\myblog\index.html:27
-msgid ""
-"Since march 2021 till february 2022 I participated in a project where I've "
-"developed"
-msgstr ""
-"No 2021. gada marta līdz 2022. gada februārim es piedalījos projektā, kur es "
-"izstrādāju"
-
-#: .\myblog\templates\myblog\index.html:29
-msgid "website for local company"
-msgstr "mājaslapu vietējam uzņēmumam"
+#: .\myblog\templates\myblog\index.html:30
+msgid "Current status"
+msgstr "Esošais statuss"
 
 #: .\myblog\templates\myblog\index.html:30
-msgid ""
-"This website was developed to tell my story and to demonstrate what I can do"
-msgstr ""
-"Šī mājaslapa tika izstrādāta, lai pastāstīt par sevi un nodemonstrēt, ko es "
-"māku"
+msgid "WEB Developer (unemployed)"
+msgstr "WEB izstrādātājs (nestrādājošs)"
 
-#: .\myblog\templates\myblog\index.html:31
-msgid ""
-"I tried my best to build and design it completely different from the "
-"previous one"
-msgstr ""
-"Es centos izveidot pavisam savādāku mājaslapu, kas atšķirtos no iepriekšējās"
-
-#: .\myblog\templates\myblog\index.html:36
-msgid "Table of contents"
-msgstr "Satura rādītājs"
-
-#: .\myblog\templates\myblog\index.html:38
-#: .\myblog\templates\myblog\index.html:92
-msgid "Technologies"
-msgstr "Tehnoloģijas"
-
-#: .\myblog\templates\myblog\index.html:40
-#: .\myblog\templates\myblog\index.html:228
-msgid "Diploma"
-msgstr "Diploms"
-
-#: .\myblog\templates\myblog\index.html:42
-#: .\myblog\templates\myblog\index.html:241
-msgid "Services and prices"
-msgstr "Pakalpojumi un cenas"
-
-#: .\myblog\templates\myblog\index.html:44
-#: .\myblog\templates\myblog\index.html:280
-msgid "Portfolio"
-msgstr "Portfolio"
-
-#: .\myblog\templates\myblog\index.html:49
-msgid "Contacts"
+#: .\myblog\templates\myblog\index.html:32
+msgid "Contact"
 msgstr "Kontakti"
 
-#: .\myblog\templates\myblog\index.html:93
-msgid "What I work with?"
-msgstr "Ar ko es strādāju?"
+#: .\myblog\templates\myblog\index.html:63
+msgid "Stack of technologies"
+msgstr "Tehnoloģiju steks"
 
-#: .\myblog\templates\myblog\index.html:94
-msgid "As usual, every WEB developer knowledge is based on three whales below"
-msgstr ""
-"Pamatā, katra WEB izstrādātaja zināšanas ir balstītas uz trim vaļiem zemāk"
-
-#: .\myblog\templates\myblog\index.html:104
-msgid "Skeleton of every website"
-msgstr "Katras mājaslapas skelets"
-
-#: .\myblog\templates\myblog\index.html:115
-msgid "Place where skeleton get some dress"
-msgstr "Vieta, kur skelets iegūst apģērbu"
-
-#: .\myblog\templates\myblog\index.html:126
-msgid "Place where skeleton learns to move"
-msgstr "Vieta, kur skelets mācās kustēties"
-
-#: .\myblog\templates\myblog\index.html:131
-msgid "Next are CSS tools which extends styling options"
-msgstr "Nākošie ir CSS rīki, kuri paplašina stilizācijas iespējas"
-
-#: .\myblog\templates\myblog\index.html:141
-msgid ""
-"One of the main usage benefits - it allows easily make adaptive design for "
-"websites (for tablets, phones)"
-msgstr ""
-"Viens no galvenajiem ieguvumiem ir iespēja viegli veidot adaptīvus dizainus "
-"mājaslapām (planšetēm, telefoniem)"
-
-#: .\myblog\templates\myblog\index.html:154
-msgid ""
-"SCSS is main syntax of SASS. Increases speed of writing styles by optimized "
-"syntax of CSS"
-msgstr ""
-"SCSS ir galvenā SASS sintakse. Paātrina stilu rakstīšanu ar optimizētu CSS "
-"sintaksi"
-
-#: .\myblog\templates\myblog\index.html:160
-msgid ""
-"Mentioned above technologies usually are called as frontend technologies"
-msgstr "Minētās augstāk tehnoloģijas parasti sauc par frontend tehnoloģijām"
-
-#: .\myblog\templates\myblog\index.html:163
-msgid ""
-"Next are backend technologies which allows publish websites to the Internet "
-"and maintain them"
-msgstr ""
-"Nākošās ir backend tehnoloģijas, kuras ļauj publicēt mājaslapas internetā un "
-"uzturēt tās"
-
-#: .\myblog\templates\myblog\index.html:173
-msgid "Young programmers friendly programming language"
-msgstr "Draudzīga jaunajiem programmētājiem programmēšanas valoda"
-
-#: .\myblog\templates\myblog\index.html:186
-msgid "Python based WEB framework"
-msgstr "Uz Python balstīts WEB satvars"
-
-#: .\myblog\templates\myblog\index.html:193
-msgid ""
-"The last one thing for many websites is database. Currently I'm using these "
-"two"
-msgstr ""
-"Pēdējais, kas ir vajadzīgs daudzām mājaslapām ir datubāze. Pašlaik es "
-"izmantoju"
-
-#: .\myblog\templates\myblog\index.html:203
-msgid ""
-"Database for production purposes. One of the most simplest and popular "
-"databases"
-msgstr ""
-"Datubāze \"produkcijas\" nolūkiem. Viena no vienkāršakajām un populārākajām "
-"datubāzēm"
-
-#: .\myblog\templates\myblog\index.html:216
-msgid ""
-"Database for testing purposes. The SQLite is default short-hand database in "
-"Django"
-msgstr ""
-"Datubāze \"testēšanas\" nolūkiem. SQLite ir noklusējuma saīsinātā datubāze "
-"iekš Django"
-
-#: .\myblog\templates\myblog\index.html:229
-msgid "Proof of quality!"
-msgstr "Kvalitātes garants!"
-
-#: .\myblog\templates\myblog\index.html:230
-msgid ""
-"To make it easier to believe in my story I provide my diploma scan as proof "
-"of my qualification"
-msgstr ""
-"Lai būtu vieglāk noticēt manā stāstā, es parādu sava diploma skenēto "
-"variantu kā pierādījumu savai kvalifikācijai"
-
-#: .\myblog\templates\myblog\index.html:242
-msgid "What I can offer?"
-msgstr "Ko es varu piedāvāt?"
-
-#: .\myblog\templates\myblog\index.html:246
+#: .\myblog\templates\myblog\index.html:64
 msgid "Frontend"
 msgstr "Frontend"
 
-#: .\myblog\templates\myblog\index.html:248
-msgid "Template building"
-msgstr "Šablonu struktūras uzbūve"
-
-#: .\myblog\templates\myblog\index.html:249
-msgid "Styling"
-msgstr "Stilizācija"
-
-#: .\myblog\templates\myblog\index.html:250
-msgid "Interactivity"
-msgstr "Interaktivitāte"
-
-#: .\myblog\templates\myblog\index.html:251
-msgid "Adaptive design for phones and tablets"
-msgstr "Adaptīvs dizains telefoniem un planšetēm"
-
-#: .\myblog\templates\myblog\index.html:252
-msgid "Possibility to follow the progress on"
-msgstr "Iespēja sekot progresam caur"
-
-#: .\myblog\templates\myblog\index.html:254
-msgid "Preferable and relatively fast"
-msgstr "Vēlami un relatīvi ātri"
-
-#: .\myblog\templates\myblog\index.html:256
-#: .\myblog\templates\myblog\index.html:269
-msgid "Average price range"
-msgstr "Aptuvenais cenu diapazons"
-
-#: .\myblog\templates\myblog\index.html:260
+#: .\myblog\templates\myblog\index.html:72
 msgid "Backend"
 msgstr "Backend"
 
-#: .\myblog\templates\myblog\index.html:262
-msgid "Backend logic on Django"
-msgstr "Backenda loģika uz Django"
+#: .\myblog\templates\myblog\portfolio.html:4
+#: .\myblog\templates\myblog\portfolio.html:15 .\templates\inc\_nav.html:25
+msgid "Portfolio"
+msgstr "Portfolio"
 
-#: .\myblog\templates\myblog\index.html:263
-msgid "Login, admin, comments etc. functionality"
-msgstr "Ielogošanās, administrēšana, komentāri uc. funkcionalitātes"
+#: .\myblog\templates\myblog\portfolio.html:16
+msgid ""
+"As I'm pretty young developer my huge projects could be counted on the "
+"fingers of one hand but I've already developed a"
+msgstr ""
+"Tā kā esmu diezgan jauns izstrādātājs, manus lielos projektus var saskaitīt "
+"uz vienas rokas pirkstiem, bet es jau izstrādāju"
 
-#: .\myblog\templates\myblog\index.html:264
-msgid "Database connection (if necessary)"
-msgstr "Datubāzes pieslēgšana (ja nepieciešams)"
+#: .\myblog\templates\myblog\portfolio.html:18
+msgid "website to a local company. Second was this website"
+msgstr "mājaslapu vietējam uzņēmumam. Otrā bija šī mājaslapa"
 
-#: .\myblog\templates\myblog\index.html:265
-msgid "Moving to production"
-msgstr "Pāreja uz \"produkcijas\" režīmu"
+#: .\myblog\templates\myblog\portfolio.html:19
+msgid ""
+"Currently I'm developing a new one but I can't share it just by now. I hope "
+"further this page will grow"
+msgstr ""
+"Pašlaik es izstrādāju jaunu, bet es nevaru ar to pagaidām dalīties. Es ceru, "
+"ka šī lapa turpmāk augs"
 
-#: .\myblog\templates\myblog\index.html:266
-msgid "Only relatively simple cases"
-msgstr "Tikai relatīvi viegli gadījumi"
+#: .\myblog\templates\myblog\portfolio.html:20
+msgid "Cheers to"
+msgstr "Paldies"
 
-#: .\myblog\templates\myblog\index.html:267
-msgid "Non-preferable and might take some time"
-msgstr "Nav vēlamais un var būt laikietilpīgi"
+#: .\myblog\templates\myblog\portfolio.html:21
+msgid "thanks to them both of the websites are in the Internet"
+msgstr "pateicoties viņiem abas mājaslapas ir internetā"
 
-#: .\myblog\templates\myblog\index.html:272
-msgid "Prices are set very approximately. We all can discuss personally"
-msgstr "Cenas noteiktas ļoti aptuveni. Mēs visu varam apspriest personīgi"
+#: .\myblog\templates\myblog\portfolio.html:29
+msgid "This website"
+msgstr "Šī mājaslapa"
 
-#: .\myblog\templates\myblog\index.html:281
-msgid "Current examples of my work"
-msgstr "Pašlaik pieejamie mana darba piemēri"
+#: .\myblog\templates\myblog\portfolio.html:32
+msgid ""
+"My goal is to make a websites even bigger, more complicated and more "
+"entertaining. To interact more with backend, adaptivity and code simplicity"
+msgstr ""
+"Mans mērķis ir veidot arvien lielākas, sarežģītākas un atraktīvākas "
+"mājaslapas. Vairāk mijiedarboties ar backend, adaptivitāti un koda "
+"vienkāršību"
 
-#: .\myblog\templates\myblog\index.html:294
-msgid "Both of the websites are adaptive and contains simple backend"
-msgstr "Abas mājaslapas ir adaptīvas un satur vienkāršu backend"
+#: .\myblog\templates\myblog\portfolio.html:36
+msgid "Plans"
+msgstr "Plāni"
+
+#: .\myblog\templates\myblog\portfolio.html:37
+msgid ""
+"You can't be a programmer without learning new things so my next steps are"
+msgstr ""
+"Tu nevari būt programmētājs nemācoties kaut ko jaunu, tāpēc mani nākamie "
+"soļi ir"
+
+#: .\myblog\templates\myblog\portfolio.html:39
+msgid "Dive deep into"
+msgstr "Iedziļināties"
+
+#: .\myblog\templates\myblog\portfolio.html:40
+msgid "Keep improving"
+msgstr "Turpināt uzlabot zināšanas par"
+
+#: .\myblog\templates\myblog\portfolio.html:40
+msgid "and"
+msgstr "un"
+
+#: .\myblog\templates\myblog\portfolio.html:41
+msgid "Learn"
+msgstr "Iemācīties"
+
+#: .\myblog\templates\myblog\portfolio.html:42
+msgid "Improve knowledge on"
+msgstr "Uzlabot zināšanas par"
+
+#: .\myblog\templates\myblog\portfolio.html:43
+msgid "Learn something new at all"
+msgstr "Mācities kaut ko jaunu kopumā"
+
+#: .\myblog\templates\myblog\portfolio.html:48
+msgid "Useful resources"
+msgstr "Noderīgi resursi"
+
+#: .\myblog\templates\myblog\portfolio.html:49
+msgid "Here are collected most of useful links that I use"
+msgstr "Šeit ir savākts lielākums noderīgu saišu, kuras es lietoju"
+
+#: .\myblog\templates\myblog\portfolio.html:51
+#: .\myblog\templates\myblog\portfolio.html:52
+#: .\myblog\templates\myblog\portfolio.html:53
+#: .\myblog\templates\myblog\portfolio.html:54
+#: .\myblog\templates\myblog\portfolio.html:55
+#: .\myblog\templates\myblog\portfolio.html:56
+#: .\myblog\templates\myblog\portfolio.html:57
+#: .\myblog\templates\myblog\portfolio.html:58
+#: .\myblog\templates\myblog\portfolio.html:59
+#: .\myblog\templates\myblog\portfolio.html:60
+#: .\myblog\templates\myblog\portfolio.html:61
+#: .\myblog\templates\myblog\portfolio.html:62
+#: .\myblog\templates\myblog\portfolio.html:63
+#: .\myblog\templates\myblog\portfolio.html:64
+#: .\myblog\templates\myblog\portfolio.html:65
+msgid "link"
+msgstr "saite"
+
+#: .\myblog\templates\myblog\portfolio.html:70
+msgid "Thoughts"
+msgstr "Domas"
+
+#: .\myblog\templates\myblog\portfolio.html:72
+msgid "You can't be a programmer without infinite learning new things"
+msgstr "Tu nevari būt programmētājs nemācoties bezgalīgi kaut ko jaunu"
+
+#: .\myblog\templates\myblog\portfolio.html:73
+msgid "Good Googling often is enough to solve most of the problems"
+msgstr "Ar labu Guglēšanu bieži pietiek, lai atrisināt lielākumu problēmu"
+
+#: .\myblog\templates\myblog\portfolio.html:74
+msgid "Learn English always"
+msgstr "Mācies angļu valodu vienmēr"
 
 #: .\templates\admin\base_site.html:4
 msgid "Django site admin"
@@ -357,19 +282,19 @@ msgstr "Django lapas administrātors"
 msgid "Django administration"
 msgstr "Django administrācija"
 
-#: .\templates\base.html:43
+#: .\templates\base.html:45
 msgid "Move backward"
 msgstr "Atpakaļ"
 
-#: .\templates\base.html:58
+#: .\templates\base.html:60
 msgid "Move forward"
 msgstr "Uz priekšu"
 
-#: .\templates\cookielaw\banner.html:8
+#: .\templates\cookielaw\banner.html:7
 msgid "Cookies"
 msgstr "Cepumi"
 
-#: .\templates\cookielaw\banner.html:12
+#: .\templates\cookielaw\banner.html:11
 msgid ""
 "We inform you that cookies are used for the full functioning of this "
 "website. By continuing, you agree to the use of them"
@@ -378,11 +303,11 @@ msgstr ""
 "sīkdatnes (angļu val. \"cookies\"). Turpinot izmantot šo mājaslapu, Jūs "
 "piekrītat sīkdatņu izmantošanai"
 
-#: .\templates\cookielaw\banner.html:17
+#: .\templates\cookielaw\banner.html:15
 msgid "What are the cookies?"
 msgstr "Kas ir cepumi?"
 
-#: .\templates\cookielaw\banner.html:20
+#: .\templates\cookielaw\banner.html:18
 msgid "Accept and close"
 msgstr "Piekrist un aizvērt"
 
@@ -390,10 +315,6 @@ msgstr "Piekrist un aizvērt"
 msgid "Page is translated into three languages but translations may vary"
 msgstr "Lapa ir iztulkota trijās valodās, bet tulkojumi var atšķirties"
 
-#: .\templates\inc\_foo.html:31
-msgid "Go up"
-msgstr "Uz augšu"
-
-#: .\templates\inc\_nav.html:20
-msgid "About me"
-msgstr "Par mani"
+#: .\templates\inc\_foo.html:28
+msgid "Copyright"
+msgstr "Autortiesības"

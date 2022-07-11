@@ -6,279 +6,76 @@
 frontend developer but I also worked with simple backend. Feel free to contact me">
 {% endblock %}
 {% block title %}Lauris Stirna :: {% trans 'About' %}{% endblock %}
-{% block canonical %}<link rel="canonical" href="https://www.laurisstirna.id.lv/">{% endblock %}
+{% block canonical %}
+<link rel="canonical" href="https://www.laurisstirna.id.lv/">{% endblock %}
 {% block static_content %}
-<div class="container text-white">
+<div class="container">
 	<div class="row">
-		<!-- Photo -->
-		<div class="col-12 col-lg-4">
-			<figure class="figure d-block text-center mt-5">
-				<img src="{% static 'img/self_photo.png' %}" alt="Selfie" class="figure-img img-fluid rounded">
-			</figure>
-		</div>
-		<!-- Story -->
-		<div class="col-12 col-lg-5 story">
-			<h2 class="text-primary mt-5 mb-4">{% trans 'Hi! My name is Lauris' %}.</h2>
-			<figcaption class="blockquote-footer text-white fs-6 mt-4">
-				{% trans 'In summer 2021 I graduated a' %}
-				<a href="https://rta.lv/" target="_blank" rel="noopener" class="link-info">{% trans 'Rezekne Academy of technologies' %}</a> 
-				{% trans 'and got bachelors degree as software engineer' %}.<br><br>
-				{% trans 'When I was working on my diploma project I realised that in programming, WEB development attracts me the most. I fell in love with creating websites' %}.<br><br>
-				{% trans "Since march 2021 till february 2022 I participated in a project where I've developed" %}
-				<a href="https://en.wikipedia.org/wiki/Single-page_application" target="_blank" rel="noopener" class="link-info">SPA</a>
-				{% trans 'website for local company' %}.<br><br>
-				{% trans 'This website was developed to tell my story and to demonstrate what I can do' %}. 
-				{% trans 'I tried my best to build and design it completely different from the previous one' %}.
-			</figcaption>
-		</div>
-		<!-- Table of contents -->
-		<div class="col-12 col-lg-3">
-			<h2 class="text-center text-warning mt-5 mb-4">{% trans 'Table of contents' %}</h2>
-			<ul class="anchors text-center fs-5 ps-0">
-				<li><a href="{% url 'myblog:home' %}#technologies" class="link-white" aria-label="{% trans 'Technologies' %}">{% trans 'Technologies' %}&nbsp;</a>
-					<i class="fas fa-angle-left green-colored"></i></li>
-				<li><a href="{% url 'myblog:home' %}#diploma" class="link-white" aria-label="{% trans 'Diploma' %}">{% trans 'Diploma' %}&nbsp;</a>
-					<i class="fas fa-angle-left green-colored"></i></li>
-				<li><a href="{% url 'myblog:home' %}#offers" class="link-white" aria-label="{% trans 'Services and prices' %}">{% trans 'Services and prices'%}&nbsp;</a>
-					<i class="fas fa-angle-left green-colored"></i></li>
-				<li><a href="{% url 'myblog:home' %}#examples" class="link-white" aria-label="{% trans 'Portfolio' %}">{% trans 'Portfolio' %}&nbsp;</a>
-					<i class="fas fa-angle-left green-colored"></i></li>
-			</ul>
-			<!-- Socials -->
-			<div class="row text-center">
-				<h2 class="text-warning my-3">{% trans 'Contacts' %}</h2>
-				<div class="col-12">
-					<a href="https://www.facebook.com/lastiqq/" title="Facebook" target="_blank" rel="noopener" class="link-white">
-						<i class="fab fa-facebook me-4"></i>
-					</a>
-					<a href="https://www.instagram.com/lauriss_1313/" title="Instagram" target="_blank" rel="noopener" class="link-white">
-						<i class="fab fa-instagram mx-4"></i>
-					</a>
-					<a href="https://github.com/LaSTiqq" title="GitHub" target="_blank" rel="noopener" class="link-white">
-						<i class="fab fa-github mx-4"></i>
-					</a>
-					<a href="https://bitbucket.org/lauriss/" title="BitBucket" target="_blank" rel="noopener" class="link-white">
-						<i class="fab fa-bitbucket ms-4"></i>
-					</a>
-				</div>
-				<div class="col-12">
-					<ul class="emails p-0 mt-3">
-						<li><i class="far fa-envelope text-danger me-2"></i><spam class="green-colored arimo">lavrencij13@gmail.com</spam></li>
-						<li><i class="far fa-envelope text-danger me-2"></i><spam class="green-colored arimo">lavrencij@inbox.lv</spam></li>
-						<li><i class="far fa-envelope text-danger me-2"></i><spam class="green-colored arimo">lavrencij@mail.ru</spam></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<hr>
-	<div class="row">
-		<a name="technologies"></a>
-		<!-- HTML, CSS, JavaScript -->
-        <figure class="text-center mt-1">
-            <h1 class="text-warning">{% trans 'Technologies' %}</h1>
-            <figcaption class="blockquote-footer light-gray fs-5 mt-2">{% trans 'What I work with?' %}</figcaption>
-			<p class="text-center comments mb-0">{% trans 'As usual, every WEB developer knowledge is based on three whales below' %}</p>
-        </figure>
-		<br><br>
-		<div class="col-12 col-md-4 mb-2">
-			<div class="card bg-dark bg-gradient text-white border-white h-100">
-				<img src="{% static 'img/html.png' %}" class="mx-auto d-block mt-3" alt="HTML" height="115" width="115">
-				<div class="card-body">
-					<h2 class="card-title text-center fs-5">
-						<a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener" title="HTML" class="link-info">HTML</a>
-					</h2>
-					<p class="card-text text-center">{% trans 'Skeleton of every website' %}</p>
-				</div>
-			</div>
-		</div>
-		<div class="col-12 col-md-4 mb-2">
-			<div class="card bg-dark bg-gradient text-white border-white h-100">
-				<img src="{% static 'img/css.png' %}" class="mx-auto d-block mt-3" alt="CSS" height="115" width="115">
-				<div class="card-body">
-					<h2 class="card-title text-center fs-5">
-						<a href="https://en.wikipedia.org/wiki/CSS" target="_blank" rel="noopener" title="CSS" class="link-info">CSS</a>
-					</h2>
-					<p class="card-text text-center">{% trans 'Place where skeleton get some dress' %}</p>
-				</div>
-			</div>
-		</div>
-		<div class="col-12 col-md-4 mb-2">
-			<div class="card bg-dark bg-gradient text-white border-white h-100">
-				<img src="{% static 'img/js.png' %}" class="mx-auto d-block mt-3" alt="JavaScript" height="115" width="115">
-				<div class="card-body">
-					<h2 class="card-title text-center fs-5">
-						<a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noopener" title="JavaScript" class="link-info">JavaScript</a>
-					</h2>
-					<p class="card-text text-center">{% trans 'Place where skeleton learns to move' %}</p>
-				</div>
-			</div>
-		</div>
-		<!-- Bootstrap, SCSS -->
-		<p class="text-center comments mt-2">{% trans 'Next are CSS tools which extends styling options' %}</p>
-		<div class="col-md-2"></div>
-		<div class="col-12 col-md-4 mb-2">
-			<div class="card bg-dark bg-gradient text-white border-white h-100">
-				<img src="{% static 'img/bootstrap.png' %}" class="mx-auto d-block mt-3" alt="Bootstrap" height="115" width="115">
-				<div class="card-body">
-					<h2 class="card-title text-center fs-5">
-						<a href="https://getbootstrap.com/" target="_blank" rel="noopener" title="Bootstrap" class="link-info">Bootstrap</a>
-					</h2>
-					<p class="card-text text-center">
-						{% trans 'One of the main usage benefits - it allows easily make adaptive design for websites (for tablets, phones)' %}
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="col-12 col-md-4 mb-2">
-			<div class="card bg-dark bg-gradient text-white border-white h-100">
-				<img src="{% static 'img/sass.png' %}" class="mx-auto d-block mt-3" alt="SCSS" height="115" width="115">
-				<div class="card-body">
-					<h2 class="card-title text-center fs-5">
-						<a href="https://sass-lang.com/" target="_blank" rel="noopener" title="SCSS" class="link-info">SASS - SCSS</a>
-					</h2>
-					<p class="card-text text-center">
-						{% trans 'SCSS is main syntax of SASS. Increases speed of writing styles by optimized syntax of CSS' %}
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-2"></div>
-		<p class="text-center comments mt-2">{% trans 'Mentioned above technologies usually are called as frontend technologies' %}.</p>
-		<hr>
-		<!-- Python, Django -->
-		<p class="text-center comments mt-1">{% trans 'Next are backend technologies which allows publish websites to the Internet and maintain them' %}</p>
-		<div class="col-md-2"></div>
-		<div class="col-12 col-md-4 mb-2">
-			<div class="card bg-dark bg-gradient text-white border-white h-100">
-				<img src="{% static 'img/python.png' %}" class="mx-auto d-block mt-3" alt="Python" height="115" width="115">
-				<div class="card-body">
-					<h2 class="card-title text-center fs-5">
-						<a href="https://www.python.org/" target="_blank" rel="noopener" title="Python" class="link-info">Python</a>
-					</h2>
-					<p class="card-text text-center">
-						{% trans 'Young programmers friendly programming language' %}
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="col-12 col-md-4 mb-2">
-			<div class="card bg-dark bg-gradient text-white border-white h-100">
-				<img src="{% static 'img/django.png' %}" class="mx-auto d-block mt-3" alt="Django" height="115" width="115">
-				<div class="card-body">
-					<h2 class="card-title text-center fs-5">
-						<a href="https://www.djangoproject.com/" target="_blank" rel="noopener" title="Django" class="link-info">Django</a>
-					</h2>
-					<p class="card-text text-center">
-						{% trans 'Python based WEB framework' %}
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-2"></div>
-		<!-- MySQL, SQLite -->
-		<p class="text-center comments mt-2">{% trans "The last one thing for many websites is database. Currently I'm using these two" %}</p>
-		<div class="col-md-2"></div>
-		<div class="col-12 col-md-4 mb-2">
-			<div class="card bg-dark bg-gradient text-white border-white h-100">
-				<img src="{% static 'img/mysql.png' %}" class="mx-auto d-block mt-3" alt="MySQL" height="115" width="115">
-				<div class="card-body">
-					<h2 class="card-title text-center fs-5">
-						<a href="https://www.mysql.com/" target="_blank" rel="noopener" title="MySQL" class="link-info">MySQL</a>
-					</h2>
-					<p class="card-text text-center">
-						{% trans 'Database for production purposes. One of the most simplest and popular databases' %}
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="col-12 col-md-4 mb-2">
-			<div class="card bg-dark bg-gradient text-white border-white h-100">
-				<img src="{% static 'img/sqlite.png' %}" class="mx-auto d-block mt-3" alt="SQLite" height="115" width="115">
-				<div class="card-body">
-					<h2 class="card-title text-center fs-5">
-						<a href="https://www.sqlite.org/index.html" target="_blank" rel="noopener" title="SQLite" class="link-info">SQLite</a>
-					</h2>
-					<p class="card-text text-center">
-						{% trans 'Database for testing purposes. The SQLite is default short-hand database in Django' %}
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-2"></div>
-	</div>
-	<hr>
-	<div class="row">
-		<!-- Diploma -->
-		<a name="diploma"></a>
-		<figure class="text-center mt-1">
-            <h1 class="text-warning">{% trans 'Diploma' %}</h1>
-            <figcaption class="blockquote-footer light-gray fs-5 mt-2">{% trans 'Proof of quality!' %}</figcaption>
-			<p class="text-center comments mb-0">{% trans 'To make it easier to believe in my story I provide my diploma scan as proof of my qualification' %}</p>
-        </figure>
-		<div class="col-12 text-center">
-			<img src="{% static 'img/diploma.jpg' %}" alt="Diploma" class="img-fluid">
-		</div>
-	</div>
-	<hr>
-	<div class="row offers">
-		<!-- Services and prices -->
-		<a name="offers"></a>
-		<figure class="text-center mt-1 mb-0">
-            <h1 class="text-warning">{% trans 'Services and prices' %}</h1>
-            <figcaption class="blockquote-footer light-gray text-center fs-5 mt-2">{% trans 'What I can offer?' %}</figcaption>
-        </figure>
-		<!-- Frontend -->
-		<div class="col-12 col-md-6">
-			<h2 class="text-center text-danger mb-3">{% trans 'Frontend' %}</h2>
-			<ul class="services1">
-				<li>{% trans 'Template building' %};</li>
-				<li>{% trans 'Styling' %};</li>
-				<li>{% trans 'Interactivity' %};</li>
-				<li>{% trans 'Adaptive design for phones and tablets' %};</li>
-				<li>{% trans 'Possibility to follow the progress on' %}
-					<a href="https://pages.github.com/" target="_blank" rel="noopener" title="GitHub Pages" class="link-info"> GitHub Pages</a>;</li>
-				<li>{% trans 'Preferable and relatively fast' %}.</li>
-			</ul>
-			<p class="text-center fs-5 fw-bold arimo green-colored">{% trans 'Average price range' %}:<span> 50-100&euro;</span></p>
-		</div>
-		<!-- Backend -->
-		<div class="col-12 col-md-6">
-			<h2 class="text-center text-danger mb-3">{% trans 'Backend' %}</h2>
-			<ul class="services2">
-				<li>{% trans 'Backend logic on Django' %};</li>
-				<li>{% trans 'Login, admin, comments etc. functionality' %};</li>
-				<li>{% trans 'Database connection (if necessary)' %};</li>
-				<li>{% trans 'Moving to production' %};</li>
-				<li>{% trans 'Only relatively simple cases' %};</li>
-				<li>{% trans 'Non-preferable and might take some time' %}.</li>
-			</ul>
-			<p class="text-center fs-5 fw-bold arimo green-colored">{% trans 'Average price range' %}:<span> 100-200&euro;</span></p>
-		</div>
 		<div class="col-12">
-			<p class="text-center light-gray">{% trans 'Prices are set very approximately. We all can discuss personally' %}.</p>
+			<h1 class="big mt-5 mb-2">{% trans 'About me' %}</h1>
+			<figcaption class="blockquote-footer fs-5 fst-italic purple">{% trans 'When I began to work on my diploma project I fell in love with creating websites' %}</figcaption>
 		</div>
-	</div>
-	<hr>
-	<div class="row">
-		<!-- Examples -->
-		<a name="examples"></a>
-		<figure class="text-center mt-1 mb-0">
-            <h1 class="text-warning">{% trans 'Portfolio' %}</h1>
-            <figcaption class="blockquote-footer light-gray text-center fs-5 mt-2 mb-0">{% trans 'Current examples of my work' %}</figcaption>
-        </figure>
-		<div class="col-12 examples">
-			<p class="text-center mt-3">
-				<i class="fas fa-angle-right green-colored"></i>
-				<a href="https://www.affix.lv/" target="_blank" rel="noopener" title="Affix" class="link-white fs-4 arimo">&nbsp;affix.lv&nbsp;</a>
-				<i class="fas fa-angle-left green-colored"></i>
-				<br>
-				<i class="fas fa-angle-right green-colored"></i>
-				<a href="https://www.laurisstirna.id.lv/" target="_blank" rel="noopener" title="This website" class="link-white fs-4 arimo">&nbsp;laurisstirna.id.lv&nbsp;</a>
-				<i class="fas fa-angle-left green-colored"></i>
-				<br>
-				<p class="text-center light-gray">{% trans 'Both of the websites are adaptive and contains simple backend' %}.<br></p>
-			</p>
+		<hr>
+		<!-- Photo -->
+		<div class="col-12 col-lg-4 mt-4 photo">
+			<img src="{% static 'img/self_photo.png' %}" alt="Selfie" class="img-fluid blog-img rounded mt-4">
+		</div>
+		<!-- Overall and contact -->
+		<div class="col-12 col-lg-4 mt-4">
+			<h1 class="text-center mb-3">{% trans 'Overall information' %}</h1>
+			<ul class="text-center list-unstyled">
+				<li class="fs-6"><strong>{% trans 'Qualification' %}</strong>: {% trans 'Software engineer (bachelors degree)' %}</li>
+				<li class="fs-6"><strong>{% trans 'Graduated' %}</strong>: <a href="https://www.rta.lv/" rel="noopener"
+						target="_blank" class="link-primary">{% trans 'Rezekne Academy of technologies' %}</a> (2021)</li>
+				<li class="fs-6"><strong>{% trans 'Current status' %}</strong>: {% trans 'WEB Developer (unemployed)' %}</li>
+			</ul>
+			<h1 class="text-center mb-3">{% trans 'Contact' %}</h1>
+			<div class="text-center">
+				<a href="https://www.facebook.com/lastiqq/" title="Facebook" target="_blank" rel="noopener"
+					class="links">
+					<i class="fab fa-facebook fs-2 me-4"></i>
+				</a>
+				<a href="https://www.instagram.com/lauriss_1313/" title="Instagram" target="_blank" rel="noopener"
+					class="links">
+					<i class="fab fa-instagram fs-2 mx-4"></i>
+				</a>
+				<a href="https://github.com/LaSTiqq" title="Github" target="_blank" rel="noopener" class="links">
+					<i class="fab fa-github fs-2 mx-4"></i>
+				</a>
+				<a href="https://bitbucket.org/lauriss/" title="BitBucket" target="_blank" rel="noopener" class="links">
+					<i class="fab fa-bitbucket fs-2 ms-4"></i>
+				</a>
+			</div>
+			<ul class="emails p-0 mt-3 list-unstyled text-center">
+				<li><i class="far fa-envelope fs-6 text-danger me-2"></i>
+					<spam class="links fs-6 arimo">lavrencij13@gmail.com</spam>
+				</li>
+				<li><i class="far fa-envelope fs-6 text-danger me-2"></i>
+					<spam class="links fs-6 arimo">lavrencij@inbox.lv</spam>
+				</li>
+				<li><i class="far fa-envelope fs-6 text-danger me-2"></i>
+					<spam class="links fs-6 arimo">lavrencij@mail.ru</spam>
+				</li>
+			</ul>
+		</div>
+		<!-- Stack of technologies -->
+		<div class="col-12 col-lg-4 mt-4">
+			<h1 class="text-center mb-2">{% trans 'Stack of technologies' %}</h1>
+			<h4 class="text-center purple mb-4">{% trans 'Frontend' %}</h4>
+			<div class="text-center">
+				<i class="fab fa-html5 links fs-2 me-3" title="HTML"></i>
+				<i class="fab fa-css3-alt links fs-2 mx-3" title="CSS"></i>
+				<i class="fab fa-js-square links fs-2 mx-3" title="JavaScript"></i>
+				<i class="fab fa-bootstrap links fs-2 mx-3" title="Bootstrap"></i>
+				<i class="fab fa-sass links fs-2 ms-3" title="SCSS"></i>
+			</div>
+			<h4 class="text-center purple mt-4 mb-3">{% trans 'Backend' %}</h4>
+			<div class="d-flex justify-content-center align-items-center backend">
+				<img src="{% static 'img/python.png' %}" alt="Python" class="me-1">
+				<img src="{% static 'img/django.png' %}" alt="Django" class="mx-1">
+				<img src="{% static 'img/mysql.png' %}" alt="MySQL" class="mx-1">
+				<img src="{% static 'img/sqlite.png' %}" alt="SQLite" class="ms-1">
+			</div>
 		</div>
 	</div>
 </div>

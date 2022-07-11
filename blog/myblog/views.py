@@ -28,3 +28,6 @@ class BlogByTag(ListView):
 class BlogDetail(DetailView):
 	model = Blog
 	context_object_name = 'blog'
+
+class Portfolio(TemplateView):
+	template_name = 'myblog/portfolio.html'
