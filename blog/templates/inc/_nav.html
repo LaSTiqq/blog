@@ -32,19 +32,19 @@
 				{% csrf_token %}
 				<input name="next" type="hidden" value="{{ redirect_to }}" />
 				<ul class="d-flex languages">
-					<li>
+					<li class="me-2 me-md-0">
 						<button type="submit" name="language" value="{{ languages.0.code }}"
 							class="btn btn-outline-light btn-sm {% if languages.0.code == LANGUAGE_CODE %}active{% endif %}">
 							{{ languages.0.name_local|capfirst }}
 						</button>
 					</li>
-					<li>
+					<li class="mx-2 mx-md-0">
 						<button type="submit" name="language" value="{{ languages.1.code }}"
 							class="btn btn-outline-light btn-sm {% if languages.1.code == LANGUAGE_CODE %}active{% endif %}">
 							{{ languages.1.name_local|capfirst }}
 						</button>
 					</li>
-					<li>
+					<li class="ms-2 ms-md-0">
 						<button type="submit" name="language" value="{{ languages.2.code }}"
 							class="btn btn-outline-light btn-sm {% if languages.2.code == LANGUAGE_CODE %}active{% endif %}">
 							{{ languages.2.name_local|capfirst }}
