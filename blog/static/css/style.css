@@ -153,6 +153,9 @@ footer {
   .backend {
     margin-bottom: 30px;
   }
+  .big {
+	font-size: 60px;
+  }
   /******* CARD *******/
   .card {
     text-align: center;
@@ -183,6 +186,9 @@ footer {
   .backend {
     margin-bottom: 25px;
   }
+  .big {
+	font-size: 60px;
+  }
   /******* CARD *******/
   .card {
     text-align: center;
@@ -205,6 +211,9 @@ footer {
   }
   .backend {
     margin-bottom: 20px;
+  }
+  .big {
+	font-size: 60px;
   }
 }
 
