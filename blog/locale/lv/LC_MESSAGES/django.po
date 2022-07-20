@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-11 20:54+0300\n"
+"POT-Creation-Date: 2022-07-20 19:14+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -124,7 +124,7 @@ msgid "Graduated"
 msgstr "Absolvēju"
 
 #: .\myblog\templates\myblog\index.html:29
-msgid "Rezekne Academy of technologies"
+msgid "Rezekne Academy of Technologies"
 msgstr "Rēzeknes Tehnoloģiju akadēmiju"
 
 #: .\myblog\templates\myblog\index.html:30
@@ -139,15 +139,15 @@ msgstr "WEB izstrādātājs (nestrādājošs)"
 msgid "Contact"
 msgstr "Kontakti"
 
-#: .\myblog\templates\myblog\index.html:63
+#: .\myblog\templates\myblog\index.html:65
 msgid "Stack of technologies"
 msgstr "Tehnoloģiju steks"
 
-#: .\myblog\templates\myblog\index.html:64
+#: .\myblog\templates\myblog\index.html:66
 msgid "Frontend"
 msgstr "Frontend"
 
-#: .\myblog\templates\myblog\index.html:72
+#: .\myblog\templates\myblog\index.html:74
 msgid "Backend"
 msgstr "Backend"
 
