@@ -18,8 +18,8 @@ but which I have modified. The articles do not claim to be unique, but they can 
 	<hr>
 	{% for item in blog %}
 		{% if item.published %}
-			<div class="card bg-light border-dark">
-				<div class="card-header border-dark">
+			<div class="card bg-light border">
+				<div class="card-header border">
 					{% trans 'Tag' %}: <a href="{{ item.tag.get_absolute_url }}" data-bs-toggle="tooltip" data-bs-placement="top" 
 					data-bs-trigger="hover" title="{% trans 'Sort by tag' %}" class="links arimo">{{ item.tag }}</a>
 				</div>
@@ -31,11 +31,11 @@ but which I have modified. The articles do not claim to be unique, but they can 
 						</div>
 						<div class="col-12 col-lg-8">
 							<p class="card-text fw-bold">{{ item.preview_text }}</p>
-							<a href="{{ item.get_absolute_url }}" class="btn btn-outline-dark">{% trans 'Read more' %}...</a>
+							<a href="{{ item.get_absolute_url }}" class="btn btn-secondary">{% trans 'Read more' %}...</a>
 						</div>
 					</div>
 				</div>
-				<div class="card-footer border-dark">
+				<div class="card-footer border">
 					<small class="fw-bold">{% trans 'Last updated' %}: {{ item.updated_at }}</small><br>
 					<small class="fw-bold">{% trans 'Created at' %}: {{ item.created_at }}</small>
 				</div>

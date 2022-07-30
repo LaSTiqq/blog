@@ -2,7 +2,93 @@ body,
 html {
   font-family: "Bitter", serif;
   height: 100%;
+  transition: 0.5s;
 }
+/****** DARK MODE ******/
+body.active {
+  background-color: #000;
+}
+body.active .navbar {
+  background-color: #212529;
+  transition: 0.5s;
+}
+body.active .nav-link,
+body.active .navbar-brand {
+  color: rgba(255, 255, 255, 0.55) !important;
+}
+body.active .nav-link.active,
+body.active .navbar-brand {
+  color: #f9f8fa !important;
+}
+body.active .nav-link:hover {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+body.active .nav-link.active:hover {
+  color: #f9f8fa !important;
+}
+body.active footer {
+  background-color: #212529;
+}
+body.active footer p {
+  color: #f9f8fa;
+}
+body.active .links {
+  color: #81b29a;
+}
+body.active .links:hover {
+  color: #b9fbc0;
+}
+body.active .emails .links:hover {
+  color: #81b29a;
+}
+body.active ul.list-unstyled,
+body.active ol.list-unstyled,
+body.active ul.list {
+  color: #f9f8fa;
+}
+body.active .purple {
+  color: #cfbaf0;
+}
+body.active .content {
+  color: #f9f8fa;
+}
+body.active .card {
+  background-color: #212529 !important;
+}
+body.active .border {
+  color: #f9f8fa;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(95, 245, 39, 0.8), 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+  border-color: rgb(95, 245, 39);
+}
+#toggle {
+  background-color: #8ecae6;
+  position: relative;
+  display: block;
+  width: 64px;
+  height: 32px;
+  border-radius: 160px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#toggle.active .indicator {
+  left: 36px;
+  transition: 0.5s;
+}
+#toggle .indicator {
+  position: absolute;
+  top: 5.75px;
+  left: 8px;
+  width: 20px;
+  height: 20px;
+  background-color: #3a86ff;
+  border-radius: 160px;
+  transition: 0.5s;
+}
+/****** COMMON ******/
 img {
   pointer-events: none;
 }
@@ -13,6 +99,7 @@ main {
   min-height: 100%;
 }
 nav {
+  background-color: #f8f9fa;
   font-size: 18px;
 }
 nav,
@@ -106,7 +193,7 @@ button[value="lv"]::before {
 
 /****** FOOTER ******/
 footer {
-  background-color: #ffc300;
+  background-color: #f8f9fa;
 }
 
 /****** COOKIES ******/
@@ -154,7 +241,7 @@ footer {
     margin-bottom: 30px;
   }
   .big {
-	font-size: 60px;
+    font-size: 60px;
   }
   /******* CARD *******/
   .card {
@@ -187,7 +274,7 @@ footer {
     margin-bottom: 25px;
   }
   .big {
-	font-size: 60px;
+    font-size: 60px;
   }
   /******* CARD *******/
   .card {
@@ -213,7 +300,7 @@ footer {
     margin-bottom: 20px;
   }
   .big {
-	font-size: 60px;
+    font-size: 60px;
   }
 }
 
