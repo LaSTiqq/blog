@@ -16,13 +16,16 @@
 		<div class="collapse navbar-collapse" id="navbar">
 			<ul class="navbar-nav me-auto mb-lg-0">
 				<li class="nav-item">
-					<a class="nav-link {% if request.resolver_match.url_name == 'home' %}active{% endif %}" aria-current="page" href="{% url 'myblog:home' %}">{% trans 'About' %}</a>
+					<a class="nav-link {% if request.resolver_match.url_name == 'home' %}active{% endif %}"
+						aria-current="page" href="{% url 'myblog:home' %}">{% trans 'About' %}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link {% if request.resolver_match.url_name == 'blog' %}active{% endif %}" href="{% url 'myblog:blog' %}">{% trans 'Blog' %}</a>
+					<a class="nav-link {% if request.resolver_match.url_name == 'blog' %}active{% endif %}"
+						href="{% url 'myblog:blog' %}">{% trans 'Blog' %}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link {% if request.resolver_match.url_name == 'portfolio' %}active{% endif %}" href="{% url 'myblog:portfolio' %}">{% trans 'Portfolio' %}</a>
+					<a class="nav-link {% if request.resolver_match.url_name == 'portfolio' %}active{% endif %}"
+						href="{% url 'myblog:portfolio' %}">{% trans 'Portfolio' %}</a>
 				</li>
 			</ul>
 			<div class="animated">

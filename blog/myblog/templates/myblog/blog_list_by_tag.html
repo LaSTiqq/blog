@@ -1,38 +1,39 @@
 {% extends 'base.html' %}
 {% load static %}
 {% load i18n %}
-{% block noindex %}<meta name="robots" content="noindex, nofollow">{% endblock %}
 {% block title %}[{{ title }}] :: {% trans 'Articles' %}{% endblock %}
 {% block content %}
-	{% for item in blog %}
-		{% if item.published %}
-			{% if forloop.first %}
-				<h1 class="text-center mt-5">{% trans 'All related articles with' %} <span class="text-primary">{{ item.tag }}</span></h1><br>
-			{% endif %}
-			<div class="card bg-light border">
-				<div class="card-header border">
-					<i class="fas fa-undo"></i>&nbsp;
-					<a class="links {% if request.resolver_match.url_name == 'blog' %}active{% endif %}" href="{% url 'myblog:blog' %}">
-						{% trans 'Back to all articles' %}</a>
-				</div>
-				<div class="card-body">
-					<h4 class="card-title arimo fw-bold">{{ item.title }}</h4>
-					<div class="row">
-						<div class="col-12 col-lg-4">
-							<img src="{{ item.preview_image }}" alt="Preview image" class="img-fluid mx-auto mb-2 d-block">
-						</div>
-						<div class="col-12 col-lg-8">
-							<p class="card-text fw-bold">{{ item.preview_text }}</p>
-							<a href="{{ item.get_absolute_url }}" class="btn btn-secondary">{% trans 'Read more' %}...</a>
-						</div>
-					</div>
-				</div>
-				<div class="card-footer border">
-					<small class="fw-bold">{% trans 'Last updated' %}: {{ item.updated_at }}</small><br>
-					<small class="fw-bold">{% trans 'Created at' %}: {{ item.created_at }}</small>
-				</div>
+{% for item in blog %}
+{% if item.published %}
+{% if forloop.first %}
+<h1 class="text-center mt-5">{% trans 'All related articles with' %} <span class="text-primary">{{ item.tag }}</span>
+</h1><br>
+{% endif %}
+<div class="card bg-light border">
+	<div class="card-header border">
+		<i class="fas fa-undo"></i>&nbsp;
+		<a class="links {% if request.resolver_match.url_name == 'blog' %}active{% endif %}"
+			href="{% url 'myblog:blog' %}">
+			{% trans 'Back to all articles' %}</a>
+	</div>
+	<div class="card-body">
+		<h4 class="card-title arimo fw-bold">{{ item.title }}</h4>
+		<div class="row">
+			<div class="col-12 col-lg-4">
+				<img src="{{ item.preview_image }}" alt="Preview image" class="img-fluid mx-auto mb-2 d-block">
 			</div>
-			<hr>
-		{% endif %}
-	{% endfor %}
+			<div class="col-12 col-lg-8">
+				<p class="card-text fw-bold">{{ item.preview_text }}</p>
+				<a href="{{ item.get_absolute_url }}" class="btn btn-secondary">{% trans 'Read more' %}...</a>
+			</div>
+		</div>
+	</div>
+	<div class="card-footer border">
+		<small class="fw-bold">{% trans 'Last updated' %}: {{ item.updated_at }}</small><br>
+		<small class="fw-bold">{% trans 'Created at' %}: {{ item.created_at }}</small>
+	</div>
+</div>
+<hr>
+{% endif %}
+{% endfor %}
 {% endblock %}

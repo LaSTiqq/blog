@@ -1,33 +1,36 @@
 {% extends 'base.html' %}
 {% load static %}
 {% load i18n %}
-{% block description %}
-<meta name="description" content="I am currently unemployed software engineer from Latvia. I am trying to start succesful carrier as a 
-frontend developer but I also worked with simple backend. Feel free to contact me">
-{% endblock %}
 {% block title %}Lauris Stirna :: {% trans 'About' %}{% endblock %}
-{% block canonical %}
-<link rel="canonical" href="https://www.laurisstirna.id.lv/">{% endblock %}
 {% block static_content %}
 <div class="container">
 	<div class="row">
 		<div class="col-12">
 			<h1 class="big mt-5 mb-3">{% trans 'About me' %}</h1>
-			<figcaption class="blockquote-footer fs-5 fst-italic purple">{% trans 'When I began to work on my diploma project I fell in love with creating websites' %}</figcaption>
+			<figcaption class="blockquote-footer fs-5 fst-italic purple">{% blocktrans %}When I began to work on my
+				diploma
+				project I fell in love with creating websites{% endblocktrans %}</figcaption>
 		</div>
 		<hr>
 		<!-- Photo -->
 		<div class="col-12 col-xl-4 mt-0 mt-xl-4 photo">
-			<img src="{% static 'img/self_photo.png' %}" alt="Selfie" class="img-fluid blog-img rounded mt-0 mt-xl-4">
+			<img src="{% static 'img/self_photo.png' %}" alt="Selfie" class="img-fluid blog-img mt-0 mt-xl-4">
 		</div>
 		<!-- Overall and contact -->
 		<div class="col-12 col-xl-4 mt-4">
 			<h1 class="text-center mb-3">{% trans 'Overall information' %}</h1>
 			<ul class="text-center list-unstyled">
-				<li class="fs-5"><strong>{% trans 'Qualification' %}</strong>: {% trans 'Software engineer (bachelors degree)' %}</li>
-				<li class="fs-5"><strong>{% trans 'Graduated' %}</strong>: <a href="https://www.rta.lv/" rel="noopener"
-						target="_blank" class="link-info">{% trans 'Rezekne Academy of Technologies' %}</a> (2021)</li>
-				<li class="fs-5"><strong>{% trans 'Current status' %}</strong>: {% trans 'WEB Developer (unemployed)' %}</li>
+				<li class="fs-5"><strong>{% trans 'Qualification' %}</strong>: <br>{% blocktrans %}Software
+					engineer
+					(bachelors degree){% endblocktrans %}</li>
+				<li class="fs-5 my-3"><strong>{% trans 'Graduated' %}</strong>: <br><a href="https://www.rta.lv/"
+						rel="noopener" target="_blank" class="link-primary text-decoration-none">{% blocktrans %}Rezekne
+						Academy of Technologies{% endblocktrans %}</a> (2021)</li>
+				<li class="fs-5"><strong>{% trans 'Current status' %}</strong>: <br>
+					({% trans 'Participant of' %} <a href="https://www.bootcamp.lv/" rel="noopener" target="_blank"
+						class="link-primary text-decoration-none">Accenture
+						Bootcamp</a>)
+				</li>
 			</ul>
 			<h1 class="text-center mb-3">{% trans 'Contact' %}</h1>
 			<div class="text-center">
@@ -39,24 +42,26 @@ frontend developer but I also worked with simple backend. Feel free to contact m
 					class="links mx-4">
 					<i class="fab fa-instagram fs-2"></i>
 				</a>
-				<a href="https://github.com/LaSTiqq" title="Github" target="_blank" rel="noopener" 
-					class="links mx-4">
+				<a href="https://github.com/LaSTiqq" title="Github" target="_blank" rel="noopener" class="links mx-4">
 					<i class="fab fa-github fs-2"></i>
 				</a>
-				<a href="https://bitbucket.org/lauriss/" title="BitBucket" target="_blank" rel="noopener" 
+				<a href="https://bitbucket.org/lauriss/" title="BitBucket" target="_blank" rel="noopener"
 					class="links ms-4">
 					<i class="fab fa-bitbucket fs-2"></i>
 				</a>
 			</div>
 			<ul class="emails p-0 mt-3 list-unstyled text-center">
 				<li><i class="far fa-envelope fs-6 text-danger me-2"></i>
-					<spam class="links fs-5 arimo">lavrencij13@gmail.com</spam>
+					<a href="mailto: lavrencij13@gmail.com"
+						class="link-primary text-decoration-none fs-5">lavrencij13@gmail.com</a>
 				</li>
 				<li><i class="far fa-envelope fs-6 text-danger me-2"></i>
-					<spam class="links fs-5 arimo">lavrencij@inbox.lv</spam>
+					<a href="mailto: lavrencij@inbox.lv"
+						class="link-primary text-decoration-none fs-5">lavrencij@inbox.lv</a>
 				</li>
 				<li><i class="far fa-envelope fs-6 text-danger me-2"></i>
-					<spam class="links fs-5 arimo">lavrencij@mail.ru</spam>
+					<a href="mailto: lavrencij@mail.ru"
+						class="link-primary text-decoration-none fs-5">lavrencij@mail.ru</a>
 				</li>
 			</ul>
 		</div>
