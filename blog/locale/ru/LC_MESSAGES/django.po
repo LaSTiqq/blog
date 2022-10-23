@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-09 22:02+0300\n"
+"POT-Creation-Date: 2022-10-24 00:36+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,8 +32,7 @@ msgid ""
 "\tthose solutions that exist, but which I have modified"
 msgstr ""
 "В данном разделе собраны мои личные решения проблем, с которыми я "
-"сталкивался, а также те решения, которые существуют, но которые я "
-"видоизменял"
+"сталкивался, а также те решения, которые существуют, но которые я видоизменял"
 
 #: .\myblog\templates\myblog\blog_list.html:11
 msgid ""
@@ -140,31 +139,31 @@ msgid "Current status"
 msgstr "Текущий статус"
 
 #: .\myblog\templates\myblog\index.html:30
-msgid "Participant of"
-msgstr "Участник в"
+msgid "Unemployed"
+msgstr "Безработный"
 
-#: .\myblog\templates\myblog\index.html:35
+#: .\myblog\templates\myblog\index.html:33
 msgid "Contact"
 msgstr "Контакты"
 
-#: .\myblog\templates\myblog\index.html:70
+#: .\myblog\templates\myblog\index.html:68
 msgid "Stack of technologies"
 msgstr "Стэк технологий"
 
-#: .\myblog\templates\myblog\index.html:71
+#: .\myblog\templates\myblog\index.html:69
 msgid "Frontend"
 msgstr "Фронтенд"
 
-#: .\myblog\templates\myblog\index.html:79
+#: .\myblog\templates\myblog\index.html:77
 msgid "Backend"
 msgstr "Бекенд"
 
 #: .\myblog\templates\myblog\portfolio.html:4
-#: .\myblog\templates\myblog\portfolio.html:10 .\templates\inc\_nav.html:28
+#: .\myblog\templates\myblog\portfolio.html:9 .\templates\inc\_nav.html:28
 msgid "Portfolio"
 msgstr "Портфолио"
 
-#: .\myblog\templates\myblog\portfolio.html:11
+#: .\myblog\templates\myblog\portfolio.html:10
 msgid ""
 "As I'm pretty young developer my real projects could be counted\n"
 "\t\t\ton the fingers of one hand but I've already developed some"
@@ -172,107 +171,109 @@ msgstr ""
 "Поскольку я достаточно молодой разработчик, мои реальные проекты могут быть "
 "сосчитаны на пальцах одной руки, но я уже разработал некоторые"
 
-#: .\myblog\templates\myblog\portfolio.html:13
+#: .\myblog\templates\myblog\portfolio.html:12
 msgid ""
 "Currently I'm developing a new website but I can't share it just by now\n"
 "\t\t\t"
 msgstr ""
 "В настоящий момент я разрабатываю новый сайт, но я пока не могу делиться им"
 
-#: .\myblog\templates\myblog\portfolio.html:15
+#: .\myblog\templates\myblog\portfolio.html:14
 msgid "Cheers to"
 msgstr "Спасибо"
 
-#: .\myblog\templates\myblog\portfolio.html:17
+#: .\myblog\templates\myblog\portfolio.html:16
 msgid "thanks to them both of the websites are in the Internet"
 msgstr "благодаря им оба сайта опубликованы в интернете"
 
-#: .\myblog\templates\myblog\portfolio.html:32
+#: .\myblog\templates\myblog\portfolio.html:31
 msgid "Plans"
 msgstr "Планы"
 
-#: .\myblog\templates\myblog\portfolio.html:34
+#: .\myblog\templates\myblog\portfolio.html:33
 msgid ""
 "I wish to make a websites even bigger, more complicated\n"
 "\t\t\t\tand more entertaining"
 msgstr "Я желаю создавать сайты больше, сложнее и развлекательнее"
 
-#: .\myblog\templates\myblog\portfolio.html:36
+#: .\myblog\templates\myblog\portfolio.html:35
 msgid ""
 "To interact more with backend, adaptivity and code simplicity, so my next "
 "steps\n"
 "\t\t\t\tare"
-msgstr "Больше взаимодействовать с бекендом, адаптивностью и простотой кода, так что мои следующие шаги"
+msgstr ""
+"Больше взаимодействовать с бекендом, адаптивностью и простотой кода, так что "
+"мои следующие шаги"
 
-#: .\myblog\templates\myblog\portfolio.html:40
-#: .\myblog\templates\myblog\portfolio.html:52
+#: .\myblog\templates\myblog\portfolio.html:39
+#: .\myblog\templates\myblog\portfolio.html:51
 msgid "Learn"
 msgstr "Изучить"
 
-#: .\myblog\templates\myblog\portfolio.html:41
+#: .\myblog\templates\myblog\portfolio.html:40
 msgid "Dive deep into"
 msgstr "Углубиться в"
 
-#: .\myblog\templates\myblog\portfolio.html:42
-#: .\myblog\templates\myblog\portfolio.html:49
+#: .\myblog\templates\myblog\portfolio.html:41
+#: .\myblog\templates\myblog\portfolio.html:48
 msgid "and"
 msgstr "и"
 
-#: .\myblog\templates\myblog\portfolio.html:46
+#: .\myblog\templates\myblog\portfolio.html:45
 msgid "Keep improving"
 msgstr "Продолжать совершенствование знаний по"
 
-#: .\myblog\templates\myblog\portfolio.html:53
+#: .\myblog\templates\myblog\portfolio.html:52
 msgid "and other related to database things"
 msgstr "и другие связанные вещи с базами данных"
 
-#: .\myblog\templates\myblog\portfolio.html:54
+#: .\myblog\templates\myblog\portfolio.html:53
 msgid "Learn something new at all"
 msgstr "Учить что-то новое в целом"
 
-#: .\myblog\templates\myblog\portfolio.html:59
+#: .\myblog\templates\myblog\portfolio.html:58
 msgid "Useful resources"
 msgstr "Полезные ресурсы"
 
-#: .\myblog\templates\myblog\portfolio.html:60
+#: .\myblog\templates\myblog\portfolio.html:59
 msgid "Here are collected most of the resources that I use"
 msgstr "Здесь собрано большинство ресурсов, которыми я пользуюсь"
 
-#: .\myblog\templates\myblog\portfolio.html:64
-#: .\myblog\templates\myblog\portfolio.html:66
-#: .\myblog\templates\myblog\portfolio.html:69
-#: .\myblog\templates\myblog\portfolio.html:72
-#: .\myblog\templates\myblog\portfolio.html:75
-#: .\myblog\templates\myblog\portfolio.html:77
-#: .\myblog\templates\myblog\portfolio.html:80
-#: .\myblog\templates\myblog\portfolio.html:82
-#: .\myblog\templates\myblog\portfolio.html:84
-#: .\myblog\templates\myblog\portfolio.html:87
-#: .\myblog\templates\myblog\portfolio.html:89
-#: .\myblog\templates\myblog\portfolio.html:92
-#: .\myblog\templates\myblog\portfolio.html:95
-#: .\myblog\templates\myblog\portfolio.html:98
-#: .\myblog\templates\myblog\portfolio.html:101
-#: .\myblog\templates\myblog\portfolio.html:103
-#: .\myblog\templates\myblog\portfolio.html:106
+#: .\myblog\templates\myblog\portfolio.html:63
+#: .\myblog\templates\myblog\portfolio.html:65
+#: .\myblog\templates\myblog\portfolio.html:68
+#: .\myblog\templates\myblog\portfolio.html:71
+#: .\myblog\templates\myblog\portfolio.html:74
+#: .\myblog\templates\myblog\portfolio.html:76
+#: .\myblog\templates\myblog\portfolio.html:79
+#: .\myblog\templates\myblog\portfolio.html:81
+#: .\myblog\templates\myblog\portfolio.html:83
+#: .\myblog\templates\myblog\portfolio.html:86
+#: .\myblog\templates\myblog\portfolio.html:88
+#: .\myblog\templates\myblog\portfolio.html:91
+#: .\myblog\templates\myblog\portfolio.html:94
+#: .\myblog\templates\myblog\portfolio.html:97
+#: .\myblog\templates\myblog\portfolio.html:100
+#: .\myblog\templates\myblog\portfolio.html:102
+#: .\myblog\templates\myblog\portfolio.html:105
 msgid "link"
 msgstr "ссылка"
 
-#: .\myblog\templates\myblog\portfolio.html:111
+#: .\myblog\templates\myblog\portfolio.html:110
 msgid "Thoughts"
 msgstr "Мысли"
 
-#: .\myblog\templates\myblog\portfolio.html:113
+#: .\myblog\templates\myblog\portfolio.html:112
 msgid "You can't be a good programmer without constant learning new things"
 msgstr ""
 "Ты не можешь быть хорошим программистом без постоянного изучения чего-то "
 "нового"
 
-#: .\myblog\templates\myblog\portfolio.html:114
+#: .\myblog\templates\myblog\portfolio.html:113
 msgid "Good Googling often is enough to solve most of the problems"
 msgstr "Хорошего Гугления часто достаточно, чтобы решить большинство проблем"
 
-#: .\myblog\templates\myblog\portfolio.html:115
+#: .\myblog\templates\myblog\portfolio.html:114
 msgid "Improve English as much as you can"
 msgstr "Улучшай свой английский как можно больше"
 
