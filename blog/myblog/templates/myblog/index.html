@@ -5,59 +5,47 @@
 {% block static_content %}
 <div class="container">
 	<div class="row">
-		<div class="col-12">
-			<h1 class="big mt-5 mb-3">{% trans 'About me' %}</h1>
+		<!-- Photo and header -->
+		<div class="col-12 col-md-4">
+			<img src="{% static 'img/self_photo.png' %}" alt="Selfie" class="img-fluid blog-img photo my-4">
+		</div>
+		<div class="col-12 col-md-8 mt-0 mt-md-4">
+			<h1 class="big mt-0 mt-md-5 mb-3">Lauris Stirna</h1>
 			<figcaption class="blockquote-footer fs-5 fst-italic purple">{% blocktrans %}When I began to work on my
 				diploma
 				project I fell in love with creating websites{% endblocktrans %}</figcaption>
 		</div>
 		<hr>
-		<!-- Photo -->
-		<div class="col-12 col-xl-4 mt-0 mt-xl-4 photo">
-			<img src="{% static 'img/self_photo.png' %}" alt="Selfie" class="img-fluid blog-img mt-0 mt-xl-4">
-		</div>
-		<!-- Overall and contact -->
+		<!-- Contact -->
 		<div class="col-12 col-xl-4 mt-4">
-			<h1 class="text-center mb-3">{% trans 'Overall information' %}</h1>
-			<ul class="text-center list-unstyled">
-				<li class="fs-5"><strong>{% trans 'Qualification' %}</strong>: <br>{% blocktrans %}Software
-					engineer
-					(bachelors degree){% endblocktrans %}</li>
-				<li class="fs-5 my-3"><strong>{% trans 'Graduated' %}</strong>: <br><a href="https://www.rta.lv/"
-						rel="noopener" target="_blank" class="link-primary text-decoration-none">{% blocktrans %}Rezekne
-						Academy of Technologies{% endblocktrans %}</a> (2021)</li>
-				<li class="fs-5"><strong>{% trans 'Current status' %}</strong>: <br>
-					{% trans 'Unemployed' %}
-				</li>
-			</ul>
-			<h1 class="text-center mb-3">{% trans 'Contact' %}</h1>
+			<h1 class="text-center mb-4">{% trans 'Contact' %}</h1>
 			<div class="text-center">
 				<a href="https://www.facebook.com/lastiqq/" title="Facebook" target="_blank" rel="noopener"
 					class="links me-4">
-					<i class="fab fa-facebook fs-2"></i>
+					<i class="fab fa-facebook fs-1"></i>
 				</a>
 				<a href="https://www.instagram.com/lauriss_1313/" title="Instagram" target="_blank" rel="noopener"
 					class="links mx-4">
-					<i class="fab fa-instagram fs-2"></i>
+					<i class="fab fa-instagram fs-1"></i>
 				</a>
-				<a href="https://github.com/LaSTiqq" title="Github" target="_blank" rel="noopener" class="links mx-4">
-					<i class="fab fa-github fs-2"></i>
+				<a href="https://www.linkedin.com/in/lauris-stirna-ab4898254/" title="LinkedIn" target="_blank"
+					rel="noopener" class="links mx-4">
+					<i class="fab fa-linkedin fs-1"></i>
 				</a>
-				<a href="https://bitbucket.org/lauriss/" title="BitBucket" target="_blank" rel="noopener"
-					class="links ms-4">
-					<i class="fab fa-bitbucket fs-2"></i>
+				<a href="https://github.com/LaSTiqq" title="Github" target="_blank" rel="noopener" class="links ms-4">
+					<i class="fab fa-github fs-1"></i>
 				</a>
 			</div>
 			<ul class="emails p-0 mt-3 list-unstyled text-center">
-				<li><i class="far fa-envelope fs-6 text-danger me-2"></i>
+				<li><i class="far fa-envelope fs-4 text-danger me-2 mt-3"></i>
 					<a href="mailto: lavrencij13@gmail.com"
 						class="link-primary text-decoration-none fs-5">lavrencij13@gmail.com</a>
 				</li>
-				<li><i class="far fa-envelope fs-6 text-danger me-2"></i>
+				<li><i class="far fa-envelope fs-4 text-danger me-2 mt-3"></i>
 					<a href="mailto: lavrencij@inbox.lv"
 						class="link-primary text-decoration-none fs-5">lavrencij@inbox.lv</a>
 				</li>
-				<li><i class="far fa-envelope fs-6 text-danger me-2"></i>
+				<li><i class="far fa-envelope fs-4 text-danger me-2 mt-3"></i>
 					<a href="mailto: lavrencij@mail.ru"
 						class="link-primary text-decoration-none fs-5">lavrencij@mail.ru</a>
 				</li>
@@ -65,14 +53,14 @@
 		</div>
 		<!-- Stack of technologies -->
 		<div class="col-12 col-xl-4 mt-4">
-			<h1 class="text-center mb-2">{% trans 'Stack of technologies' %}</h1>
+			<h1 class="text-center mb-4">{% trans 'Stack of technologies' %}</h1>
 			<h2 class="text-center purple mb-4">{% trans 'Frontend' %}</h2>
 			<div class="text-center">
-				<i class="fab fa-html5 links fs-2 me-3" title="HTML"></i>
-				<i class="fab fa-css3-alt links fs-2 mx-3" title="CSS"></i>
-				<i class="fab fa-js-square links fs-2 mx-3" title="JavaScript"></i>
-				<i class="fab fa-bootstrap links fs-2 mx-3" title="Bootstrap"></i>
-				<i class="fab fa-sass links fs-2 ms-3" title="SCSS"></i>
+				<i class="fab fa-html5 links fs-1 me-3" title="HTML"></i>
+				<i class="fab fa-css3-alt links fs-1 mx-3" title="CSS"></i>
+				<i class="fab fa-js-square links fs-1 mx-3" title="JavaScript"></i>
+				<i class="fab fa-bootstrap links fs-1 mx-3" title="Bootstrap"></i>
+				<i class="fab fa-sass links fs-1 ms-3" title="SCSS"></i>
 			</div>
 			<h2 class="text-center purple mt-4 mb-3">{% trans 'Backend' %}</h2>
 			<div class="d-flex justify-content-center align-items-center backend">
@@ -81,6 +69,23 @@
 				<img src="{% static 'img/mysql.png' %}" alt="MySQL" class="mx-1">
 				<img src="{% static 'img/sqlite.png' %}" alt="SQLite" class="ms-1">
 			</div>
+		</div>
+		<!-- Overall -->
+		<div class="col-12 col-xl-4 mt-4">
+			<h1 class="text-center mb-4">{% trans 'Overall information' %}</h1>
+			<ul class="text-center list-unstyled">
+				<li class="fs-5"><strong class="purple">{% trans 'Qualification' %}</strong>: <br>
+					{% blocktrans %}Software
+					engineer
+					(bachelors degree){% endblocktrans %}</li>
+				<li class="fs-5 my-3"><strong class="purple">{% trans 'Graduated' %}</strong>: <br><a
+						href="https://www.rta.lv/" rel="noopener" target="_blank"
+						class="link-primary text-decoration-none">{% blocktrans %}Rezekne
+						Academy of Technologies{% endblocktrans %}</a> (2021)</li>
+				<li class="fs-5"><strong class="purple">{% trans 'Current status' %}</strong>: <br>
+					{% trans 'Unemployed' %}
+				</li>
+			</ul>
 		</div>
 	</div>
 </div>

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-24 00:36+0300\n"
+"POT-Creation-Date: 2022-10-24 23:43+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -97,11 +97,7 @@ msgstr "Atpakaļ pie visiem rakstiem"
 msgid "About"
 msgstr "Par mani"
 
-#: .\myblog\templates\myblog\index.html:9
-msgid "About me"
-msgstr "Par mani"
-
-#: .\myblog\templates\myblog\index.html:10
+#: .\myblog\templates\myblog\index.html:14
 msgid ""
 "When I began to work on my\n"
 "\t\t\t\tdiploma\n"
@@ -110,53 +106,53 @@ msgstr ""
 "Kad es uzsāku darbu pie sava diplomprojekta, es iemīlējos mājaslapu izveidē"
 
 #: .\myblog\templates\myblog\index.html:21
+msgid "Contact"
+msgstr "Kontakti"
+
+#: .\myblog\templates\myblog\index.html:56
+msgid "Stack of technologies"
+msgstr "Tehnoloģiju steks"
+
+#: .\myblog\templates\myblog\index.html:57
+msgid "Frontend"
+msgstr "Frontend"
+
+#: .\myblog\templates\myblog\index.html:65
+msgid "Backend"
+msgstr "Backend"
+
+#: .\myblog\templates\myblog\index.html:75
 msgid "Overall information"
 msgstr "Kopējā informācija"
 
-#: .\myblog\templates\myblog\index.html:23
+#: .\myblog\templates\myblog\index.html:77
 msgid "Qualification"
 msgstr "Kvalifikācija"
 
-#: .\myblog\templates\myblog\index.html:23
+#: .\myblog\templates\myblog\index.html:78
 msgid ""
 "Software\n"
 "\t\t\t\t\tengineer\n"
 "\t\t\t\t\t(bachelors degree)"
 msgstr "Programmēšanas inženieris (bakalaura grāds)"
 
-#: .\myblog\templates\myblog\index.html:26
+#: .\myblog\templates\myblog\index.html:81
 msgid "Graduated"
 msgstr "Absolvēta"
 
-#: .\myblog\templates\myblog\index.html:27
+#: .\myblog\templates\myblog\index.html:83
 msgid ""
 "Rezekne\n"
 "\t\t\t\t\t\tAcademy of Technologies"
 msgstr "Rēzeknes Tehnoloģiju akadēmija"
 
-#: .\myblog\templates\myblog\index.html:29
+#: .\myblog\templates\myblog\index.html:85
 msgid "Current status"
 msgstr "Esošais statuss"
 
-#: .\myblog\templates\myblog\index.html:30
+#: .\myblog\templates\myblog\index.html:86
 msgid "Unemployed"
 msgstr "Nestrādājošs"
-
-#: .\myblog\templates\myblog\index.html:33
-msgid "Contact"
-msgstr "Kontakti"
-
-#: .\myblog\templates\myblog\index.html:68
-msgid "Stack of technologies"
-msgstr "Tehnoloģiju steks"
-
-#: .\myblog\templates\myblog\index.html:69
-msgid "Frontend"
-msgstr "Frontend"
-
-#: .\myblog\templates\myblog\index.html:77
-msgid "Backend"
-msgstr "Backend"
 
 #: .\myblog\templates\myblog\portfolio.html:4
 #: .\myblog\templates\myblog\portfolio.html:9 .\templates\inc\_nav.html:28

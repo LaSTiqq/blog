@@ -185,13 +185,13 @@ button[value="lv"]::before {
   bottom: 3px;
 }
 button[value="en"]::before {
-  background-image: url(../img/en.png);
+  background-image: url("../img/en.43e4165accab.png");
 }
 button[value="ru"]::before {
-  background-image: url(../img/ru.png);
+  background-image: url("../img/ru.1543af201a81.png");
 }
 button[value="lv"]::before {
-  background-image: url(../img/lv.png);
+  background-image: url("../img/lv.cbcac8e661a0.png");
 }
 
 /****** FOOTER ******/
@@ -218,7 +218,7 @@ footer {
 }
 .title::before {
   content: "";
-  background-image: url(../img/cookie-icon.svg);
+  background-image: url("../img/cookie-icon.8a6fdcac8b55.svg");
   position: absolute;
   top: 15px;
   left: 15px;
