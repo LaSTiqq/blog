@@ -185,15 +185,18 @@ button[value="lv"]::before {
   bottom: 3px;
 }
 button[value="en"]::before {
-  background-image: url("../img/en.43e4165accab.png");
+  background-image: url("../img/en.2850ad9eb436.svg");
 }
 button[value="ru"]::before {
-  background-image: url("../img/ru.1543af201a81.png");
+  background-image: url("../img/ru.1759ee228f53.svg");
 }
 button[value="lv"]::before {
-  background-image: url("../img/lv.cbcac8e661a0.png");
+  background-image: url("../img/lv.a83795f2b3bd.svg");
 }
 
+.card-title.arimo {
+  font-size: 24px;
+}
 /****** FOOTER ******/
 footer {
   background-color: #f8f9fa;

@@ -185,15 +185,18 @@ button[value="lv"]::before {
   bottom: 3px;
 }
 button[value="en"]::before {
-  background-image: url(../img/en.png);
+  background-image: url(../img/en.svg);
 }
 button[value="ru"]::before {
-  background-image: url(../img/ru.png);
+  background-image: url(../img/ru.svg);
 }
 button[value="lv"]::before {
-  background-image: url(../img/lv.png);
+  background-image: url(../img/lv.svg);
 }
 
+.card-title.arimo {
+  font-size: 24px;
+}
 /****** FOOTER ******/
 footer {
   background-color: #f8f9fa;
