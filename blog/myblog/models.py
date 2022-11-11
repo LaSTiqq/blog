@@ -7,7 +7,6 @@ class Blog(models.Model):
 	title = models.CharField(max_length=120, verbose_name='Заголовок')
 	slug = models.SlugField(unique=True, verbose_name='Слаг')
 	content = RichTextUploadingField(config_name='special', verbose_name='Контент')
-	preview_image = models.URLField(verbose_name='Картинка предпросмотра (ссылка)')
 	preview_text = models.TextField(verbose_name='Текс предпросмотра')
 	published = models.BooleanField(default=False, verbose_name='Опубликовано')
 	created_at = models.DateTimeField(auto_now_add=True)
@@ -26,6 +25,7 @@ class Blog(models.Model):
 
 class BlogTag(models.Model):
 	name = models.CharField(max_length=72, db_index=True, verbose_name='Имя тэга')
+	image = models.URLField(verbose_name='Картинка предпросмотра')
 
 	def get_absolute_url(self):
 		return reverse('myblog:tag', kwargs={'tag_id': self.pk})
