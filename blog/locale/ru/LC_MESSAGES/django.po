@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-24 23:43+0300\n"
+"POT-Creation-Date: 2023-02-02 03:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,25 +57,33 @@ msgstr ""
 "База знаний будет дополняться новыми статьями по мере появления у автора "
 "свободного времени"
 
-#: .\myblog\templates\myblog\blog_list.html:21
+#: .\myblog\templates\myblog\blog_list.html:18
+msgid ""
+" Images might not be visible according to poorly working host (different "
+"from website\n"
+"\t\thosts)\n"
+"\t\t"
+msgstr "Картинки могут не подгрузиться в связи с плохо работающим хостом (отличается от хоста страницы)"
+
+#: .\myblog\templates\myblog\blog_list.html:27
 msgid "Tag"
 msgstr "Тэг"
 
-#: .\myblog\templates\myblog\blog_list.html:22
+#: .\myblog\templates\myblog\blog_list.html:28
 msgid "Sort by tag"
 msgstr "Сортировать по тэгу"
 
-#: .\myblog\templates\myblog\blog_list.html:32
+#: .\myblog\templates\myblog\blog_list.html:38
 #: .\myblog\templates\myblog\blog_list_by_tag.html:27
 msgid "Read more"
 msgstr "Читать дальше"
 
-#: .\myblog\templates\myblog\blog_list.html:37
+#: .\myblog\templates\myblog\blog_list.html:43
 #: .\myblog\templates\myblog\blog_list_by_tag.html:32
 msgid "Last updated"
 msgstr "Обновлено"
 
-#: .\myblog\templates\myblog\blog_list.html:38
+#: .\myblog\templates\myblog\blog_list.html:44
 #: .\myblog\templates\myblog\blog_list_by_tag.html:33
 msgid "Created at"
 msgstr "Создано"
@@ -96,7 +104,7 @@ msgstr "Обратно ко всем статьям"
 msgid "About"
 msgstr "Обо мне"
 
-#: .\myblog\templates\myblog\index.html:14
+#: .\myblog\templates\myblog\index.html:18
 msgid ""
 "When I began to work on my\n"
 "\t\t\t\tdiploma\n"
@@ -105,52 +113,52 @@ msgstr ""
 "Когда я начал работу над своим дипломным проектом, я влюбился в создание "
 "сайтов"
 
-#: .\myblog\templates\myblog\index.html:21
+#: .\myblog\templates\myblog\index.html:25
 msgid "Contact"
 msgstr "Контакты"
 
-#: .\myblog\templates\myblog\index.html:56
+#: .\myblog\templates\myblog\index.html:60
 msgid "Stack of technologies"
 msgstr "Стэк технологий"
 
-#: .\myblog\templates\myblog\index.html:57
+#: .\myblog\templates\myblog\index.html:61
 msgid "Frontend"
 msgstr "Фронтенд"
 
-#: .\myblog\templates\myblog\index.html:65
+#: .\myblog\templates\myblog\index.html:69
 msgid "Backend"
 msgstr "Бекенд"
 
-#: .\myblog\templates\myblog\index.html:75
+#: .\myblog\templates\myblog\index.html:95
 msgid "Overall information"
 msgstr "Общая информация"
 
-#: .\myblog\templates\myblog\index.html:77
+#: .\myblog\templates\myblog\index.html:97
 msgid "Qualification"
 msgstr "Квалификация"
 
-#: .\myblog\templates\myblog\index.html:78
+#: .\myblog\templates\myblog\index.html:98
 msgid ""
 "Software\n"
 "\t\t\t\t\tengineer\n"
 "\t\t\t\t\t(bachelors degree)"
 msgstr "Инженер-программист (степень бакалавра)"
 
-#: .\myblog\templates\myblog\index.html:81
+#: .\myblog\templates\myblog\index.html:101
 msgid "Graduated"
 msgstr "Окончил"
 
-#: .\myblog\templates\myblog\index.html:83
+#: .\myblog\templates\myblog\index.html:103
 msgid ""
 "Rezekne\n"
 "\t\t\t\t\t\tAcademy of Technologies"
 msgstr "Резекненскую Технологическую академию"
 
-#: .\myblog\templates\myblog\index.html:85
+#: .\myblog\templates\myblog\index.html:105
 msgid "Current status"
 msgstr "Текущий статус"
 
-#: .\myblog\templates\myblog\index.html:86
+#: .\myblog\templates\myblog\index.html:106
 msgid "Unemployed"
 msgstr "Безработный"
 
@@ -281,7 +289,7 @@ msgstr "Администратор сайта Django"
 msgid "Django administration"
 msgstr "Django администрирование"
 
-#: .\templates\base.html:41
+#: .\templates\base.html:43
 msgid "Move backward"
 msgstr "Назад"
 

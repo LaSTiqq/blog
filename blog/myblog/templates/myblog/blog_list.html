@@ -14,6 +14,12 @@
 	{% trans 'The knowledge base will be supplemented with new articles as the author has free time' %}.
 </p>
 <hr>
+<div class="alert alert-danger alert-dismissible fade show" role="alert">
+	<strong>{% blocktrans %} Images might not be visible according to poorly working host (different from website
+		hosts)
+		{% endblocktrans %}!</strong>
+	<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
 {% for item in blog %}
 {% if item.published %}
 <div class="card bg-light border">
