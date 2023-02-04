@@ -15,9 +15,9 @@
 *.wmv
 
 # Self
-blog/myblog/migrations
-blog/blog/settings.py
-blog/blog/urls.py
-blog/blog/static
-blog/db.sqlite3
+myblog/migrations
+blog/settings.py
+blog/urls.py
+blog/static
+db.sqlite3
 venv/
