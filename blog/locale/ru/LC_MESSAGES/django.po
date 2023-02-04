@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-02 03:17+0200\n"
+"POT-Creation-Date: 2023-02-04 20:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,7 +63,9 @@ msgid ""
 "from website\n"
 "\t\thosts)\n"
 "\t\t"
-msgstr "Картинки могут не подгрузиться в связи с плохо работающим хостом (отличается от хоста страницы)"
+msgstr ""
+"Картинки могут не подгрузиться в связи с плохо работающим хостом (отличается "
+"от хоста страницы)"
 
 #: .\myblog\templates\myblog\blog_list.html:27
 msgid "Tag"
@@ -104,7 +106,7 @@ msgstr "Обратно ко всем статьям"
 msgid "About"
 msgstr "Обо мне"
 
-#: .\myblog\templates\myblog\index.html:18
+#: .\myblog\templates\myblog\index.html:17
 msgid ""
 "When I began to work on my\n"
 "\t\t\t\tdiploma\n"
@@ -113,52 +115,52 @@ msgstr ""
 "Когда я начал работу над своим дипломным проектом, я влюбился в создание "
 "сайтов"
 
-#: .\myblog\templates\myblog\index.html:25
+#: .\myblog\templates\myblog\index.html:24
 msgid "Contact"
 msgstr "Контакты"
 
-#: .\myblog\templates\myblog\index.html:60
+#: .\myblog\templates\myblog\index.html:59
 msgid "Stack of technologies"
 msgstr "Стэк технологий"
 
-#: .\myblog\templates\myblog\index.html:61
+#: .\myblog\templates\myblog\index.html:60
 msgid "Frontend"
 msgstr "Фронтенд"
 
-#: .\myblog\templates\myblog\index.html:69
+#: .\myblog\templates\myblog\index.html:68
 msgid "Backend"
 msgstr "Бекенд"
 
-#: .\myblog\templates\myblog\index.html:95
+#: .\myblog\templates\myblog\index.html:90
 msgid "Overall information"
 msgstr "Общая информация"
 
-#: .\myblog\templates\myblog\index.html:97
+#: .\myblog\templates\myblog\index.html:92
 msgid "Qualification"
 msgstr "Квалификация"
 
-#: .\myblog\templates\myblog\index.html:98
+#: .\myblog\templates\myblog\index.html:93
 msgid ""
 "Software\n"
 "\t\t\t\t\tengineer\n"
 "\t\t\t\t\t(bachelors degree)"
 msgstr "Инженер-программист (степень бакалавра)"
 
-#: .\myblog\templates\myblog\index.html:101
+#: .\myblog\templates\myblog\index.html:96
 msgid "Graduated"
 msgstr "Окончил"
 
-#: .\myblog\templates\myblog\index.html:103
+#: .\myblog\templates\myblog\index.html:98
 msgid ""
 "Rezekne\n"
 "\t\t\t\t\t\tAcademy of Technologies"
 msgstr "Резекненскую Технологическую академию"
 
-#: .\myblog\templates\myblog\index.html:105
+#: .\myblog\templates\myblog\index.html:100
 msgid "Current status"
 msgstr "Текущий статус"
 
-#: .\myblog\templates\myblog\index.html:106
+#: .\myblog\templates\myblog\index.html:101
 msgid "Unemployed"
 msgstr "Безработный"
 
@@ -293,25 +295,23 @@ msgstr "Django администрирование"
 msgid "Move backward"
 msgstr "Назад"
 
-#: .\templates\cookielaw\banner.html:7
-msgid "Cookies"
-msgstr "Печенья"
-
 #: .\templates\cookielaw\banner.html:11
 msgid ""
-"We inform you that cookies are used for the full functioning of this "
-"website. By continuing, you agree to the use of them"
+"Notice that cookies are used for the full functioning of\n"
+"\t\t\t\t\t\tthis\n"
+"\t\t\t\t\t\twebsite. By continuing, you agree to the use of them "
 msgstr ""
-"Информируем, что файлы cookie используются для полноценного функционирования "
-"этого сайта. Продолжая использовать его, Вы соглашаетесь на их использование"
+"Информируем, что куки (англ. cookies) используются для полноценного "
+"функционирования этого сайта. Продолжая использовать его, Вы соглашаетесь на "
+"их использование"
 
-#: .\templates\cookielaw\banner.html:15
-msgid "What are the cookies?"
-msgstr "Что такое куки?"
+#: .\templates\cookielaw\banner.html:17
+msgid "What are the cookies"
+msgstr "Что такое куки"
 
-#: .\templates\cookielaw\banner.html:18
+#: .\templates\cookielaw\banner.html:21
 msgid "Accept and close"
-msgstr "Согласиться и закрыть"
+msgstr "Принять и закрыть"
 
 #: .\templates\inc\_foo.html:6
 msgid "Page is translated into three languages but translations may vary"

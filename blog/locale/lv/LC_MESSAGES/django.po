@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-02 03:17+0200\n"
+"POT-Creation-Date: 2023-02-04 20:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,7 +64,9 @@ msgid ""
 "from website\n"
 "\t\thosts)\n"
 "\t\t"
-msgstr "Attēli var neielādēties līdz ar slikti strādājošu hostu (atšķirīgs hosts no mājaslapas)"
+msgstr ""
+"Attēli var neielādēties līdz ar slikti strādājošu hostu (atšķirīgs hosts no "
+"mājaslapas)"
 
 #: .\myblog\templates\myblog\blog_list.html:27
 msgid "Tag"
@@ -105,7 +107,7 @@ msgstr "Atpakaļ pie visiem rakstiem"
 msgid "About"
 msgstr "Par mani"
 
-#: .\myblog\templates\myblog\index.html:18
+#: .\myblog\templates\myblog\index.html:17
 msgid ""
 "When I began to work on my\n"
 "\t\t\t\tdiploma\n"
@@ -113,52 +115,52 @@ msgid ""
 msgstr ""
 "Kad es uzsāku darbu pie sava diplomprojekta, es iemīlējos mājaslapu izveidē"
 
-#: .\myblog\templates\myblog\index.html:25
+#: .\myblog\templates\myblog\index.html:24
 msgid "Contact"
 msgstr "Kontakti"
 
-#: .\myblog\templates\myblog\index.html:60
+#: .\myblog\templates\myblog\index.html:59
 msgid "Stack of technologies"
 msgstr "Tehnoloģiju steks"
 
-#: .\myblog\templates\myblog\index.html:61
+#: .\myblog\templates\myblog\index.html:60
 msgid "Frontend"
 msgstr "Frontend"
 
-#: .\myblog\templates\myblog\index.html:69
+#: .\myblog\templates\myblog\index.html:68
 msgid "Backend"
 msgstr "Backend"
 
-#: .\myblog\templates\myblog\index.html:95
+#: .\myblog\templates\myblog\index.html:90
 msgid "Overall information"
 msgstr "Kopējā informācija"
 
-#: .\myblog\templates\myblog\index.html:97
+#: .\myblog\templates\myblog\index.html:92
 msgid "Qualification"
 msgstr "Kvalifikācija"
 
-#: .\myblog\templates\myblog\index.html:98
+#: .\myblog\templates\myblog\index.html:93
 msgid ""
 "Software\n"
 "\t\t\t\t\tengineer\n"
 "\t\t\t\t\t(bachelors degree)"
 msgstr "Programmēšanas inženieris (bakalaura grāds)"
 
-#: .\myblog\templates\myblog\index.html:101
+#: .\myblog\templates\myblog\index.html:96
 msgid "Graduated"
 msgstr "Absolvēta"
 
-#: .\myblog\templates\myblog\index.html:103
+#: .\myblog\templates\myblog\index.html:98
 msgid ""
 "Rezekne\n"
 "\t\t\t\t\t\tAcademy of Technologies"
 msgstr "Rēzeknes Tehnoloģiju akadēmija"
 
-#: .\myblog\templates\myblog\index.html:105
+#: .\myblog\templates\myblog\index.html:100
 msgid "Current status"
 msgstr "Esošais statuss"
 
-#: .\myblog\templates\myblog\index.html:106
+#: .\myblog\templates\myblog\index.html:101
 msgid "Unemployed"
 msgstr "Nestrādājošs"
 
@@ -293,24 +295,21 @@ msgstr "Django administrācija"
 msgid "Move backward"
 msgstr "Atpakaļ"
 
-#: .\templates\cookielaw\banner.html:7
-msgid "Cookies"
-msgstr "Cepumi"
-
 #: .\templates\cookielaw\banner.html:11
 msgid ""
-"We inform you that cookies are used for the full functioning of this "
-"website. By continuing, you agree to the use of them"
+"Notice that cookies are used for the full functioning of\n"
+"\t\t\t\t\t\tthis\n"
+"\t\t\t\t\t\twebsite. By continuing, you agree to the use of them "
 msgstr ""
 "Informējam, ka šīs mājaslapas pilnvērtīgai darbībai tiek izmantotas "
 "sīkdatnes (angļu val. \"cookies\"). Turpinot izmantot šo mājaslapu, Jūs "
-"piekrītat sīkdatņu izmantošanai"
+"piekrītat to izmantošanai"
 
-#: .\templates\cookielaw\banner.html:15
-msgid "What are the cookies?"
-msgstr "Kas ir cepumi?"
+#: .\templates\cookielaw\banner.html:17
+msgid "What are the cookies"
+msgstr "Kas ir cookies"
 
-#: .\templates\cookielaw\banner.html:18
+#: .\templates\cookielaw\banner.html:21
 msgid "Accept and close"
 msgstr "Piekrist un aizvērt"
 
