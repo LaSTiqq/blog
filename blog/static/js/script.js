@@ -1,21 +1,19 @@
-const currentTheme = localStorage.getItem("theme");
+const currentTheme = localStorage.getItem("theme") || "light";
+const toggleInput = document.querySelector("#toggle-mode");
 const body = document.querySelector("body");
-const toggle = document.getElementById("toggle");
 
-// Dark/light mode
-if (currentTheme == "light") {
-  body.classList.add("active");
+if (currentTheme === "dark") {
+  body.classList.add("dark-mode");
+  toggleInput.setAttribute("checked", true);
 }
 
-toggle.addEventListener("click", function () {
-  toggle.classList.toggle("active");
-  body.classList.toggle("active");
-
-  let theme = "dark";
-  if (body.classList.contains("active")) {
-    theme = "light";
+toggleInput.addEventListener("change", () => {
+  body.classList.toggle("dark-mode");
+  if (body.classList.contains("dark-mode")) {
+    localStorage.setItem("theme", "dark");
+  } else {
+    localStorage.setItem("theme", "light");
   }
-  localStorage.setItem("theme", theme);
 });
 
 // Tooltip

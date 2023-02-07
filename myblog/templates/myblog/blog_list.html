@@ -5,19 +5,16 @@
 {% block content %}
 <a name="top"></a>
 <h1 class="big mt-5 mb-2">{% trans 'Blog' %}</h1>
-<p class="purple fw-bold">
-	{% blocktrans %}This section contains my personal solutions to the problems that I have encountered, as well as
-	those solutions that exist, but which I have modified{% endblocktrans %}.
-	{% blocktrans %}The articles do not claim to be unique, but they can be a good addition to the materials that
-	already are available{% endblocktrans %}.
-	{% trans 'This is a collection of my knowledge and experience, which I want to share with others' %}.
-	{% trans 'The knowledge base will be supplemented with new articles as the author has free time' %}.
+<p>
+	{% blocktrans %}This section features my personal solutions to problems I've faced and existing solutions I've
+	modified. While they
+	may not be entirely original, they can still be a valuable resource to complement existing materials. It's a
+	compilation of my experiences and knowledge, shared for the benefit of others{% endblocktrans %}.
 </p>
 <hr>
 <div class="alert alert-danger alert-dismissible fade show" role="alert">
-	<strong>{% blocktrans %} Images might not be visible according to poorly working host (different from website
-		hosts)
-		{% endblocktrans %}!</strong>
+	<strong>{% blocktrans %} Images may not display properly due to issues with the hosting service,
+		which is separate from the website's host{% endblocktrans %}!</strong>
 	<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>
 {% for item in blog %}
@@ -25,10 +22,11 @@
 <div class="card bg-light border">
 	<div class="card-header border">
 		{% trans 'Tag' %}: <a href="{{ item.tag.get_absolute_url }}" data-bs-toggle="tooltip" data-bs-placement="top"
-			data-bs-trigger="hover" title="{% trans 'Sort by tag' %}" class="links arimo">{{ item.tag.name }}</a>
+			data-bs-trigger="hover" title="{% trans 'Sort by tag' %}" class="links text-decoration-none">
+			{{ item.tag.name }}</a>
 	</div>
 	<div class="card-body">
-		<h2 class="card-title arimo fw-bold">{{ item.title }}</h2>
+		<h2 class="card-title fw-bold">{{ item.title }}</h2>
 		<div class="row">
 			<div class="col-12 col-lg-4">
 				<img src="{{ item.tag.image }}" alt="Preview image" class="img-fluid mx-auto mb-2 d-block">

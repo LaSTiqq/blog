@@ -29,5 +29,5 @@ class BlogDetail(DetailView):
 	model = Blog
 	context_object_name = 'blog'
 
-class Portfolio(TemplateView):
-	template_name = 'myblog/portfolio.html'
+class Other(TemplateView):
+	template_name = 'myblog/other.html'

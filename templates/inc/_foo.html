@@ -1,30 +1,37 @@
 {% load i18n %}
 <div class="container">
-	<div class="row gx-0">
-		<div class="col-12 col-xl-4 d-flex align-items-center justify-content-center">
-			<p class="text-center mt-3 mb-0 fw-bold">
-				{% trans 'Page is translated into three languages but translations may vary' %}
+	<div class="row">
+		<div class="col-12 col-xl-4">
+			<p class="text-center mt-3 mb-0">
+				{% blocktrans %}Page is available in three languages with potential
+				translation variations{% endblocktrans %}
 			</p>
 		</div>
-		<div class="col-12 col-xl-4 text-center mt-3">
-			<a href="https://www.facebook.com/lastiqq/" title="Facebook" target="_blank" rel="noopener"
-				class="links me-4">
-				<i class="fab fa-facebook fs-3"></i>
-			</a>
-			<a href="https://www.instagram.com/lauriss_1313/" title="Instagram" target="_blank" rel="noopener"
-				class="links mx-4">
-				<i class="fab fa-instagram fs-3"></i>
-			</a>
+		<div class="col-12 col-xl-4 text-center mt-4">
 			<a href="https://www.linkedin.com/in/lauris-stirna-ab4898254/" title="LinkedIn" target="_blank"
-				rel="noopener" class="links mx-4">
-				<i class="fab fa-linkedin fs-2"></i>
+				rel="noopener" class="links text-decoration-none me-3">
+				<i class="fa-brands fa-linkedin fa-2xl"></i>
 			</a>
-			<a href="https://github.com/LaSTiqq" title="Github" target="_blank" rel="noopener" class="links ms-4">
-				<i class="fab fa-github fs-2"></i>
+			<a href="https://github.com/LaSTiqq" title="Github" target="_blank" rel="noopener"
+				class="links text-decoration-none mx-3">
+				<i class="fa-brands fa-github fa-2xl"></i>
+			</a>
+			<a href="mailto: lavrencij@inbox.lv" title="Email: lavrencij@inbox.lv"
+				class="links text-decoration-none mx-3">
+				<i class="fa-solid fa-at fa-2xl"></i>
+			</a>
+			<a href="https://discordapp.com/users/LaSTiqq#7980" title="Discord" target="_blank" rel="noopener"
+				class="links text-decoration-none mx-3">
+				<i class="fa-brands fa-discord fa-2xl"></i>
+			</a>
+			<a href="https://t.me/LaSTiqq" title="Telegram" target="_blank" rel="noopener"
+				class="links text-decoration-none ms-3">
+				<i class="fa-brands fa-telegram fa-2xl"></i>
 			</a>
 		</div>
-		<div class="col-12 col-xl-4 text-center mt-3">
-			<p>Copyright © {% now 'Y' %} - Lauris Stirna</p>
+		<div class="col-12 col-xl-4 text-center mt-4">
+			<p class="text-center">Powered by <a href="https://chat.openai.com/" target="_blank" rel="noopener"
+					class="link-info text-decoration-none">ChatGPT</a></p>
 		</div>
 	</div>
 </div>

@@ -4,7 +4,8 @@
 {% block title %}{{ blog.tag }} - {{ blog.title }}{% endblock %}
 {% block content %}
 <br>
-<h1 class="text-end"><a class="links" href="{{ blog.tag.get_absolute_url }}">[{{ blog.tag }}]</a> {{ blog.title }}</h1>
+<h1 class="text-end"><a class="links text-decoration-none" href="{{ blog.tag.get_absolute_url }}">[{{ blog.tag }}]</a>
+    {{ blog.title }}</h1>
 <hr>
 {{ blog.content|safe }}
 {% endblock %}

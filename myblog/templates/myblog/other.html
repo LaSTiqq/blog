@@ -1,64 +1,20 @@
 {% extends 'base.html' %}
 {% load static %}
 {% load i18n %}
-{% block title %}Lauris Stirna :: {% trans 'Portfolio' %}{% endblock %}
+{% block title %}Lauris Stirna :: {% trans 'Other' %}{% endblock %}
 {% block static_content %}
 <div class="container">
 	<div class="row">
-		<a name="examples"></a>
-		<h1 class="big mt-5">{% trans 'Portfolio' %}</h1>
-		<p class="mb-4 purple fw-bold">{% blocktrans %}As I'm pretty young developer my real projects could be counted
-			on the fingers of one hand but I've already developed some{% endblocktrans %}.<br>
-			{% blocktrans %}Currently I'm developing a new website but I can't share it just by now
-			{% endblocktrans %}.<br>
-			{% trans 'Cheers to' %} <a href="https://eu.pythonanywhere.com/" rel="noopener" target="_blank"
-				class="link-primary text-decoration-none">PythonAnywhere</a>,
-			{% trans 'thanks to them both of the websites are in the Internet' %}.
-		</p>
-		<div class="col-12 mb-3">
-			<i class="fas fa-angle-right fs-4 orange"></i>
-			<a href="https://www.affix.lv/" target="_blank" rel="noopener"
-				class="links fs-5 arimo">&nbsp;affix.lv&nbsp;</a>
-			<i class="fas fa-angle-left fs-4 orange"></i>
-			<br>
-			<i class="fas fa-angle-right fs-4 orange"></i>
-			<a href="https://laurisstirna.eu.pythonanywhere.com/" target="_blank" rel="noopener"
-				class="links fs-6 arimo">&nbsp;laurisstirna.eu.pythonanywhere.com&nbsp;</a>
-			<i class="fas fa-angle-left fs-4 orange"></i>
-		</div>
-		<hr>
 		<div class="col-12">
-			<h1 class="text-end">{% trans 'Plans' %}</h1>
-			<p class="text-end purple fw-bold mb-3">
-				{% blocktrans %}I wish to make a websites even bigger, more complicated
-				and more entertaining{% endblocktrans %}.<br>
-				{% blocktrans %}To interact more with backend, adaptivity and code simplicity, so my next steps
-				are{% endblocktrans %}:
-			</p>
-			<ul class="text-end list-unstyled fs-6">
-				<li>{% trans 'Learn' %} <strong>React.js</strong> <i class="fab fa-react links"></i></li>
-				<li>{% trans 'Dive deep into' %} <strong>JavaScript</strong> <i class="fab fa-js-square links"></i>
-					{% trans 'and' %}
-					<strong>Node.js</strong> <i class="fab fa-node links"></i>
-				</li>
-				<li>
-					{% trans 'Keep improving' %}
-					<strong>HTML</strong> <i class="fab fa-html5 links"></i>,
-					<strong>CSS</strong> <i class="fab fa-css3-alt links"></i>
-					{% trans 'and' %}
-					<strong>SCSS</strong> <i class="fab fa-sass links"></i>
-				</li>
-				<li>{% trans 'Learn' %} <strong>MongoDB</strong> <i class="fa fa-database links"></i>
-					{% trans 'and other related to database things' %}</li>
-				<li>{% trans 'Learn something new at all' %} <i class="fas fa-code links"></i></li>
-			</ul>
+			<h1 class="big mt-5">{% trans 'Other' %}</h1>
+			<h1 class="text-end">{% trans 'Technologies' %}</h1>
+			<p class="text-end mb-3">Section in progress... As well as translations for most of the website on russian
+				and latvian.</p>
 		</div>
-		<hr>
 		<div class="col-12">
 			<h1>{% trans 'Useful resources' %}</h1>
-			<p class="purple fw-bold mb-3">{% trans 'Here are collected most of the resources that I use' %}:
-			</p>
-			<ul class="fs-6 list">
+			<p class="mb-3">{% trans 'Here are collected most of the resources that I use' %}:</p>
+			<ul>
 				<li>OS Templates - <a href="https://www.os-templates.com/" rel="noopener" target="_blank"
 						class="link-primary text-decoration-none">{% trans 'link' %}</a></li>
 				<li>Nicepage Templates - <a href="https://nicepage.com/templates" rel="noopener" target="_blank"
@@ -89,6 +45,9 @@
 				<li>Fontjoy - <a href="https://fontjoy.com/" rel="noopener" target="_blank"
 						class="link-primary text-decoration-none">
 						{% trans 'link' %}</a></li>
+				<li>CSS Minifier - <a href="https://www.toptal.com/developers/cssminifier" rel="noopener"
+						target="_blank" class="link-primary text-decoration-none">
+						{% trans 'link' %}</a></li>
 				<li>Unminify - <a href="https://unminify.com/" rel="noopener" target="_blank"
 						class="link-primary text-decoration-none">
 						{% trans 'link' %}</a></li>
@@ -108,9 +67,10 @@
 		<hr>
 		<div class="col-12">
 			<h1 class="text-end">{% trans 'Thoughts' %}</h1>
-			<ol class="text-end list-unstyled fs-6 fst-italic">
-				<li>{% trans "You can't be a good programmer without constant learning new things" %}.</li>
-				<li>{% trans 'Good Googling often is enough to solve most of the problems' %}.</li>
+			<ol class="text-end list-unstyled fst-italic">
+				<li>{% trans 'Efficient use of search engines can often resolve the majority of issues' %}.
+					{% trans 'ChatGPT makes all easier at least twice' %}.</li>
+				<li>{% trans 'Continuous learning is crucial for success as a programmer' %}.</li>
 				<li>{% trans 'Improve English as much as you can' %}.</li>
 			</ol>
 		</div>

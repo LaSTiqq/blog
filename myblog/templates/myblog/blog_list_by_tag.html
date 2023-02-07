@@ -6,13 +6,13 @@
 {% for item in blog %}
 {% if item.published %}
 {% if forloop.first %}
-<h1 class="text-center mt-5">{% trans 'All related articles with' %} <span class="text-primary">{{ item.tag }}</span>
+<h1 class="text-center mt-5">{% trans 'All related articles with' %} <span class="links">{{ item.tag }}</span>
 </h1><br>
 {% endif %}
 <div class="card bg-light border">
 	<div class="card-header border">
 		<i class="fas fa-undo"></i>&nbsp;
-		<a class="links {% if request.resolver_match.url_name == 'blog' %}active{% endif %}"
+		<a class="links text-decoration-none {% if request.resolver_match.url_name == 'blog' %}active{% endif %}"
 			href="{% url 'myblog:blog' %}">
 			{% trans 'Back to all articles' %}</a>
 	</div>
