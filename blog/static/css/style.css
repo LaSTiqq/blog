@@ -56,22 +56,61 @@ h2 {
 footer {
   background-color: #f8f9fa;
 }
+.fa-linkedin {
+  color: #0077b5;
+  transition: 0.4s;
+}
+.fa-linkedin:hover {
+  color: #00a0dc;
+  transition: 0.4s;
+}
+.fa-github {
+  color: #181717;
+  transition: 0.4s;
+}
+.fa-github:hover {
+  color: #4078c0;
+  transition: 0.4s;
+}
+.fa-at {
+  color: #1abc9c;
+  transition: 0.4s;
+}
+.fa-at:hover {
+  color: #16a085;
+  transition: 0.4s;
+}
+.fa-discord {
+  color: #7289da;
+  transition: 0.4s;
+}
+.fa-discord:hover {
+  color: #a74dd6;
+  transition: 0.4s;
+}
+.fa-telegram {
+  color: #0088cc;
+  transition: 0.4s;
+}
+.fa-telegram:hover {
+  color: #54c1e8;
+  transition: 0.4s;
+}
 .dark-mode footer {
   background-color: #212529;
 }
 .dark-mode footer p {
   color: #f9f8fa;
 }
-.links {
-  color: #ff0054;
+.highlight-no-hover {
+  color: #ff5733;
+}
+.highlight {
+  color: #ff5733;
   transition: 0.4s;
 }
-.links:hover {
-  color: #ff6666;
-  transition: 0.4s;
-}
-.dark-mode .links:hover {
-  color: #ffccee;
+.highlight:hover {
+  color: #ff8c1a;
   transition: 0.4s;
 }
 .dark-mode hr {
@@ -86,6 +125,53 @@ footer {
 }
 .big {
   font-size: 68px;
+}
+.accordion {
+  border: 1px solid #000;
+}
+.accordion-item {
+  border: 1px solid #000;
+}
+.accordion-button:focus {
+  z-index: 0;
+  border-color: transparent;
+  box-shadow: none;
+}
+.dark-mode .accordion-button::after {
+  content: "";
+  width: 1.25rem;
+  height: 1.25rem;
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  background-image: url(../img/arrow.png);
+  transform: rotate(-180deg);
+}
+.dark-mode .accordion-button:not(.collapsed)::after {
+  background-image: url(../img/arrow.png);
+  transform: none;
+}
+.dark-mode .dark-mode .accordion-button:focus {
+  z-index: 0;
+  border-color: transparent;
+  box-shadow: none;
+}
+.dark-mode .accordion {
+  border: 1px solid #fff;
+}
+.dark-mode .accordion-item {
+  border: 1px solid #fff;
+}
+.dark-mode .accordion-button {
+  background-color: #000;
+  color: #fff;
+}
+.dark-mode .accordion-button:not(.collapsed) {
+  color: #d0f4de;
+  background-color: #555555;
+}
+.dark-mode .accordion-item {
+  background-color: #212529;
+  border: 1px solid #fff;
 }
 .dark-mode .content {
   color: #f9f8fa;
@@ -153,6 +239,36 @@ input:checked + .slider:before {
 }
 .slider.round:before {
   border-radius: 50%;
+}
+.icon-sun {
+  background: url(../img/sun-icon.svg);
+  background-size: cover;
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  left: 4px;
+  bottom: 4px;
+}
+.icon-moon {
+  background: url(../img/moon-icon.svg);
+  background-size: cover;
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  left: 30px;
+  bottom: 4px;
+}
+input:not(:checked) + .slider .icon-sun {
+  display: block;
+}
+input:checked + .slider .icon-moon {
+  display: block;
+}
+input:not(:checked) + .slider .icon-moon {
+  display: none;
+}
+input:checked + .slider .icon-sun {
+  display: none;
 }
 
 /****** LANGUAGES ******/

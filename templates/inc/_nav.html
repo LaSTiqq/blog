@@ -40,23 +40,26 @@
 							{{ languages.0.name_local|capfirst }}
 						</button>
 					</li>
-					<li class="mx-2 mx-lg-0">
-						<button type="submit" name="language" value="{{ languages.1.code }}"
-							class="btn btn-success btn-sm fw-bold {% if languages.1.code == LANGUAGE_CODE %}active{% endif %}">
-							{{ languages.1.name_local|capfirst }}
-						</button>
-					</li>
-					<li class="ms-2 ms-lg-0">
+					<li class="ms-2 mx-lg-0">
 						<button type="submit" name="language" value="{{ languages.2.code }}"
 							class="btn btn-success btn-sm fw-bold {% if languages.2.code == LANGUAGE_CODE %}active{% endif %}">
 							{{ languages.2.name_local|capfirst }}
+						</button>
+					</li>
+					<li class="mx-2 ms-lg-0">
+						<button type="submit" name="language" value="{{ languages.1.code }}"
+							class="btn btn-success btn-sm fw-bold {% if languages.1.code == LANGUAGE_CODE %}active{% endif %}">
+							{{ languages.1.name_local|capfirst }}
 						</button>
 					</li>
 				</ul>
 			</form>
 			<label class="switch">
 				<input type="checkbox" id="toggle-mode">
-				<span class="slider round"></span>
+				<span class="slider round">
+					<div class="icon-sun"></div>
+					<div class="icon-moon"></div>
+				</span>
 			</label>
 		</div>
 	</div>

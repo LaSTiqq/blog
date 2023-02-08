@@ -7,14 +7,110 @@
 	<div class="row">
 		<div class="col-12">
 			<h1 class="big mt-5">{% trans 'Other' %}</h1>
-			<h1 class="text-end">{% trans 'Technologies' %}</h1>
-			<p class="text-end mb-3">Section in progress... As well as translations for most of the website on russian
-				and latvian.</p>
+			<h1>{% trans 'Technologies' %}</h1>
+			<figcaption class="blockquote-footer fs-6 mt-2 mb-4">
+				{% blocktrans %}The following is a list of programming languages, frameworks,
+				libraries etc. that I have come across in my brief time as a developer{% endblocktrans %}.
+				<br><span class="highlight-no-hover fw-bold">{% trans 'Highlighted' %}</span>
+				<span class="highlight-no-hover">
+					{% trans 'items mean that I used them outside my study process and have some real experience' %}:
+				</span>
+			</figcaption>
+			<div class="accordion accordion-flush" id="accordion">
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingOne">
+						<button class="accordion-button fs-5 fw-bold" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							{% trans 'Frontend tools' %}
+						</button>
+					</h2>
+					<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+						data-bs-parent="#accordion">
+						<div class="accordion-body">
+							<ul>
+								<li><strong>HTML</strong></li>
+								<li><strong>CSS</strong></li>
+								<li><strong>SCSS</strong></li>
+								<li><strong>Bootstrap</strong></li>
+								<li><strong>Google Search Console</strong></li>
+								<li><strong>SEO {% trans 'and' %} Lighthouse {% trans 'optimization' %}</strong></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingTwo">
+						<button class="accordion-button fs-5 collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							{% trans 'Programming languages' %}
+						</button>
+					</h2>
+					<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+						data-bs-parent="#accordion">
+						<div class="accordion-body">
+							<ul>
+								<li>C++</li>
+								<li>C#</li>
+								<li>Java</li>
+								<li><strong>Python</strong></li>
+								<li><strong>JavaScript</strong></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingThree">
+						<button class="accordion-button fs-5 collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							{% trans 'Frameworks' %}
+						</button>
+					</h2>
+					<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+						data-bs-parent="#accordion">
+						<div class="accordion-body">
+							<ul>
+								<li>Entity Framework</li>
+								<li><strong>Django</strong></li>
+								<li><strong>Node.js</strong></li>
+								<li><strong>Express.js</strong></li>
+								<li><strong>React.js</strong></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingThree">
+						<button class="accordion-button fs-5 collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+							{% trans 'Additional' %}
+						</button>
+					</h2>
+					<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
+						data-bs-parent="#accordion">
+						<div class="accordion-body">
+							<ul>
+								<li>MySQL</li>
+								<li><strong>SQLite</strong></li>
+								<li><strong>MongoDB</strong></li>
+								<li>REST APIs</li>
+								<li><strong>Github</strong></li>
+								<li><strong>Bitbucket</strong></li>
+								<li><strong>{% trans 'Deploying SPA websites on' %} <a
+											href="https://eu.pythonanywhere.com/" target="_blank" rel="noopener"
+											class="link-primary">PythonAnywhere</a></strong></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
 		</div>
 		<div class="col-12">
-			<h1>{% trans 'Useful resources' %}</h1>
-			<p class="mb-3">{% trans 'Here are collected most of the resources that I use' %}:</p>
-			<ul>
+			<h1 class="mt-3 text-end">{% trans 'Useful resources' %}</h1>
+			<figcaption class="blockquote-footer text-end fs-6 my-2">
+				{% trans 'The following is a list of most of the resources I utilize in my work' %}:
+			</figcaption>
+			<ul class="text-end" style="list-style-position: inside">
 				<li>OS Templates - <a href="https://www.os-templates.com/" rel="noopener" target="_blank"
 						class="link-primary text-decoration-none">{% trans 'link' %}</a></li>
 				<li>Nicepage Templates - <a href="https://nicepage.com/templates" rel="noopener" target="_blank"
@@ -66,13 +162,25 @@
 		</div>
 		<hr>
 		<div class="col-12">
-			<h1 class="text-end">{% trans 'Thoughts' %}</h1>
-			<ol class="text-end list-unstyled fst-italic">
-				<li>{% trans 'Efficient use of search engines can often resolve the majority of issues' %}.
-					{% trans 'ChatGPT makes all easier at least twice' %}.</li>
-				<li>{% trans 'Continuous learning is crucial for success as a programmer' %}.</li>
-				<li>{% trans 'Improve English as much as you can' %}.</li>
-			</ol>
+			<h1>{% trans 'Thoughts' %}</h1>
+			<ul class="list-unstyled">
+				<li class="mt-4">
+					<figcaption class="blockquote-footer fs-6">
+						{% blocktrans %}Efficient use of search engines can often resolve the
+						majority of issues. ChatGPT makes all easier at least twice{% endblocktrans %}.
+					</figcaption>
+				</li>
+				<li>
+					<figcaption class="blockquote-footer fs-6">
+						{% trans 'Continuous learning is crucial for success as a programmer' %}.
+					</figcaption>
+				</li>
+				<li>
+					<figcaption class="blockquote-footer fs-6">
+						{% trans 'Improve English as much as you can' %}.
+					</figcaption>
+				</li>
+			</ul>
 		</div>
 	</div>
 </div>
