@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-04 20:57+0200\n"
+"POT-Creation-Date: 2023-02-08 21:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,72 +21,54 @@ msgstr ""
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #: .\myblog\templates\myblog\blog_list.html:4
-#: .\myblog\templates\myblog\blog_list.html:7 .\templates\inc\_nav.html:24
+#: .\myblog\templates\myblog\blog_list.html:7 .\templates\inc\_nav.html:23
 msgid "Blog"
 msgstr "Блог"
 
 #: .\myblog\templates\myblog\blog_list.html:9
 msgid ""
-"This section contains my personal solutions to the problems that I have "
-"encountered, as well as\n"
-"\tthose solutions that exist, but which I have modified"
+"This section features my personal solutions to problems I've faced and "
+"existing solutions I've\n"
+"\tmodified. While they\n"
+"\tmay not be entirely original, they can still be a valuable resource to "
+"complement existing materials. It's a\n"
+"\tcompilation of my experiences and knowledge, shared for the benefit of "
+"others"
 msgstr ""
-"В данном разделе собраны мои личные решения проблем, с которыми я "
-"сталкивался, а также те решения, которые существуют, но которые я видоизменял"
+"Этот раздел содержит мои персональные решения новых и уже существующих "
+"проблем, с которыми я сталкивался и которые я видоизменял под свои нужды. "
+"Они могут не быть полностью уникальными, но могут быть хорошим дополнением к "
+"уже существующим материалам. Это сборник моего опыта и знаний, которыми я "
+"хочу делиться с другими"
 
-#: .\myblog\templates\myblog\blog_list.html:11
+#: .\myblog\templates\myblog\blog_list.html:16
 msgid ""
-"The articles do not claim to be unique, but they can be a good addition to "
-"the materials that\n"
-"\talready are available"
+" Images may not display properly due to issues with the hosting service,\n"
+"\t\twhich is separate from the website's host"
 msgstr ""
-"Статьи не претендуют на уникальность, однако могут быть хорошим дополнением "
-"к уже доступным материалам"
+"Изображения могут не отображаться из-за перебоев с сервисом хостинга, "
+"который отличается от хоста сайта"
 
-#: .\myblog\templates\myblog\blog_list.html:13
-msgid ""
-"This is a collection of my knowledge and experience, which I want to share "
-"with others"
-msgstr "Это сборник моих знаний и опыта, которым я хочу делиться с другими"
-
-#: .\myblog\templates\myblog\blog_list.html:14
-msgid ""
-"The knowledge base will be supplemented with new articles as the author has "
-"free time"
-msgstr ""
-"База знаний будет дополняться новыми статьями по мере появления у автора "
-"свободного времени"
-
-#: .\myblog\templates\myblog\blog_list.html:18
-msgid ""
-" Images might not be visible according to poorly working host (different "
-"from website\n"
-"\t\thosts)\n"
-"\t\t"
-msgstr ""
-"Картинки могут не подгрузиться в связи с плохо работающим хостом (отличается "
-"от хоста страницы)"
-
-#: .\myblog\templates\myblog\blog_list.html:27
+#: .\myblog\templates\myblog\blog_list.html:24
 msgid "Tag"
 msgstr "Тэг"
 
-#: .\myblog\templates\myblog\blog_list.html:28
+#: .\myblog\templates\myblog\blog_list.html:25
 msgid "Sort by tag"
 msgstr "Сортировать по тэгу"
 
-#: .\myblog\templates\myblog\blog_list.html:38
-#: .\myblog\templates\myblog\blog_list_by_tag.html:27
+#: .\myblog\templates\myblog\blog_list.html:36
+#: .\myblog\templates\myblog\blog_list_by_tag.html:28
 msgid "Read more"
 msgstr "Читать дальше"
 
-#: .\myblog\templates\myblog\blog_list.html:43
-#: .\myblog\templates\myblog\blog_list_by_tag.html:32
+#: .\myblog\templates\myblog\blog_list.html:41
+#: .\myblog\templates\myblog\blog_list_by_tag.html:33
 msgid "Last updated"
 msgstr "Обновлено"
 
-#: .\myblog\templates\myblog\blog_list.html:44
-#: .\myblog\templates\myblog\blog_list_by_tag.html:33
+#: .\myblog\templates\myblog\blog_list.html:42
+#: .\myblog\templates\myblog\blog_list_by_tag.html:34
 msgid "Created at"
 msgstr "Создано"
 
@@ -98,188 +80,234 @@ msgstr "Статьи"
 msgid "All related articles with"
 msgstr "Все связанные статьи с"
 
-#: .\myblog\templates\myblog\blog_list_by_tag.html:17
+#: .\myblog\templates\myblog\blog_list_by_tag.html:18
 msgid "Back to all articles"
 msgstr "Обратно ко всем статьям"
 
-#: .\myblog\templates\myblog\index.html:4 .\templates\inc\_nav.html:20
+#: .\myblog\templates\myblog\index.html:4 .\templates\inc\_nav.html:19
 msgid "About"
 msgstr "Обо мне"
 
 #: .\myblog\templates\myblog\index.html:17
 msgid ""
-"When I began to work on my\n"
-"\t\t\t\tdiploma\n"
-"\t\t\t\tproject I fell in love with creating websites"
+"When I began to work on my diploma project I fell in love with creating "
+"websites"
 msgstr ""
 "Когда я начал работу над своим дипломным проектом, я влюбился в создание "
 "сайтов"
 
 #: .\myblog\templates\myblog\index.html:24
-msgid "Contact"
-msgstr "Контакты"
-
-#: .\myblog\templates\myblog\index.html:59
-msgid "Stack of technologies"
-msgstr "Стэк технологий"
-
-#: .\myblog\templates\myblog\index.html:60
-msgid "Frontend"
-msgstr "Фронтенд"
-
-#: .\myblog\templates\myblog\index.html:68
-msgid "Backend"
-msgstr "Бекенд"
-
-#: .\myblog\templates\myblog\index.html:90
-msgid "Overall information"
-msgstr "Общая информация"
-
-#: .\myblog\templates\myblog\index.html:92
-msgid "Qualification"
-msgstr "Квалификация"
-
-#: .\myblog\templates\myblog\index.html:93
-msgid ""
-"Software\n"
-"\t\t\t\t\tengineer\n"
-"\t\t\t\t\t(bachelors degree)"
-msgstr "Инженер-программист (степень бакалавра)"
-
-#: .\myblog\templates\myblog\index.html:96
-msgid "Graduated"
-msgstr "Окончил"
-
-#: .\myblog\templates\myblog\index.html:98
-msgid ""
-"Rezekne\n"
-"\t\t\t\t\t\tAcademy of Technologies"
-msgstr "Резекненскую Технологическую академию"
-
-#: .\myblog\templates\myblog\index.html:100
-msgid "Current status"
-msgstr "Текущий статус"
-
-#: .\myblog\templates\myblog\index.html:101
-msgid "Unemployed"
-msgstr "Безработный"
-
-#: .\myblog\templates\myblog\portfolio.html:4
-#: .\myblog\templates\myblog\portfolio.html:9 .\templates\inc\_nav.html:28
 msgid "Portfolio"
 msgstr "Портфолио"
 
-#: .\myblog\templates\myblog\portfolio.html:10
+#: .\myblog\templates\myblog\index.html:25
 msgid ""
-"As I'm pretty young developer my real projects could be counted\n"
-"\t\t\ton the fingers of one hand but I've already developed some"
+"As a relatively new developer, my portfolio is\n"
+"\t\t\t\tlimited with only a few real projects to showcase, but I am proud of "
+"what I have accomplished\n"
+"\t\t\t\tso far"
 msgstr ""
-"Поскольку я достаточно молодой разработчик, мои реальные проекты могут быть "
-"сосчитаны на пальцах одной руки, но я уже разработал некоторые"
+"Как относительно молодой разработчик, мое портфолио ограничено всего "
+"несколькими реальными проектами, но я горд тем, чего я достиг уже сейчас"
 
-#: .\myblog\templates\myblog\portfolio.html:12
+#: .\myblog\templates\myblog\index.html:38
 msgid ""
-"Currently I'm developing a new website but I can't share it just by now\n"
-"\t\t\t"
+"There is supposed to be one more SPA website but it's currently under "
+"development"
+msgstr "Тут должен быть еще один SPA сайт, но он еще в разработке"
+
+#: .\myblog\templates\myblog\index.html:41
+msgid "My current"
+msgstr "Мой текущий"
+
+#: .\myblog\templates\myblog\index.html:44
+msgid "project dedicated to"
+msgstr "проект, посвященный"
+
+#: .\myblog\templates\myblog\index.html:51
+msgid "Overall information"
+msgstr "Общая информация"
+
+#: .\myblog\templates\myblog\index.html:54
+msgid "Qualification"
+msgstr "Квалификация"
+
+#: .\myblog\templates\myblog\index.html:55
+msgid "Software engineer (bachelors degree)"
+msgstr "Инженер-программист (степень бакалавра)"
+
+#: .\myblog\templates\myblog\index.html:58
+msgid "Graduated"
+msgstr "Окончил"
+
+#: .\myblog\templates\myblog\index.html:61
+msgid "Rezekne Academy of Technologies"
+msgstr "Резекненскую Технологическую академию"
+
+#: .\myblog\templates\myblog\index.html:64
+msgid "Current status"
+msgstr "Текущий статус"
+
+#: .\myblog\templates\myblog\index.html:65
+msgid "Looking for a job"
+msgstr "В поисках работы"
+
+#: .\myblog\templates\myblog\index.html:68
+msgid "Preferable position"
+msgstr "Предпочтительная позиция"
+
+#: .\myblog\templates\myblog\index.html:69
+#: .\myblog\templates\myblog\index.html:73
+msgid "(or similar)"
+msgstr "(или похоже)"
+
+#: .\myblog\templates\myblog\index.html:72
+msgid "Non preferable position"
+msgstr "Не предпочтительная позиция"
+
+#: .\myblog\templates\myblog\index.html:78
+msgid "Closest plans"
+msgstr "Ближайшие планы"
+
+#: .\myblog\templates\myblog\index.html:79
+msgid ""
+"As a self-driven and responsible\n"
+"\t\t\t\tdeveloper, I believe that my learning journey should never come to "
+"an end.\n"
+"\t\t\t\tMy next learning objectives are"
 msgstr ""
-"В настоящий момент я разрабатываю новый сайт, но я пока не могу делиться им"
+"Как самостоятельный и ответственный разработчик, я считаю, что мое "
+"путешествие в изучении чего-то нового не должно никогда заканчиваться. Мои "
+"следующие цели в изучении это"
 
-#: .\myblog\templates\myblog\portfolio.html:14
-msgid "Cheers to"
-msgstr "Спасибо"
+#: .\myblog\templates\myblog\index.html:84
+msgid "Start learning"
+msgstr "Начать изучение"
 
-#: .\myblog\templates\myblog\portfolio.html:16
-msgid "thanks to them both of the websites are in the Internet"
-msgstr "благодаря им оба сайта опубликованы в интернете"
+#: .\myblog\templates\myblog\index.html:86
+#: .\myblog\templates\myblog\index.html:91
+msgid "Keep learning"
+msgstr "Продолжать изучение"
 
-#: .\myblog\templates\myblog\portfolio.html:31
-msgid "Plans"
-msgstr "Планы"
-
-#: .\myblog\templates\myblog\portfolio.html:33
-msgid ""
-"I wish to make a websites even bigger, more complicated\n"
-"\t\t\t\tand more entertaining"
-msgstr "Я желаю создавать сайты больше, сложнее и развлекательнее"
-
-#: .\myblog\templates\myblog\portfolio.html:35
-msgid ""
-"To interact more with backend, adaptivity and code simplicity, so my next "
-"steps\n"
-"\t\t\t\tare"
-msgstr ""
-"Больше взаимодействовать с бекендом, адаптивностью и простотой кода, так что "
-"мои следующие шаги"
-
-#: .\myblog\templates\myblog\portfolio.html:39
-#: .\myblog\templates\myblog\portfolio.html:51
-msgid "Learn"
-msgstr "Изучить"
-
-#: .\myblog\templates\myblog\portfolio.html:40
-msgid "Dive deep into"
-msgstr "Углубиться в"
-
-#: .\myblog\templates\myblog\portfolio.html:41
-#: .\myblog\templates\myblog\portfolio.html:48
+#: .\myblog\templates\myblog\index.html:96
+#: .\myblog\templates\myblog\other.html:35
 msgid "and"
 msgstr "и"
 
-#: .\myblog\templates\myblog\portfolio.html:45
-msgid "Keep improving"
-msgstr "Продолжать совершенствование знаний по"
+#: .\myblog\templates\myblog\index.html:98
+msgid "Keep using and remembering"
+msgstr "Продолжать помнить и пользоваться"
 
-#: .\myblog\templates\myblog\portfolio.html:52
-msgid "and other related to database things"
-msgstr "и другие связанные вещи с базами данных"
+#: .\myblog\templates\myblog\index.html:102
+msgid "Learn"
+msgstr "Изучить"
 
-#: .\myblog\templates\myblog\portfolio.html:53
-msgid "Learn something new at all"
-msgstr "Учить что-то новое в целом"
+#: .\myblog\templates\myblog\index.html:103
+msgid "and/or"
+msgstr "и/или"
 
-#: .\myblog\templates\myblog\portfolio.html:58
+#: .\myblog\templates\myblog\index.html:106
+msgid "maybe"
+msgstr "возможно"
+
+#: .\myblog\templates\myblog\other.html:4
+#: .\myblog\templates\myblog\other.html:9 .\templates\inc\_nav.html:27
+msgid "Other"
+msgstr "Другое"
+
+#: .\myblog\templates\myblog\other.html:10
+msgid "Technologies"
+msgstr "Технологии"
+
+#: .\myblog\templates\myblog\other.html:12
+msgid ""
+"The following is a list of programming languages, frameworks,\n"
+"\t\t\t\tlibraries etc. that I have come across in my brief time as a "
+"developer"
+msgstr ""
+"Список ниже содержит языки программирования, фреймворки, библиотеки и тп., с "
+"которыми я работал за недолгий период в роли разработчика"
+
+#: .\myblog\templates\myblog\other.html:14
+msgid "Highlighted"
+msgstr "Выделенные"
+
+#: .\myblog\templates\myblog\other.html:16
+msgid ""
+"items mean that I used them outside my study process and have some real "
+"experience"
+msgstr ""
+"слова означают, что я использовал их вне своего высшего образования и имею "
+"некоторый реальный опыт"
+
+#: .\myblog\templates\myblog\other.html:24
+msgid "Frontend tools"
+msgstr "Фронтэнд инструменты"
+
+#: .\myblog\templates\myblog\other.html:45
+msgid "Programming languages"
+msgstr "Языки программирования"
+
+#: .\myblog\templates\myblog\other.html:65
+msgid "Frameworks"
+msgstr "Фреймворки"
+
+#: .\myblog\templates\myblog\other.html:85
+msgid "Additional"
+msgstr "Дополнительно"
+
+#: .\myblog\templates\myblog\other.html:98
+msgid "Deploying SPA websites on"
+msgstr "Развертывание SPA сайтов на базе"
+
+#: .\myblog\templates\myblog\other.html:109
 msgid "Useful resources"
 msgstr "Полезные ресурсы"
 
-#: .\myblog\templates\myblog\portfolio.html:59
-msgid "Here are collected most of the resources that I use"
-msgstr "Здесь собрано большинство ресурсов, которыми я пользуюсь"
+#: .\myblog\templates\myblog\other.html:111
+msgid "The following is a list of most of the resources I utilize in my work"
+msgstr "Ниже приведен список ресурсов, которыми я пользуюсь в своей работе"
 
-#: .\myblog\templates\myblog\portfolio.html:63
-#: .\myblog\templates\myblog\portfolio.html:65
-#: .\myblog\templates\myblog\portfolio.html:68
-#: .\myblog\templates\myblog\portfolio.html:71
-#: .\myblog\templates\myblog\portfolio.html:74
-#: .\myblog\templates\myblog\portfolio.html:76
-#: .\myblog\templates\myblog\portfolio.html:79
-#: .\myblog\templates\myblog\portfolio.html:81
-#: .\myblog\templates\myblog\portfolio.html:83
-#: .\myblog\templates\myblog\portfolio.html:86
-#: .\myblog\templates\myblog\portfolio.html:88
-#: .\myblog\templates\myblog\portfolio.html:91
-#: .\myblog\templates\myblog\portfolio.html:94
-#: .\myblog\templates\myblog\portfolio.html:97
-#: .\myblog\templates\myblog\portfolio.html:100
-#: .\myblog\templates\myblog\portfolio.html:102
-#: .\myblog\templates\myblog\portfolio.html:105
+#: .\myblog\templates\myblog\other.html:115
+#: .\myblog\templates\myblog\other.html:117
+#: .\myblog\templates\myblog\other.html:120
+#: .\myblog\templates\myblog\other.html:123
+#: .\myblog\templates\myblog\other.html:126
+#: .\myblog\templates\myblog\other.html:128
+#: .\myblog\templates\myblog\other.html:131
+#: .\myblog\templates\myblog\other.html:133
+#: .\myblog\templates\myblog\other.html:135
+#: .\myblog\templates\myblog\other.html:138
+#: .\myblog\templates\myblog\other.html:140
+#: .\myblog\templates\myblog\other.html:143
+#: .\myblog\templates\myblog\other.html:146
+#: .\myblog\templates\myblog\other.html:149
+#: .\myblog\templates\myblog\other.html:152
+#: .\myblog\templates\myblog\other.html:155
+#: .\myblog\templates\myblog\other.html:157
+#: .\myblog\templates\myblog\other.html:160
 msgid "link"
 msgstr "ссылка"
 
-#: .\myblog\templates\myblog\portfolio.html:110
+#: .\myblog\templates\myblog\other.html:165
 msgid "Thoughts"
 msgstr "Мысли"
 
-#: .\myblog\templates\myblog\portfolio.html:112
-msgid "You can't be a good programmer without constant learning new things"
+#: .\myblog\templates\myblog\other.html:169
+msgid ""
+"Efficient use of search engines can often resolve the\n"
+"\t\t\t\t\t\tmajority of issues. ChatGPT makes all easier at least twice"
 msgstr ""
-"Ты не можешь быть хорошим программистом без постоянного изучения чего-то "
-"нового"
+"Эффективное пользование поисковыми ресурсами может часто решить большинство "
+"проблем. ChatGPT упрощшает весь процесс как минимум вдвое"
 
-#: .\myblog\templates\myblog\portfolio.html:113
-msgid "Good Googling often is enough to solve most of the problems"
-msgstr "Хорошего Гугления часто достаточно, чтобы решить большинство проблем"
+#: .\myblog\templates\myblog\other.html:175
+msgid "Continuous learning is crucial for success as a programmer"
+msgstr ""
+"Беспрерывное изучение чего-то нового критично важно, чтобы быть успешным "
+"программистом"
 
-#: .\myblog\templates\myblog\portfolio.html:114
+#: .\myblog\templates\myblog\other.html:180
 msgid "Improve English as much as you can"
 msgstr "Улучшай свой английский как можно больше"
 
@@ -291,7 +319,7 @@ msgstr "Администратор сайта Django"
 msgid "Django administration"
 msgstr "Django администрирование"
 
-#: .\templates\base.html:43
+#: .\templates\base.html:44
 msgid "Move backward"
 msgstr "Назад"
 
@@ -314,5 +342,7 @@ msgid "Accept and close"
 msgstr "Принять и закрыть"
 
 #: .\templates\inc\_foo.html:6
-msgid "Page is translated into three languages but translations may vary"
-msgstr "Страница переведена на три языка, но переводы могут отличаться"
+msgid ""
+"Page is available in three languages with potential\n"
+"\t\t\t\ttranslation variations"
+msgstr "Страница переведена на три языка с потенциально неточными переводами"
