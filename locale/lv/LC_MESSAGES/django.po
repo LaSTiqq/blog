@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-08 21:40+0200\n"
+"POT-Creation-Date: 2023-02-09 02:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,13 +33,19 @@ msgid ""
 "complement existing materials. It's a\n"
 "\tcompilation of my experiences and knowledge, shared for the benefit of "
 "others"
-msgstr "Šī sadaļa ietver sevī manus personīgos risinājumus jau esošajām un jaunajām problēmām, ar kurām biju sastapies. Raksti var nebūt unikāli, bet tie var būt labs papildinājums jau esošajiem materiāliem. Tas ir manas pieredzes un zināšanu krājums, ar kuru vēlos dalīties"
+msgstr ""
+"Šī sadaļa ietver sevī manus personīgos risinājumus jau esošajām un jaunajām "
+"problēmām, ar kurām biju sastapies. Raksti var nebūt unikāli, bet tie var "
+"būt labs papildinājums jau esošajiem materiāliem. Tas ir manas pieredzes un "
+"zināšanu krājums, ar kuru vēlos dalīties"
 
 #: .\myblog\templates\myblog\blog_list.html:16
 msgid ""
 " Images may not display properly due to issues with the hosting service,\n"
 "\t\twhich is separate from the website's host"
-msgstr "Attēli var neielādēties līdz ar problēmām uzturētāja pusē, kas ir atšķirīgs no mājaslapas uzturētāja"
+msgstr ""
+"Attēli var neielādēties līdz ar problēmām uzturētāja pusē, kas ir atšķirīgs "
+"no mājaslapas uzturētāja"
 
 #: .\myblog\templates\myblog\blog_list.html:24
 msgid "Tag"
@@ -97,13 +103,16 @@ msgid ""
 "\t\t\t\tlimited with only a few real projects to showcase, but I am proud of "
 "what I have accomplished\n"
 "\t\t\t\tso far"
-msgstr "Kā relatīvi jauns izstrādātājs, mans portfolio ir ierobežots vien ar dažiem reāliem projektiem, bet esmu lepns ar padarīto līdz šim"
+msgstr ""
+"Kā relatīvi jauns izstrādātājs, mans portfolio ir ierobežots vien ar dažiem "
+"reāliem projektiem, bet esmu lepns ar padarīto līdz šim"
 
 #: .\myblog\templates\myblog\index.html:38
 msgid ""
 "There is supposed to be one more SPA website but it's currently under "
 "development"
-msgstr "Šeit ir jābūt vēl vienai SPA mājaslapai, bet tā pašlaik tiek izstrādāta"
+msgstr ""
+"Šeit ir jābūt vēl vienai SPA mājaslapai, bet tā pašlaik tiek izstrādāta"
 
 #: .\myblog\templates\myblog\index.html:41
 msgid "My current"
@@ -164,7 +173,9 @@ msgid ""
 "\t\t\t\tdeveloper, I believe that my learning journey should never come to "
 "an end.\n"
 "\t\t\t\tMy next learning objectives are"
-msgstr "Kā patstāvīgs un atbildīgs izstrādātājs, es uzskatu, ka mans ceļojums kaut kā jauna apgūšanā nekad nedrīkst beigties. Mani nākamie apgūstāmie mērķi ir"
+msgstr ""
+"Kā patstāvīgs un atbildīgs izstrādātājs, es uzskatu, ka mans ceļojums kaut "
+"kā jauna apgūšanā nekad nedrīkst beigties. Mani nākamie apgūstāmie mērķi ir"
 
 #: .\myblog\templates\myblog\index.html:84
 msgid "Start learning"
@@ -210,7 +221,9 @@ msgid ""
 "The following is a list of programming languages, frameworks,\n"
 "\t\t\t\tlibraries etc. that I have come across in my brief time as a "
 "developer"
-msgstr "Saraksts zemāk satur programmēšanas valodas, satvarus, bibliotēkas utt., kuras es paspēju izmantot savā īsā izstrādātāja karjerā"
+msgstr ""
+"Saraksts zemāk satur programmēšanas valodas, satvarus, bibliotēkas utt., "
+"kuras es paspēju izmantot savā īsā izstrādātāja karjerā"
 
 #: .\myblog\templates\myblog\other.html:14
 msgid "Highlighted"
@@ -220,7 +233,9 @@ msgstr "Izceltie"
 msgid ""
 "items mean that I used them outside my study process and have some real "
 "experience"
-msgstr "vārdi nozīmē, ka es tos lietoju ārpus sava studiju procesa un man ir kāda reāla pieredze"
+msgstr ""
+"vārdi nozīmē, ka es tos lietoju ārpus sava studiju procesa un man ir kāda "
+"reāla pieredze"
 
 #: .\myblog\templates\myblog\other.html:24
 msgid "Frontend tools"
@@ -279,11 +294,15 @@ msgstr "Domas"
 msgid ""
 "Efficient use of search engines can often resolve the\n"
 "\t\t\t\t\t\tmajority of issues. ChatGPT makes all easier at least twice"
-msgstr "Efektīva meklēšanas resursu izmantošana var bieži atrisināt lielāko daļu problēmu. ChatGPT padara šo vismaz divkārt vieglāku"
+msgstr ""
+"Efektīva meklēšanas resursu izmantošana var bieži atrisināt lielāko daļu "
+"problēmu. ChatGPT padara šo vismaz divkārt vieglāku"
 
 #: .\myblog\templates\myblog\other.html:175
 msgid "Continuous learning is crucial for success as a programmer"
-msgstr "Nebeidzoša kaut kā jauna apgūšana ir kritiski svarīga, lai būt par sekmīgu programmētāju"
+msgstr ""
+"Nebeidzoša kaut kā jauna apgūšana ir kritiski svarīga, lai būt par sekmīgu "
+"programmētāju"
 
 #: .\myblog\templates\myblog\other.html:180
 msgid "Improve English as much as you can"
@@ -303,7 +322,8 @@ msgstr "Atpakaļ"
 
 #: .\templates\cookielaw\banner.html:11
 msgid ""
-"Notice that cookies are used for the full functioning of\n"
+"Notice that cookies are used for the full\n"
+"\t\t\t\t\t\tfunctioning of\n"
 "\t\t\t\t\t\tthis\n"
 "\t\t\t\t\t\twebsite. By continuing, you agree to the use of them "
 msgstr ""
@@ -311,11 +331,11 @@ msgstr ""
 "sīkdatnes (angļu val. \"cookies\"). Turpinot izmantot šo mājaslapu, Jūs "
 "piekrītat to izmantošanai"
 
-#: .\templates\cookielaw\banner.html:17
+#: .\templates\cookielaw\banner.html:18
 msgid "What are the cookies"
 msgstr "Kas ir cookies"
 
-#: .\templates\cookielaw\banner.html:21
+#: .\templates\cookielaw\banner.html:22
 msgid "Accept and close"
 msgstr "Piekrist un aizvērt"
 

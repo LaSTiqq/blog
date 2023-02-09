@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-08 21:40+0200\n"
+"POT-Creation-Date: 2023-02-09 02:00+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -325,7 +325,8 @@ msgstr "Назад"
 
 #: .\templates\cookielaw\banner.html:11
 msgid ""
-"Notice that cookies are used for the full functioning of\n"
+"Notice that cookies are used for the full\n"
+"\t\t\t\t\t\tfunctioning of\n"
 "\t\t\t\t\t\tthis\n"
 "\t\t\t\t\t\twebsite. By continuing, you agree to the use of them "
 msgstr ""
@@ -333,11 +334,11 @@ msgstr ""
 "функционирования этого сайта. Продолжая использовать его, Вы соглашаетесь на "
 "их использование"
 
-#: .\templates\cookielaw\banner.html:17
+#: .\templates\cookielaw\banner.html:18
 msgid "What are the cookies"
 msgstr "Что такое куки"
 
-#: .\templates\cookielaw\banner.html:21
+#: .\templates\cookielaw\banner.html:22
 msgid "Accept and close"
 msgstr "Принять и закрыть"
 
