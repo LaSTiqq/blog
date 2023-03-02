@@ -17,9 +17,11 @@ main {
   min-height: 100%;
 }
 .blockquote-footer {
-  color: #777777;
-  font-size: 22px;
+  color: #424242;
   font-style: italic;
+}
+.dark-mode .blockquote-footer {
+  color: #dddddd;
 }
 nav {
   background-color: #f8f9fa;
