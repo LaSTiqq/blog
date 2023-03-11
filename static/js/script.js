@@ -21,5 +21,5 @@ document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach((el) => {
   new bootstrap.Tooltip(el);
 });
 
-// Code template
-hljs.highlightAll();
+// Code highlight
+Prism.highlightAll();
