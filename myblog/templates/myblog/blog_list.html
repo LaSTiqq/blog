@@ -22,7 +22,7 @@
 <div class="card bg-light border">
 	<div class="card-header border">
 		{% trans 'Tag' %}: <a href="{{ item.tag.get_absolute_url }}" data-bs-toggle="tooltip" data-bs-placement="top"
-			data-bs-trigger="hover" title="{% trans 'Sort by tag' %}" class="highlight text-decoration-none">
+			data-bs-trigger="hover" title="{% trans 'Sort by tag' %}" class="highlight">
 			{{ item.tag.name }}</a>
 	</div>
 	<div class="card-body">

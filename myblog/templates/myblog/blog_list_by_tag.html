@@ -13,7 +13,7 @@
 <div class="card bg-light border">
 	<div class="card-header border">
 		<i class="fas fa-undo"></i>&nbsp;
-		<a class="highlight text-decoration-none {% if request.resolver_match.url_name == 'blog' %}active{% endif %}"
+		<a class="highlight {% if request.resolver_match.url_name == 'blog' %}active{% endif %}"
 			href="{% url 'myblog:blog' %}">
 			{% trans 'Back to all articles' %}</a>
 	</div>
