@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-09 02:00+0200\n"
+"POT-Creation-Date: 2023-06-18 11:45+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,56 +118,51 @@ msgstr ""
 msgid "My current"
 msgstr "Mans esošais"
 
-#: .\myblog\templates\myblog\index.html:44
+#: .\myblog\templates\myblog\index.html:43
 msgid "project dedicated to"
 msgstr "projekts, kas veltīts"
 
-#: .\myblog\templates\myblog\index.html:51
+#: .\myblog\templates\myblog\index.html:50
 msgid "Overall information"
 msgstr "Kopējā informācija"
 
-#: .\myblog\templates\myblog\index.html:54
+#: .\myblog\templates\myblog\index.html:53
 msgid "Qualification"
 msgstr "Kvalifikācija"
 
-#: .\myblog\templates\myblog\index.html:55
+#: .\myblog\templates\myblog\index.html:54
 msgid "Software engineer (bachelors degree)"
 msgstr "Programmēšanas inženieris (bakalaura grāds)"
 
-#: .\myblog\templates\myblog\index.html:58
+#: .\myblog\templates\myblog\index.html:57
 msgid "Graduated"
 msgstr "Absolvēta"
 
-#: .\myblog\templates\myblog\index.html:61
+#: .\myblog\templates\myblog\index.html:59
 msgid "Rezekne Academy of Technologies"
 msgstr "Rēzeknes Tehnoloģiju akadēmija"
 
-#: .\myblog\templates\myblog\index.html:64
+#: .\myblog\templates\myblog\index.html:62
 msgid "Current status"
 msgstr "Esošais statuss"
 
-#: .\myblog\templates\myblog\index.html:65
+#: .\myblog\templates\myblog\index.html:63
 msgid "Looking for a job"
 msgstr "Darba meklējumos"
 
-#: .\myblog\templates\myblog\index.html:68
+#: .\myblog\templates\myblog\index.html:66
 msgid "Preferable position"
 msgstr "Vēlamā pozīcija"
 
-#: .\myblog\templates\myblog\index.html:69
-#: .\myblog\templates\myblog\index.html:73
+#: .\myblog\templates\myblog\index.html:67
 msgid "(or similar)"
 msgstr "(vai līdzīgi)"
 
 #: .\myblog\templates\myblog\index.html:72
-msgid "Non preferable position"
-msgstr "Nevēlamā pozīcija"
-
-#: .\myblog\templates\myblog\index.html:78
 msgid "Closest plans"
 msgstr "Tuvākie plāni"
 
-#: .\myblog\templates\myblog\index.html:79
+#: .\myblog\templates\myblog\index.html:73
 msgid ""
 "As a self-driven and responsible\n"
 "\t\t\t\tdeveloper, I believe that my learning journey should never come to "
@@ -177,33 +172,33 @@ msgstr ""
 "Kā patstāvīgs un atbildīgs izstrādātājs, es uzskatu, ka mans ceļojums kaut "
 "kā jauna apgūšanā nekad nedrīkst beigties. Mani nākamie apgūstāmie mērķi ir"
 
-#: .\myblog\templates\myblog\index.html:84
+#: .\myblog\templates\myblog\index.html:78
 msgid "Start learning"
 msgstr "Uzsākt apgūt"
 
-#: .\myblog\templates\myblog\index.html:86
-#: .\myblog\templates\myblog\index.html:91
+#: .\myblog\templates\myblog\index.html:80
+#: .\myblog\templates\myblog\index.html:85
 msgid "Keep learning"
 msgstr "Turpināt uzlabot zināšanas par"
 
-#: .\myblog\templates\myblog\index.html:96
+#: .\myblog\templates\myblog\index.html:89
 #: .\myblog\templates\myblog\other.html:35
 msgid "and"
 msgstr "un"
 
-#: .\myblog\templates\myblog\index.html:98
+#: .\myblog\templates\myblog\index.html:90
 msgid "Keep using and remembering"
 msgstr "Turpināt atcerēties un izmantot"
 
-#: .\myblog\templates\myblog\index.html:102
+#: .\myblog\templates\myblog\index.html:93
 msgid "Learn"
 msgstr "Apgūt"
 
-#: .\myblog\templates\myblog\index.html:103
+#: .\myblog\templates\myblog\index.html:94
 msgid "and/or"
 msgstr "un/vai"
 
-#: .\myblog\templates\myblog\index.html:106
+#: .\myblog\templates\myblog\index.html:97
 msgid "maybe"
 msgstr "iespējams"
 
@@ -253,44 +248,23 @@ msgstr "Satvari"
 msgid "Additional"
 msgstr "Papildus"
 
-#: .\myblog\templates\myblog\other.html:98
+#: .\myblog\templates\myblog\other.html:99
 msgid "Deploying SPA websites on"
 msgstr "SPA mājaslapu publicēšana iekš"
 
-#: .\myblog\templates\myblog\other.html:109
+#: .\myblog\templates\myblog\other.html:110
 msgid "Useful resources"
 msgstr "Noderīgi resursi"
 
-#: .\myblog\templates\myblog\other.html:111
+#: .\myblog\templates\myblog\other.html:112
 msgid "The following is a list of most of the resources I utilize in my work"
 msgstr "Saraksts zemāk satur resursus, kurus izmantoju savā darbā"
 
-#: .\myblog\templates\myblog\other.html:115
-#: .\myblog\templates\myblog\other.html:117
-#: .\myblog\templates\myblog\other.html:120
-#: .\myblog\templates\myblog\other.html:123
-#: .\myblog\templates\myblog\other.html:126
-#: .\myblog\templates\myblog\other.html:128
-#: .\myblog\templates\myblog\other.html:131
-#: .\myblog\templates\myblog\other.html:133
-#: .\myblog\templates\myblog\other.html:135
-#: .\myblog\templates\myblog\other.html:138
-#: .\myblog\templates\myblog\other.html:140
-#: .\myblog\templates\myblog\other.html:143
-#: .\myblog\templates\myblog\other.html:146
-#: .\myblog\templates\myblog\other.html:149
-#: .\myblog\templates\myblog\other.html:152
-#: .\myblog\templates\myblog\other.html:155
-#: .\myblog\templates\myblog\other.html:157
-#: .\myblog\templates\myblog\other.html:160
-msgid "link"
-msgstr "saite"
-
-#: .\myblog\templates\myblog\other.html:165
+#: .\myblog\templates\myblog\other.html:142
 msgid "Thoughts"
 msgstr "Domas"
 
-#: .\myblog\templates\myblog\other.html:169
+#: .\myblog\templates\myblog\other.html:146
 msgid ""
 "Efficient use of search engines can often resolve the\n"
 "\t\t\t\t\t\tmajority of issues. ChatGPT makes all easier at least twice"
@@ -298,13 +272,13 @@ msgstr ""
 "Efektīva meklēšanas resursu izmantošana var bieži atrisināt lielāko daļu "
 "problēmu. ChatGPT padara šo vismaz divkārt vieglāku"
 
-#: .\myblog\templates\myblog\other.html:175
+#: .\myblog\templates\myblog\other.html:152
 msgid "Continuous learning is crucial for success as a programmer"
 msgstr ""
 "Nebeidzoša kaut kā jauna apgūšana ir kritiski svarīga, lai būt par sekmīgu "
 "programmētāju"
 
-#: .\myblog\templates\myblog\other.html:180
+#: .\myblog\templates\myblog\other.html:157
 msgid "Improve English as much as you can"
 msgstr "Uzlabo angļu valodu tik daudz, cik vari"
 
@@ -316,7 +290,7 @@ msgstr "Django lapas administrātors"
 msgid "Django administration"
 msgstr "Django administrācija"
 
-#: .\templates\base.html:44
+#: .\templates\base.html:46
 msgid "Move backward"
 msgstr "Atpakaļ"
 

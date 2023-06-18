@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-09 02:00+0200\n"
+"POT-Creation-Date: 2023-06-18 11:46+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,56 +120,51 @@ msgstr "Тут должен быть еще один SPA сайт, но он е�
 msgid "My current"
 msgstr "Мой текущий"
 
-#: .\myblog\templates\myblog\index.html:44
+#: .\myblog\templates\myblog\index.html:43
 msgid "project dedicated to"
 msgstr "проект, посвященный"
 
-#: .\myblog\templates\myblog\index.html:51
+#: .\myblog\templates\myblog\index.html:50
 msgid "Overall information"
 msgstr "Общая информация"
 
-#: .\myblog\templates\myblog\index.html:54
+#: .\myblog\templates\myblog\index.html:53
 msgid "Qualification"
 msgstr "Квалификация"
 
-#: .\myblog\templates\myblog\index.html:55
+#: .\myblog\templates\myblog\index.html:54
 msgid "Software engineer (bachelors degree)"
 msgstr "Инженер-программист (степень бакалавра)"
 
-#: .\myblog\templates\myblog\index.html:58
+#: .\myblog\templates\myblog\index.html:57
 msgid "Graduated"
 msgstr "Окончил"
 
-#: .\myblog\templates\myblog\index.html:61
+#: .\myblog\templates\myblog\index.html:59
 msgid "Rezekne Academy of Technologies"
 msgstr "Резекненскую Технологическую академию"
 
-#: .\myblog\templates\myblog\index.html:64
+#: .\myblog\templates\myblog\index.html:62
 msgid "Current status"
 msgstr "Текущий статус"
 
-#: .\myblog\templates\myblog\index.html:65
+#: .\myblog\templates\myblog\index.html:63
 msgid "Looking for a job"
 msgstr "В поисках работы"
 
-#: .\myblog\templates\myblog\index.html:68
+#: .\myblog\templates\myblog\index.html:66
 msgid "Preferable position"
 msgstr "Предпочтительная позиция"
 
-#: .\myblog\templates\myblog\index.html:69
-#: .\myblog\templates\myblog\index.html:73
+#: .\myblog\templates\myblog\index.html:67
 msgid "(or similar)"
 msgstr "(или похоже)"
 
 #: .\myblog\templates\myblog\index.html:72
-msgid "Non preferable position"
-msgstr "Не предпочтительная позиция"
-
-#: .\myblog\templates\myblog\index.html:78
 msgid "Closest plans"
 msgstr "Ближайшие планы"
 
-#: .\myblog\templates\myblog\index.html:79
+#: .\myblog\templates\myblog\index.html:73
 msgid ""
 "As a self-driven and responsible\n"
 "\t\t\t\tdeveloper, I believe that my learning journey should never come to "
@@ -180,33 +175,33 @@ msgstr ""
 "путешествие в изучении чего-то нового не должно никогда заканчиваться. Мои "
 "следующие цели в изучении это"
 
-#: .\myblog\templates\myblog\index.html:84
+#: .\myblog\templates\myblog\index.html:78
 msgid "Start learning"
 msgstr "Начать изучение"
 
-#: .\myblog\templates\myblog\index.html:86
-#: .\myblog\templates\myblog\index.html:91
+#: .\myblog\templates\myblog\index.html:80
+#: .\myblog\templates\myblog\index.html:85
 msgid "Keep learning"
 msgstr "Продолжать изучение"
 
-#: .\myblog\templates\myblog\index.html:96
+#: .\myblog\templates\myblog\index.html:89
 #: .\myblog\templates\myblog\other.html:35
 msgid "and"
 msgstr "и"
 
-#: .\myblog\templates\myblog\index.html:98
+#: .\myblog\templates\myblog\index.html:90
 msgid "Keep using and remembering"
 msgstr "Продолжать помнить и пользоваться"
 
-#: .\myblog\templates\myblog\index.html:102
+#: .\myblog\templates\myblog\index.html:93
 msgid "Learn"
 msgstr "Изучить"
 
-#: .\myblog\templates\myblog\index.html:103
+#: .\myblog\templates\myblog\index.html:94
 msgid "and/or"
 msgstr "и/или"
 
-#: .\myblog\templates\myblog\index.html:106
+#: .\myblog\templates\myblog\index.html:97
 msgid "maybe"
 msgstr "возможно"
 
@@ -256,44 +251,23 @@ msgstr "Фреймворки"
 msgid "Additional"
 msgstr "Дополнительно"
 
-#: .\myblog\templates\myblog\other.html:98
+#: .\myblog\templates\myblog\other.html:99
 msgid "Deploying SPA websites on"
 msgstr "Развертывание SPA сайтов на базе"
 
-#: .\myblog\templates\myblog\other.html:109
+#: .\myblog\templates\myblog\other.html:110
 msgid "Useful resources"
 msgstr "Полезные ресурсы"
 
-#: .\myblog\templates\myblog\other.html:111
+#: .\myblog\templates\myblog\other.html:112
 msgid "The following is a list of most of the resources I utilize in my work"
 msgstr "Ниже приведен список ресурсов, которыми я пользуюсь в своей работе"
 
-#: .\myblog\templates\myblog\other.html:115
-#: .\myblog\templates\myblog\other.html:117
-#: .\myblog\templates\myblog\other.html:120
-#: .\myblog\templates\myblog\other.html:123
-#: .\myblog\templates\myblog\other.html:126
-#: .\myblog\templates\myblog\other.html:128
-#: .\myblog\templates\myblog\other.html:131
-#: .\myblog\templates\myblog\other.html:133
-#: .\myblog\templates\myblog\other.html:135
-#: .\myblog\templates\myblog\other.html:138
-#: .\myblog\templates\myblog\other.html:140
-#: .\myblog\templates\myblog\other.html:143
-#: .\myblog\templates\myblog\other.html:146
-#: .\myblog\templates\myblog\other.html:149
-#: .\myblog\templates\myblog\other.html:152
-#: .\myblog\templates\myblog\other.html:155
-#: .\myblog\templates\myblog\other.html:157
-#: .\myblog\templates\myblog\other.html:160
-msgid "link"
-msgstr "ссылка"
-
-#: .\myblog\templates\myblog\other.html:165
+#: .\myblog\templates\myblog\other.html:142
 msgid "Thoughts"
 msgstr "Мысли"
 
-#: .\myblog\templates\myblog\other.html:169
+#: .\myblog\templates\myblog\other.html:146
 msgid ""
 "Efficient use of search engines can often resolve the\n"
 "\t\t\t\t\t\tmajority of issues. ChatGPT makes all easier at least twice"
@@ -301,13 +275,13 @@ msgstr ""
 "Эффективное пользование поисковыми ресурсами может часто решить большинство "
 "проблем. ChatGPT упрощшает весь процесс как минимум вдвое"
 
-#: .\myblog\templates\myblog\other.html:175
+#: .\myblog\templates\myblog\other.html:152
 msgid "Continuous learning is crucial for success as a programmer"
 msgstr ""
 "Беспрерывное изучение чего-то нового критично важно, чтобы быть успешным "
 "программистом"
 
-#: .\myblog\templates\myblog\other.html:180
+#: .\myblog\templates\myblog\other.html:157
 msgid "Improve English as much as you can"
 msgstr "Улучшай свой английский как можно больше"
 
@@ -319,7 +293,7 @@ msgstr "Администратор сайта Django"
 msgid "Django administration"
 msgstr "Django администрирование"
 
-#: .\templates\base.html:44
+#: .\templates\base.html:46
 msgid "Move backward"
 msgstr "Назад"
 
