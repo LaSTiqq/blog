@@ -5,7 +5,7 @@ html {
   transition: 0.5s;
 }
 body.dark-mode {
-  background-color: #000;
+  background-color: #1b1d24;
 }
 img {
   pointer-events: none;
@@ -31,7 +31,7 @@ nav {
   font-size: 18px;
 }
 .dark-mode nav {
-  background-color: #212529;
+  background-color: #15171d;
 }
 .dark-mode .nav-link {
   color: rgba(255, 255, 255, 0.55) !important;
@@ -70,7 +70,7 @@ footer {
   transition: 0.4s;
 }
 .fa-github {
-  color: #181717;
+  color: #8c8c8c;
   transition: 0.4s;
 }
 .fa-github:hover {
@@ -102,20 +102,31 @@ footer {
   transition: 0.4s;
 }
 .dark-mode footer {
-  background-color: #212529;
+  background-color: #15171d;
 }
 .dark-mode footer p {
   color: #f9f8fa;
 }
+.dark-mode .highlight-no-hover {
+  color: #5d9d0b;
+}
+.dark-mode .highlight {
+  color: #5d9d0b;
+  transition: 0.4s;
+}
+.dark-mode .highlight:hover {
+  color: #72eb3a;
+  transition: 0.4s;
+}
 .highlight-no-hover {
-  color: #ff5733;
+  color: #365a08;
 }
 .highlight {
-  color: #ff5733;
+  color: #365a08;
   transition: 0.4s;
 }
 .highlight:hover {
-  color: #ff8c1a;
+  color: #5d9d0b;
   transition: 0.4s;
 }
 .dark-mode hr {
@@ -127,12 +138,6 @@ footer {
 }
 .photo {
   width: 250px;
-}
-.big {
-  font-size: 68px;
-}
-.dark-mode .content {
-  color: #f9f8fa;
 }
 .dark-mode .card {
   background-color: #212529 !important;
@@ -149,24 +154,24 @@ footer {
 
 /****** ACCORDION ******/
 .accordion {
-  border: 0.75px solid #000;
+  border: 0.75px solid #5d9d0b;
 }
 .dark-mode .accordion {
-  border: 0.75px solid #fff;
+  border: 0.75px solid #5d9d0b;
 }
 .accordion-item {
-  border: 0.75px solid #000;
+  border: 0.75px solid #5d9d0b;
 }
 .dark-mode .accordion-item {
   background-color: #212529;
-  border: 0.75px solid #fff;
+  border: 0.75px solid #5d9d0b;
 }
 .dark-mode .accordion-button {
   background-color: #000;
   color: #fff;
 }
 .accordion-button:focus {
-  box-shadow: 0px 0px 10px 2px #00bfff;
+  box-shadow: 0px 0px 10px 2px #365a08;
 }
 .dark-mode .accordion-button::after {
   content: "";
@@ -178,12 +183,13 @@ footer {
   transform: rotate(-180deg);
 }
 .accordion-button:not(.collapsed) {
-  box-shadow: 0px 0px 10px 2px #00bfff;
+  color: #365a08;
+  box-shadow: 0px 0px 10px 2px #365a08;
 }
 .dark-mode .accordion-button:not(.collapsed) {
-  color: #d0f4de;
+  color: #72eb3a;
   background-color: #1c2331;
-  box-shadow: 0px 0px 10px 2px #00bfff;
+  box-shadow: 0px 0px 10px 2px #365a08;
 }
 .dark-mode .accordion-button:not(.collapsed)::after {
   transform: none;
@@ -295,9 +301,18 @@ input:checked + .slider .icon-sun {
   padding: 0;
 }
 .languages li button {
+  color: #fff;
+  background-color: #5d9d0b;
+  position: relative;
   margin-right: 5px;
   padding-left: 40px;
-  position: relative;
+}
+.languages li button.active {
+  background-color: #365a08;
+}
+.languages li button:hover {
+  background-color: #365a08;
+  color: #fff;
 }
 button[value="en"]::before,
 button[value="ru"]::before,
@@ -317,6 +332,17 @@ button[value="ru"]::before {
 }
 button[value="lv"]::before {
   background-image: url(../img/lv.svg);
+}
+.card-body a {
+  color: #fff;
+  background-color: #5d9d0b;
+}
+.card-body a:hover {
+  background-color: #365a08;
+  color: #fff;
+}
+.big {
+  font-size: 68px;
 }
 
 /****** COOKIES ******/

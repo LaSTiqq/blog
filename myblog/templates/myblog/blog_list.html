@@ -4,8 +4,8 @@
 {% block title %}Lauris Stirna :: {% trans 'Blog' %}{% endblock %}
 {% block content %}
 <a name="top"></a>
-<h1 class="big mt-5 mb-2">{% trans 'Blog' %}</h1>
-<figcaption class="blockquote-footer fs-6 mt-1">
+<h1 class="mt-4">Blog</h1>
+<figcaption class="blockquote-footer fs-6 mt-2">
 	{% blocktrans %}This section features my personal solutions to problems I've faced and existing solutions I've
 	modified. While they
 	may not be entirely original, they can still be a valuable resource to complement existing materials. It's a
@@ -33,7 +33,7 @@
 			</div>
 			<div class="col-12 col-lg-8">
 				<p class="card-text fw-bold">{{ item.preview_text }}</p>
-				<a href="{{ item.get_absolute_url }}" class="btn btn-secondary">{% trans 'Read more' %}...</a>
+				<a href="{{ item.get_absolute_url }}" class="btn">{% trans 'Read more' %}...</a>
 			</div>
 		</div>
 	</div>

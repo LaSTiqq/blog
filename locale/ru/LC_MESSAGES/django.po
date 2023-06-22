@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-18 11:46+0300\n"
+"POT-Creation-Date: 2023-06-22 20:23+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,8 +20,7 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: .\myblog\templates\myblog\blog_list.html:4
-#: .\myblog\templates\myblog\blog_list.html:7 .\templates\inc\_nav.html:23
+#: .\myblog\templates\myblog\blog_list.html:4 .\templates\inc\_nav.html:23
 msgid "Blog"
 msgstr "Блог"
 
@@ -185,7 +184,7 @@ msgid "Keep learning"
 msgstr "Продолжать изучение"
 
 #: .\myblog\templates\myblog\index.html:89
-#: .\myblog\templates\myblog\other.html:35
+#: .\myblog\templates\myblog\other.html:34
 msgid "and"
 msgstr "и"
 
@@ -205,16 +204,15 @@ msgstr "и/или"
 msgid "maybe"
 msgstr "возможно"
 
-#: .\myblog\templates\myblog\other.html:4
-#: .\myblog\templates\myblog\other.html:9 .\templates\inc\_nav.html:27
+#: .\myblog\templates\myblog\other.html:4 .\templates\inc\_nav.html:27
 msgid "Other"
 msgstr "Другое"
 
-#: .\myblog\templates\myblog\other.html:10
+#: .\myblog\templates\myblog\other.html:9
 msgid "Technologies"
 msgstr "Технологии"
 
-#: .\myblog\templates\myblog\other.html:12
+#: .\myblog\templates\myblog\other.html:11
 msgid ""
 "The following is a list of programming languages, frameworks,\n"
 "\t\t\t\tlibraries etc. that I have come across in my brief time as a "
@@ -223,11 +221,11 @@ msgstr ""
 "Список ниже содержит языки программирования, фреймворки, библиотеки и тп., с "
 "которыми я работал за недолгий период в роли разработчика"
 
-#: .\myblog\templates\myblog\other.html:14
+#: .\myblog\templates\myblog\other.html:13
 msgid "Highlighted"
 msgstr "Выделенные"
 
-#: .\myblog\templates\myblog\other.html:16
+#: .\myblog\templates\myblog\other.html:15
 msgid ""
 "items mean that I used them outside my study process and have some real "
 "experience"
@@ -235,39 +233,39 @@ msgstr ""
 "слова означают, что я использовал их вне своего высшего образования и имею "
 "некоторый реальный опыт"
 
-#: .\myblog\templates\myblog\other.html:24
+#: .\myblog\templates\myblog\other.html:23
 msgid "Frontend tools"
 msgstr "Фронтэнд инструменты"
 
-#: .\myblog\templates\myblog\other.html:45
+#: .\myblog\templates\myblog\other.html:44
 msgid "Programming languages"
 msgstr "Языки программирования"
 
-#: .\myblog\templates\myblog\other.html:65
+#: .\myblog\templates\myblog\other.html:64
 msgid "Frameworks"
 msgstr "Фреймворки"
 
-#: .\myblog\templates\myblog\other.html:85
+#: .\myblog\templates\myblog\other.html:84
 msgid "Additional"
 msgstr "Дополнительно"
 
-#: .\myblog\templates\myblog\other.html:99
+#: .\myblog\templates\myblog\other.html:98
 msgid "Deploying SPA websites on"
 msgstr "Развертывание SPA сайтов на базе"
 
-#: .\myblog\templates\myblog\other.html:110
+#: .\myblog\templates\myblog\other.html:109
 msgid "Useful resources"
 msgstr "Полезные ресурсы"
 
-#: .\myblog\templates\myblog\other.html:112
+#: .\myblog\templates\myblog\other.html:111
 msgid "The following is a list of most of the resources I utilize in my work"
 msgstr "Ниже приведен список ресурсов, которыми я пользуюсь в своей работе"
 
-#: .\myblog\templates\myblog\other.html:142
+#: .\myblog\templates\myblog\other.html:141
 msgid "Thoughts"
 msgstr "Мысли"
 
-#: .\myblog\templates\myblog\other.html:146
+#: .\myblog\templates\myblog\other.html:145
 msgid ""
 "Efficient use of search engines can often resolve the\n"
 "\t\t\t\t\t\tmajority of issues. ChatGPT makes all easier at least twice"
@@ -275,13 +273,13 @@ msgstr ""
 "Эффективное пользование поисковыми ресурсами может часто решить большинство "
 "проблем. ChatGPT упрощшает весь процесс как минимум вдвое"
 
-#: .\myblog\templates\myblog\other.html:152
+#: .\myblog\templates\myblog\other.html:151
 msgid "Continuous learning is crucial for success as a programmer"
 msgstr ""
 "Беспрерывное изучение чего-то нового критично важно, чтобы быть успешным "
 "программистом"
 
-#: .\myblog\templates\myblog\other.html:157
+#: .\myblog\templates\myblog\other.html:156
 msgid "Improve English as much as you can"
 msgstr "Улучшай свой английский как можно больше"
 
