@@ -3,6 +3,7 @@ html {
   font-family: "Bitter", serif;
   height: 100%;
   transition: 0.5s;
+  background-color: #fefefe;
 }
 body.dark-mode {
   background-color: #1b1d24;
@@ -27,7 +28,7 @@ a {
   color: #dddddd;
 }
 nav {
-  background-color: #f8f9fa;
+  background-color: #f0f0f0;
   font-size: 18px;
 }
 .dark-mode nav {
@@ -59,7 +60,7 @@ h2 {
   color: #fff;
 }
 footer {
-  background-color: #f8f9fa;
+  background-color: #f0f0f0;
 }
 .fa-linkedin {
   color: #0077b5;
