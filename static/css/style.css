@@ -29,7 +29,7 @@ a {
 }
 nav {
   background-color: #f0f0f0;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .dark-mode nav {
   background-color: #15171d;
@@ -137,9 +137,6 @@ footer {
   display: block;
   margin: 0 auto;
 }
-.photo {
-  width: 250px;
-}
 .dark-mode .card {
   background-color: #212529 !important;
 }
@@ -151,6 +148,9 @@ footer {
 }
 .custom-toggler.navbar-toggler {
   border-color: rgb(95, 245, 39);
+}
+.photo {
+  width: 250px;
 }
 
 /****** ACCORDION ******/
@@ -343,7 +343,8 @@ button[value="lv"]::before {
   color: #fff;
 }
 .big {
-  font-size: 68px;
+  font-size: 4.25rem;
+  transition: font-size 0.3s;
 }
 
 /****** COOKIES ******/
@@ -384,11 +385,12 @@ button[value="lv"]::before {
   }
   .photo {
     width: 235px;
-    display: block;
-    margin: 0 auto;
+  }
+  .intro {
+    text-align: center;
   }
   .big {
-    font-size: 60px;
+    font-size: 3rem;
   }
   /******* CARD *******/
   .card {
@@ -414,11 +416,12 @@ button[value="lv"]::before {
   }
   .photo {
     width: 250px;
-    display: block;
-    margin: 0 auto;
+  }
+  .intro {
+    text-align: center;
   }
   .big {
-    font-size: 60px;
+    font-size: 3.25rem;
   }
   /******* CARD *******/
   .card {
@@ -435,27 +438,7 @@ button[value="lv"]::before {
   .tooltip {
     display: none;
   }
-  .photo {
-    display: block;
-    margin: 0 auto;
-  }
   .big {
-    font-size: 60px;
-  }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .photo {
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-/* Extra large devices (large desktops, less than 1400px) */
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-  .photo {
-    display: block;
-    margin: 0 auto;
+    font-size: 3.5rem;
   }
 }
