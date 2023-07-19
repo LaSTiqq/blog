@@ -196,16 +196,20 @@ footer {
 }
 /****** Toggler ******/
 .switch {
+  font-size: 17px;
   position: relative;
   display: inline-block;
-  width: 60px;
+  width: 64px;
   height: 34px;
+  cursor: pointer;
 }
+
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
+
 .slider {
   position: absolute;
   cursor: pointer;
@@ -213,67 +217,91 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  background-color: #73C0FC;
+  transition: .4s;
+  border-radius: 30px;
 }
+
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  left: 2px;
+  bottom: 2px;
+  z-index: 2;
+  background-color: #e8e8e8;
+  transition: .4s;
 }
-input:checked + .slider {
-  background-color: #2196f3;
-}
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
-}
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-.slider.round {
-  border-radius: 34px;
-}
-.slider.round:before {
-  border-radius: 50%;
-}
-.icon-sun {
-  background: url(../img/sun-icon.svg);
-  background-size: cover;
-  height: 26px;
-  width: 26px;
+
+.sun svg {
   position: absolute;
-  left: 4px;
-  bottom: 4px;
+  top: 6px;
+  left: 36px;
+  z-index: 1;
+  width: 24px;
+  height: 24px;
 }
-.icon-moon {
-  background: url(../img/moon-icon.svg);
-  background-size: cover;
-  height: 26px;
-  width: 26px;
+
+.moon svg {
+  fill: #73C0FC;
   position: absolute;
-  left: 30px;
-  bottom: 4px;
+  top: 5px;
+  left: 5px;
+  z-index: 1;
+  width: 24px;
+  height: 24px;
 }
-input:not(:checked) + .slider .icon-sun {
-  display: block;
+
+.sun svg {
+  animation: rotate 15s linear infinite;
 }
-input:checked + .slider .icon-moon {
-  display: block;
+
+@keyframes rotate {
+ 
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
-input:not(:checked) + .slider .icon-moon {
-  display: none;
+
+.moon svg {
+  animation: tilt 5s linear infinite;
 }
-input:checked + .slider .icon-sun {
-  display: none;
+
+@keyframes tilt {
+ 
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(-10deg);
+  }
+
+  75% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.input:checked + .slider {
+  background-color: #183153;
+}
+
+.input:focus + .slider {
+  box-shadow: 0 0 1px #183153;
+}
+
+.input:checked + .slider:before {
+  transform: translateX(30px);
 }
 
 /****** LANGUAGES ******/
