@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-22 20:23+0300\n"
+"POT-Creation-Date: 2023-07-31 22:56+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,62 +106,62 @@ msgstr ""
 "Kā relatīvi jauns izstrādātājs, mans portfolio ir ierobežots vien ar dažiem "
 "reāliem projektiem, bet esmu lepns ar padarīto līdz šim"
 
-#: .\myblog\templates\myblog\index.html:38
+#: .\myblog\templates\myblog\index.html:37
 msgid ""
 "There is supposed to be one more SPA website but it's currently under "
 "development"
 msgstr ""
 "Šeit ir jābūt vēl vienai SPA mājaslapai, bet tā pašlaik tiek izstrādāta"
 
-#: .\myblog\templates\myblog\index.html:41
+#: .\myblog\templates\myblog\index.html:40
 msgid "My current"
 msgstr "Mans esošais"
 
-#: .\myblog\templates\myblog\index.html:43
+#: .\myblog\templates\myblog\index.html:42
 msgid "project dedicated to"
 msgstr "projekts, kas veltīts"
 
-#: .\myblog\templates\myblog\index.html:50
+#: .\myblog\templates\myblog\index.html:49
 msgid "Overall information"
 msgstr "Kopējā informācija"
 
-#: .\myblog\templates\myblog\index.html:53
+#: .\myblog\templates\myblog\index.html:52
 msgid "Qualification"
 msgstr "Kvalifikācija"
 
-#: .\myblog\templates\myblog\index.html:54
+#: .\myblog\templates\myblog\index.html:53
 msgid "Software engineer (bachelors degree)"
 msgstr "Programmēšanas inženieris (bakalaura grāds)"
 
-#: .\myblog\templates\myblog\index.html:57
+#: .\myblog\templates\myblog\index.html:56
 msgid "Graduated"
 msgstr "Absolvēta"
 
-#: .\myblog\templates\myblog\index.html:59
+#: .\myblog\templates\myblog\index.html:58
 msgid "Rezekne Academy of Technologies"
 msgstr "Rēzeknes Tehnoloģiju akadēmija"
 
-#: .\myblog\templates\myblog\index.html:62
+#: .\myblog\templates\myblog\index.html:61
 msgid "Current status"
 msgstr "Esošais statuss"
 
-#: .\myblog\templates\myblog\index.html:63
+#: .\myblog\templates\myblog\index.html:62
 msgid "Looking for a job"
 msgstr "Darba meklējumos"
 
-#: .\myblog\templates\myblog\index.html:66
+#: .\myblog\templates\myblog\index.html:65
 msgid "Preferable position"
 msgstr "Vēlamā pozīcija"
 
-#: .\myblog\templates\myblog\index.html:67
+#: .\myblog\templates\myblog\index.html:66
 msgid "(or similar)"
 msgstr "(vai līdzīgi)"
 
-#: .\myblog\templates\myblog\index.html:72
+#: .\myblog\templates\myblog\index.html:71
 msgid "Closest plans"
 msgstr "Tuvākie plāni"
 
-#: .\myblog\templates\myblog\index.html:73
+#: .\myblog\templates\myblog\index.html:72
 msgid ""
 "As a self-driven and responsible\n"
 "\t\t\t\tdeveloper, I believe that my learning journey should never come to "
@@ -171,33 +171,33 @@ msgstr ""
 "Kā patstāvīgs un atbildīgs izstrādātājs, es uzskatu, ka mans ceļojums kaut "
 "kā jauna apgūšanā nekad nedrīkst beigties. Mani nākamie apgūstāmie mērķi ir"
 
-#: .\myblog\templates\myblog\index.html:78
+#: .\myblog\templates\myblog\index.html:77
 msgid "Start learning"
 msgstr "Uzsākt apgūt"
 
-#: .\myblog\templates\myblog\index.html:80
-#: .\myblog\templates\myblog\index.html:85
+#: .\myblog\templates\myblog\index.html:79
+#: .\myblog\templates\myblog\index.html:84
 msgid "Keep learning"
 msgstr "Turpināt uzlabot zināšanas par"
 
-#: .\myblog\templates\myblog\index.html:89
+#: .\myblog\templates\myblog\index.html:88
 #: .\myblog\templates\myblog\other.html:34
 msgid "and"
 msgstr "un"
 
-#: .\myblog\templates\myblog\index.html:90
+#: .\myblog\templates\myblog\index.html:89
 msgid "Keep using and remembering"
 msgstr "Turpināt atcerēties un izmantot"
 
-#: .\myblog\templates\myblog\index.html:93
+#: .\myblog\templates\myblog\index.html:92
 msgid "Learn"
 msgstr "Apgūt"
 
-#: .\myblog\templates\myblog\index.html:94
+#: .\myblog\templates\myblog\index.html:93
 msgid "and/or"
 msgstr "un/vai"
 
-#: .\myblog\templates\myblog\index.html:97
+#: .\myblog\templates\myblog\index.html:96
 msgid "maybe"
 msgstr "iespējams"
 
@@ -256,7 +256,7 @@ msgstr "Noderīgi resursi"
 
 #: .\myblog\templates\myblog\other.html:111
 msgid "The following is a list of most of the resources I utilize in my work"
-msgstr "Saraksts zemāk satur resursus, kurus izmantoju savā darbā"
+msgstr "Saraksts zemāk ir resursu saraksts, kurus izmantoju savā darbā"
 
 #: .\myblog\templates\myblog\other.html:141
 msgid "Thoughts"
@@ -268,13 +268,11 @@ msgid ""
 "\t\t\t\t\t\tmajority of issues. ChatGPT makes all easier at least twice"
 msgstr ""
 "Efektīva meklēšanas resursu izmantošana var bieži atrisināt lielāko daļu "
-"problēmu. ChatGPT padara šo vismaz divkārt vieglāku"
+"problēmu. ChatGPT padara visu vismaz divkārt vieglāku"
 
 #: .\myblog\templates\myblog\other.html:151
 msgid "Continuous learning is crucial for success as a programmer"
-msgstr ""
-"Nebeidzoša kaut kā jauna apgūšana ir kritiski svarīga, lai būt par sekmīgu "
-"programmētāju"
+msgstr "Nepārtraukta mācīšanās ir kritiski svarīga, lai būt sekmīgs programmētājs"
 
 #: .\myblog\templates\myblog\other.html:156
 msgid "Improve English as much as you can"
@@ -292,27 +290,8 @@ msgstr "Django administrācija"
 msgid "Move backward"
 msgstr "Atpakaļ"
 
-#: .\templates\cookielaw\banner.html:11
-msgid ""
-"Notice that cookies are used for the full\n"
-"\t\t\t\t\t\tfunctioning of\n"
-"\t\t\t\t\t\tthis\n"
-"\t\t\t\t\t\twebsite. By continuing, you agree to the use of them "
-msgstr ""
-"Informējam, ka šīs mājaslapas pilnvērtīgai darbībai tiek izmantotas "
-"sīkdatnes (angļu val. \"cookies\"). Turpinot izmantot šo mājaslapu, Jūs "
-"piekrītat to izmantošanai"
-
-#: .\templates\cookielaw\banner.html:18
-msgid "What are the cookies"
-msgstr "Kas ir cookies"
-
-#: .\templates\cookielaw\banner.html:22
-msgid "Accept and close"
-msgstr "Piekrist un aizvērt"
-
 #: .\templates\inc\_foo.html:6
 msgid ""
 "Page is available in three languages with potential\n"
 "\t\t\t\ttranslation variations"
-msgstr "Lapa ir pieejama trijās valodās, ar tulkojumiem, kuri var atšķirties"
+msgstr "Lapa ir pieejama trijās valodās, ar atšķirīgiem tulkojumiem"

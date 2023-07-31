@@ -15,9 +15,9 @@
 *.wmv
 
 # Self
-myblog/migrations
 blog/settings.py
 blog/urls.py
 blog/static
 db.sqlite3
-venv/
+.vscode
+venv

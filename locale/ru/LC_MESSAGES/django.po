@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-22 20:23+0300\n"
+"POT-Creation-Date: 2023-07-31 22:56+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,61 +109,61 @@ msgstr ""
 "Как относительно молодой разработчик, мое портфолио ограничено всего "
 "несколькими реальными проектами, но я горд тем, чего я достиг уже сейчас"
 
-#: .\myblog\templates\myblog\index.html:38
+#: .\myblog\templates\myblog\index.html:37
 msgid ""
 "There is supposed to be one more SPA website but it's currently under "
 "development"
 msgstr "Тут должен быть еще один SPA сайт, но он еще в разработке"
 
-#: .\myblog\templates\myblog\index.html:41
+#: .\myblog\templates\myblog\index.html:40
 msgid "My current"
 msgstr "Мой текущий"
 
-#: .\myblog\templates\myblog\index.html:43
+#: .\myblog\templates\myblog\index.html:42
 msgid "project dedicated to"
 msgstr "проект, посвященный"
 
-#: .\myblog\templates\myblog\index.html:50
+#: .\myblog\templates\myblog\index.html:49
 msgid "Overall information"
 msgstr "Общая информация"
 
-#: .\myblog\templates\myblog\index.html:53
+#: .\myblog\templates\myblog\index.html:52
 msgid "Qualification"
 msgstr "Квалификация"
 
-#: .\myblog\templates\myblog\index.html:54
+#: .\myblog\templates\myblog\index.html:53
 msgid "Software engineer (bachelors degree)"
 msgstr "Инженер-программист (степень бакалавра)"
 
-#: .\myblog\templates\myblog\index.html:57
+#: .\myblog\templates\myblog\index.html:56
 msgid "Graduated"
 msgstr "Окончил"
 
-#: .\myblog\templates\myblog\index.html:59
+#: .\myblog\templates\myblog\index.html:58
 msgid "Rezekne Academy of Technologies"
 msgstr "Резекненскую Технологическую академию"
 
-#: .\myblog\templates\myblog\index.html:62
+#: .\myblog\templates\myblog\index.html:61
 msgid "Current status"
 msgstr "Текущий статус"
 
-#: .\myblog\templates\myblog\index.html:63
+#: .\myblog\templates\myblog\index.html:62
 msgid "Looking for a job"
 msgstr "В поисках работы"
 
-#: .\myblog\templates\myblog\index.html:66
+#: .\myblog\templates\myblog\index.html:65
 msgid "Preferable position"
 msgstr "Предпочтительная позиция"
 
-#: .\myblog\templates\myblog\index.html:67
+#: .\myblog\templates\myblog\index.html:66
 msgid "(or similar)"
 msgstr "(или похоже)"
 
-#: .\myblog\templates\myblog\index.html:72
+#: .\myblog\templates\myblog\index.html:71
 msgid "Closest plans"
 msgstr "Ближайшие планы"
 
-#: .\myblog\templates\myblog\index.html:73
+#: .\myblog\templates\myblog\index.html:72
 msgid ""
 "As a self-driven and responsible\n"
 "\t\t\t\tdeveloper, I believe that my learning journey should never come to "
@@ -174,33 +174,33 @@ msgstr ""
 "путешествие в изучении чего-то нового не должно никогда заканчиваться. Мои "
 "следующие цели в изучении это"
 
-#: .\myblog\templates\myblog\index.html:78
+#: .\myblog\templates\myblog\index.html:77
 msgid "Start learning"
 msgstr "Начать изучение"
 
-#: .\myblog\templates\myblog\index.html:80
-#: .\myblog\templates\myblog\index.html:85
+#: .\myblog\templates\myblog\index.html:79
+#: .\myblog\templates\myblog\index.html:84
 msgid "Keep learning"
 msgstr "Продолжать изучение"
 
-#: .\myblog\templates\myblog\index.html:89
+#: .\myblog\templates\myblog\index.html:88
 #: .\myblog\templates\myblog\other.html:34
 msgid "and"
 msgstr "и"
 
-#: .\myblog\templates\myblog\index.html:90
+#: .\myblog\templates\myblog\index.html:89
 msgid "Keep using and remembering"
 msgstr "Продолжать помнить и пользоваться"
 
-#: .\myblog\templates\myblog\index.html:93
+#: .\myblog\templates\myblog\index.html:92
 msgid "Learn"
 msgstr "Изучить"
 
-#: .\myblog\templates\myblog\index.html:94
+#: .\myblog\templates\myblog\index.html:93
 msgid "and/or"
 msgstr "и/или"
 
-#: .\myblog\templates\myblog\index.html:97
+#: .\myblog\templates\myblog\index.html:96
 msgid "maybe"
 msgstr "возможно"
 
@@ -270,7 +270,7 @@ msgid ""
 "Efficient use of search engines can often resolve the\n"
 "\t\t\t\t\t\tmajority of issues. ChatGPT makes all easier at least twice"
 msgstr ""
-"Эффективное пользование поисковыми ресурсами может часто решить большинство "
+"Эффективное использование поисковых ресурсов часто решает большинство "
 "проблем. ChatGPT упрощшает весь процесс как минимум вдвое"
 
 #: .\myblog\templates\myblog\other.html:151
@@ -294,25 +294,6 @@ msgstr "Django администрирование"
 #: .\templates\base.html:46
 msgid "Move backward"
 msgstr "Назад"
-
-#: .\templates\cookielaw\banner.html:11
-msgid ""
-"Notice that cookies are used for the full\n"
-"\t\t\t\t\t\tfunctioning of\n"
-"\t\t\t\t\t\tthis\n"
-"\t\t\t\t\t\twebsite. By continuing, you agree to the use of them "
-msgstr ""
-"Информируем, что куки (англ. cookies) используются для полноценного "
-"функционирования этого сайта. Продолжая использовать его, Вы соглашаетесь на "
-"их использование"
-
-#: .\templates\cookielaw\banner.html:18
-msgid "What are the cookies"
-msgstr "Что такое куки"
-
-#: .\templates\cookielaw\banner.html:22
-msgid "Accept and close"
-msgstr "Принять и закрыть"
 
 #: .\templates\inc\_foo.html:6
 msgid ""
