@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-31 22:56+0300\n"
+"POT-Creation-Date: 2023-08-01 23:03+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -261,11 +261,11 @@ msgstr "Полезные ресурсы"
 msgid "The following is a list of most of the resources I utilize in my work"
 msgstr "Ниже приведен список ресурсов, которыми я пользуюсь в своей работе"
 
-#: .\myblog\templates\myblog\other.html:141
+#: .\myblog\templates\myblog\other.html:138
 msgid "Thoughts"
 msgstr "Мысли"
 
-#: .\myblog\templates\myblog\other.html:145
+#: .\myblog\templates\myblog\other.html:142
 msgid ""
 "Efficient use of search engines can often resolve the\n"
 "\t\t\t\t\t\tmajority of issues. ChatGPT makes all easier at least twice"
@@ -273,25 +273,17 @@ msgstr ""
 "Эффективное использование поисковых ресурсов часто решает большинство "
 "проблем. ChatGPT упрощшает весь процесс как минимум вдвое"
 
-#: .\myblog\templates\myblog\other.html:151
-msgid "Continuous learning is crucial for success as a programmer"
+#: .\myblog\templates\myblog\other.html:148
+msgid "Continious learning is crucial for success as a programmer"
 msgstr ""
 "Беспрерывное изучение чего-то нового критично важно, чтобы быть успешным "
 "программистом"
 
-#: .\myblog\templates\myblog\other.html:156
+#: .\myblog\templates\myblog\other.html:153
 msgid "Improve English as much as you can"
 msgstr "Улучшай свой английский как можно больше"
 
-#: .\templates\admin\base_site.html:4
-msgid "Django site admin"
-msgstr "Администратор сайта Django"
-
-#: .\templates\admin\base_site.html:11
-msgid "Django administration"
-msgstr "Django администрирование"
-
-#: .\templates\base.html:46
+#: .\templates\base.html:45
 msgid "Move backward"
 msgstr "Назад"
 

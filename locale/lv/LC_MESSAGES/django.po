@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-31 22:56+0300\n"
+"POT-Creation-Date: 2023-08-01 23:03+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -258,11 +258,11 @@ msgstr "Noderīgi resursi"
 msgid "The following is a list of most of the resources I utilize in my work"
 msgstr "Saraksts zemāk ir resursu saraksts, kurus izmantoju savā darbā"
 
-#: .\myblog\templates\myblog\other.html:141
+#: .\myblog\templates\myblog\other.html:138
 msgid "Thoughts"
 msgstr "Domas"
 
-#: .\myblog\templates\myblog\other.html:145
+#: .\myblog\templates\myblog\other.html:142
 msgid ""
 "Efficient use of search engines can often resolve the\n"
 "\t\t\t\t\t\tmajority of issues. ChatGPT makes all easier at least twice"
@@ -270,23 +270,16 @@ msgstr ""
 "Efektīva meklēšanas resursu izmantošana var bieži atrisināt lielāko daļu "
 "problēmu. ChatGPT padara visu vismaz divkārt vieglāku"
 
-#: .\myblog\templates\myblog\other.html:151
-msgid "Continuous learning is crucial for success as a programmer"
-msgstr "Nepārtraukta mācīšanās ir kritiski svarīga, lai būt sekmīgs programmētājs"
+#: .\myblog\templates\myblog\other.html:148
+msgid "Continious learning is crucial for success as a programmer"
+msgstr ""
+"Nepārtraukta mācīšanās ir kritiski svarīga, lai būt sekmīgs programmētājs"
 
-#: .\myblog\templates\myblog\other.html:156
+#: .\myblog\templates\myblog\other.html:153
 msgid "Improve English as much as you can"
 msgstr "Uzlabo angļu valodu tik daudz, cik vari"
 
-#: .\templates\admin\base_site.html:4
-msgid "Django site admin"
-msgstr "Django lapas administrātors"
-
-#: .\templates\admin\base_site.html:11
-msgid "Django administration"
-msgstr "Django administrācija"
-
-#: .\templates\base.html:46
+#: .\templates\base.html:45
 msgid "Move backward"
 msgstr "Atpakaļ"
 
