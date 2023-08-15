@@ -199,7 +199,6 @@ footer {
 .switch {
   font-size: 17px;
   position: relative;
-  display: inline-block;
   width: 64px;
   height: 34px;
   cursor: pointer;
