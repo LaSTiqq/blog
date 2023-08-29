@@ -11,99 +11,232 @@
 				<img src="{% static 'img/self_photo.png' %}" alt="Selfie" class="img-fluid blog-img photo my-4">
 			</picture>
 		</div>
-		<div class="col-12 col-md-9 mt-0 mt-md-4 intro">
-			<h1 class="big mt-2 mt-md-3 mt-lg-4 mt-xl-5 mb-3">Lauris Stirna</h1>
+		<div class="col-12 col-md-5 text-center">
+			<h1 class="big">Lauris Stirna</h1>
 			<figcaption class="blockquote-footer fs-4">
 				{% trans 'When I began to work on my diploma project I fell in love with creating websites' %}
 			</figcaption>
 		</div>
+		<div class="col-12 col-md-4">
+			<ul class="list-unstyled ul">
+				<li class="text-center">
+					<h2 class="fw-bold mb-2">{% trans 'Current status' %}</h2>
+					<p class="text-danger mb-4">{% trans 'Looking for a junior job' %}</p>
+				</li>
+				<li class="text-center">
+					<h2 class="fw-bold mb-4">{% trans 'Socials' %}</h2>
+					<a href="https://www.linkedin.com/in/laurisstirna/" title="LinkedIn" target="_blank" rel="noopener"
+						class="me-1 me-md-3">
+						<i class="fa-brands fa-linkedin fa-2xl"></i>
+					</a>
+					<a href="https://github.com/LaSTiqq" title="Github" target="_blank" rel="noopener"
+						class="mx-1 mx-md-3">
+						<i class="fa-brands fa-github fa-2xl"></i>
+					</a>
+					<a href="mailto:lavrencij13@gmail.com" title="Email: lavrencij13@gmail.com" class="mx-1 mx-md-3">
+						<i class="fa-solid fa-at fa-2xl"></i>
+					</a>
+					<a href="https://discordapp.com/users/1009206632409997315" title="Discord" target="_blank"
+						rel="noopener" class="mx-1 mx-md-3">
+						<i class="fa-brands fa-discord fa-2xl"></i>
+					</a>
+					<a href="https://t.me/LaSTiqq" title="Telegram" target="_blank" rel="noopener" class="ms-1 ms-md-3">
+						<i class="fa-brands fa-telegram fa-2xl"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
 		<hr>
 	</div>
-	<div class="row">
-		<div class="col-12 col-xl-4 mt-4">
-			<h1 class="text-center mb-4">{% trans 'Portfolio' %}</h1>
-			<figcaption class="blockquote-footer fs-6">{% blocktrans %}As a relatively new developer, my portfolio is
-				limited with only a few real projects to showcase, but I am proud of what I have accomplished
-				so far{% endblocktrans %}:
+	<div class="row justify-content-center">
+		<h1 class="text-center my-4">{% trans 'Timeline of most major achievements' %}</h1>
+		<div class="col-12 col-md-4 left p-0 text-end">
+			<div class="box">
+				<div data-aos="fade-right" data-aos-once="true">
+					<h5 class="year fw-bold">2017-2021</h5>
+					<h6>{% trans 'Graduated' %} <a href="https://rta.lv" rel="noreferrer" target="_blank"
+							class="link-info">
+							{% trans 'Rezekne Academy of Technologies' %}</a></h6>
+					<small>{% trans "Bachelor's degree as a software engineer" %}</small>
+				</div>
+			</div>
+			<div class="box">
+				<div data-aos="fade-right" data-aos-once="true">
+					<h5 class="year fw-bold">2021</h5>
+					<h6>{% trans 'Participating in one week learning course of Testing basics at' %} <a
+							href="https://www.testdevlab.com" rel="noreferrer" target="_blank"
+							class="link-info">TestDevLab</a> {% trans 'company' %}</h6>
+					<small>{% trans 'Received certificate for course passing' %}</small>
+				</div>
+			</div>
+			<div class="box">
+				<div data-aos="fade-right" data-aos-once="true">
+					<h5 class="year fw-bold">2022</h5>
+					<h6>{% trans 'Completed participation in European Solidarity Corps work project at Affix company' %}
+					</h6>
+					<small>{% trans 'Received a' %} <a href="https://www.youthpass.eu" rel="noreferrer" target="_blank"
+							class="link-info">Youthpass</a> {% trans 'certificate' %}</small>
+				</div>
+			</div>
+			<div class="box">
+				<div data-aos="fade-right" data-aos-once="true">
+					<h5 class="year fw-bold">2022</h5>
+					<h6>{% trans 'Freelance opportunity' %} #2</h6>
+					<small>{% trans 'Developed' %} <a href="http://retrix.lv" rel="noreferrer" target="_blank"
+							class="link-info">
+							{% trans 'homepage' %}</a> {% trans 'for another company' %}</small>
+				</div>
+			</div>
+			<div class="box">
+				<div data-aos="fade-right" data-aos-once="true">
+					<h5 class="year fw-bold">2023</h5>
+					<h6>{% trans 'Freelance opportunity' %} #3</h6>
+					<small>{% trans 'Developed' %} <a href="http://elgor.lv" rel="noreferrer" target="_blank"
+							class="link-info">{% trans 'homepage' %}</a> {% trans 'for another company' %}</small>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-1 line p-0"></div>
+		<div class="col-12 col-md-4 right p-0 text-start">
+			<div class="box">
+				<div data-aos="fade-left" data-aos-once="true">
+					<h5 class="year fw-bold">2021-2022</h5>
+					<h6>
+						{% trans 'Participating in European Solidarity Corps work project' %}
+						{% trans 'at Affix company as a Programming technician' %}
+					</h6>
+					<small>{% trans 'Developed' %} <a href="http://affix.lv" rel="noreferrer" target="_blank"
+							class="link-info">
+							{% trans 'homepage' %}</a> {% trans 'for a company' %}</small>
+				</div>
+			</div>
+			<div class="box">
+				<div data-aos="fade-left" data-aos-once="true">
+					<h5 class="year fw-bold">2021</h5>
+					<h6>{% trans 'Working at' %} <a href="https://www.testdevlab.com" rel="noreferrer" target="_blank"
+							class="link-info">TestDevLab</a> {% trans 'company as a' %} Junior QA-Engineer</h6>
+					<small>{% trans 'Gained experience in unfamiliar field' %}</small>
+				</div>
+			</div>
+			<div class="box">
+				<div data-aos="fade-left" data-aos-once="true">
+					<h5 class="year fw-bold">2022</h5>
+					<h6>{% trans 'Freelance opportunity' %} #1</h6>
+					<small>{% trans 'Developed personal' %} <a href="https://laurisstirna.eu.pythonanywhere.com/"
+							rel="noreferrer" class="link-info">{% trans 'homepage' %}</a></small>
+				</div>
+			</div>
+			<div class="box">
+				<div data-aos="fade-left" data-aos-once="true">
+					<h5 class="year fw-bold">2022</h5>
+					<h6>{% trans 'Participating in 120h bootcamp of "JavaScript website building" at' %} <a
+							href="https://bootcamp.lv" rel="noreferrer" target="_blank" class="link-info">Accenture</a>
+						{% trans 'company' %}</h6>
+					<small>{% trans 'Received certificate for bootcamp passing' %}</small>
+				</div>
+			</div>
+		</div>
+		<h1 class="text-center mt-5 mb-1">{% trans 'Stack of technologies' %}</h1>
+		<div class="col-12 mb-4">
+			<figcaption class="blockquote-footer text-center fs-6 mt-1 mb-4">
+				<span class="fw-bold">{% trans 'Highlighted' %}</span>
+				{% trans "names mean that I've used them in real life" %}
 			</figcaption>
-			<ul>
-				<li class="mb-1">
-					<a href="http://affix.lv" target="_blank" rel="noopener" class="link-info">affix.lv</a>
-				</li>
-				<li class="my-1">
-					<a href="https://laurisstirna.eu.pythonanywhere.com" rel="noopener"
-						class="link-info">laurisstirna.com</a>
-				</li>
-				<li class="my-1">
-					<a href="http://retrix.lv" target="_blank" rel="noopener" class="link-info">retrix.lv</a>
-				</li>
-				<li class="mb-1">
-					<a href="http://elgor.lv" target="_blank" rel="noopener" class="link-info">elgor.lv</a>
-				</li>
-				<li class="mt-1">
-					{% trans 'My current' %}
-					<a href="https://github.com/LaSTiqq/Coffee-united-people-2.0" target="_blank" rel="noopener"
-						class="link-info">PET</a>
-					{% trans 'project dedicated to' %}
-					<a href="https://bootcamp.lv" target="_blank" rel="noopener" class="link-info">Accenture
-						Bootcamp</a>
-				</li>
-			</ul>
+			<div class="accordion accordion-flush" id="accordion">
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingOne">
+						<button class="accordion-button fs-5 fw-bold" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							{% trans 'Frontend tools' %}
+						</button>
+					</h2>
+					<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+						data-bs-parent="#accordion">
+						<div class="accordion-body">
+							<ul>
+								<li><strong>HTML</strong></li>
+								<li><strong>CSS</strong></li>
+								<li><strong>SCSS</strong></li>
+								<li><strong>Bootstrap</strong></li>
+								<li><strong>SEO {% trans 'optimization and' %} Lighthouse {% trans 'audit' %}</strong>
+								</li>
+								<li><strong>Google Search Console</strong></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingTwo">
+						<button class="accordion-button fs-5 collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							{% trans 'Programming languages' %}
+						</button>
+					</h2>
+					<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+						data-bs-parent="#accordion">
+						<div class="accordion-body">
+							<ul>
+								<li><strong>Python</strong></li>
+								<li><strong>JavaScript</strong></li>
+								<li>C++</li>
+								<li>C#</li>
+								<li>Java</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingThree">
+						<button class="accordion-button fs-5 collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							{% trans 'Frameworks' %}
+						</button>
+					</h2>
+					<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+						data-bs-parent="#accordion">
+						<div class="accordion-body">
+							<ul>
+								<li><strong>Django</strong></li>
+								<li><strong>Node.js</strong></li>
+								<li><strong>Express.js</strong></li>
+								<li><strong>React.js</strong></li>
+								<li>.NET</li>
+								<li>Entity Framework</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingThree">
+						<button class="accordion-button fs-5 collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+							{% trans 'Additional' %}
+						</button>
+					</h2>
+					<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
+						data-bs-parent="#accordion">
+						<div class="accordion-body">
+							<ul>
+								<li><strong>SQLite</strong></li>
+								<li><strong>MongoDB</strong></li>
+								<li><strong>REST APIs</strong></li>
+								<li><strong>Redux/Redux toolkit</strong></li>
+								<li><strong>Github</strong></li>
+								<li><strong>Bitbucket</strong></li>
+								<li><strong>{% trans 'Deploying websites on' %} <a href="https://eu.pythonanywhere.com"
+											target="_blank" rel="noopener" class="link-info">PythonAnywhere</a></strong>
+								</li>
+								<li>MySQL</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="col-12 col-xl-4 mt-4">
-			<h1 class="text-center mb-2">{% trans 'Overall information' %}</h1>
-			<ul class="list-unstyled">
-				<li>
-					<p class="text-center fw-bold fs-5 mb-1">{% trans 'Qualification' %}</p>
-					<p class="text-center mb-1">{% trans 'Software engineer (bachelors degree)' %}</p>
-				</li>
-				<li>
-					<p class="text-center fw-bold fs-5 mb-1">{% trans 'Graduated' %}</p>
-					<p class="text-center mb-1"> <a href="https://www.rta.lv/" rel="noopener" class="link-info"
-							target="_blank">
-							{% trans 'Rezekne Academy of Technologies' %}</a> (2021)</p>
-				</li>
-				<li>
-					<p class="text-center fw-bold fs-5 mb-1">{% trans 'Current status' %}</p>
-					<p class="text-center mb-1">{% trans 'Looking for a job' %}</p>
-				</li>
-				<li>
-					<p class="text-center fw-bold fs-5 mb-1">{% trans 'Preferable position' %}</p>
-					<p class="text-center mb-1">Frontend engineer {% trans '(or similar)' %}</p>
-				</li>
-			</ul>
-		</div>
-		<div class="col-12 col-xl-4 mt-4">
-			<h1 class="text-center mb-4">{% trans 'Closest plans' %}</h1>
-			<figcaption class="blockquote-footer fs-6 text-end">{% blocktrans %}As a self-driven and responsible
-				developer, I believe that my learning journey should never come to an end.
-				My next learning objectives are{% endblocktrans %}:
-			</figcaption>
-			<ul style="list-style-position: inside">
-				<li class="mb-1 text-end">{% trans 'Start learning' %} <a href="https://www.typescriptlang.org"
-						target="_blank" rel="noopener" class="link-info">Typescript</a></li>
-				<li class="my-1 text-end">{% trans 'Keep learning' %} <a href="https://www.mongodb.com" target="_blank"
-						rel="noopener" class="link-info">MongoDB</a> + <a href="https://expressjs.com" target="_blank"
-						rel="noopener" class="link-info">Express.js</a>
-					+ <a href="https://reactjs.org" target="_blank" rel="noopener" class="link-info">React.js</a>
-				</li>
-				<li class="my-1 text-end">{% trans 'Keep learning' %} <a href="https://html.com" target="_blank"
-						rel="noopener" class="link-info">HTML</a> + <a href="https://web.dev/learn/css/" target="_blank"
-						rel="noopener" class="link-info">CSS</a> + <a href="https://www.javascript.com" target="_blank"
-						rel="noopener" class="link-info">JavaScript</a>
-					{% trans 'and' %} <a href="https://sass-lang.com/" target="_blank" rel="noopener"
-						class="link-info">SCSS</a></li>
-				<li class="my-1 text-end">{% trans 'Keep using and remembering' %} <a href="https://www.python.org"
-						target="_blank" rel="noopener" class="link-info">Python</a>+<a
-						href="https://www.djangoproject.com" target="_blank" rel="noopener" class="link-info">Django</a>
-				</li>
-				<li class="mt-1 text-end">{% trans 'Learn' %} <a href="https://nextjs.org" target="_blank"
-						rel="noopener" class="link-info">Next.js</a> {% trans 'and/or' %} <a href="https://www.php.net"
-						target="_blank" rel="noopener" class="link-info">PHP</a>+<a href="https://wordpress.com"
-						target="_blank" rel="noopener" class="link-info">Wordpress</a>
-					({% trans 'maybe' %})</li>
-			</ul>
-		</div>
+		<p class="text-center fs-6">{% trans 'Find more about me on my' %} <a href="https://github.com/LaSTiqq"
+				target="_blank" rel="noopener" class="link-info">Github</a> {% trans 'and' %} <a
+				href="https://www.linkedin.com/in/laurisstirna/" target="_blank" rel="noopener"
+				class="link-info">LinkedIn</a></p>
 	</div>
 </div>
 {% endblock %}

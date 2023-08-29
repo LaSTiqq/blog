@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-26 21:38+0300\n"
+"POT-Creation-Date: 2023-08-29 13:28+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,196 +92,180 @@ msgid ""
 msgstr ""
 "Kad es uzsāku darbu pie sava diplomprojekta, es iemīlējos mājaslapu izveidē"
 
-#: .\myblog\templates\myblog\index.html:24
-msgid "Portfolio"
-msgstr "Portfolio"
-
-#: .\myblog\templates\myblog\index.html:25
-msgid ""
-"As a relatively new developer, my portfolio is\n"
-"\t\t\t\tlimited with only a few real projects to showcase, but I am proud of "
-"what I have accomplished\n"
-"\t\t\t\tso far"
-msgstr ""
-"Kā relatīvi jauns izstrādātājs, mans portfolio ir ierobežots vien ar dažiem "
-"reāliem projektiem, bet esmu lepns ar padarīto līdz šim"
-
-#: .\myblog\templates\myblog\index.html:44
-msgid "My current"
-msgstr "Mans esošais"
-
-#: .\myblog\templates\myblog\index.html:47
-msgid "project dedicated to"
-msgstr "projekts, kas veltīts"
-
-#: .\myblog\templates\myblog\index.html:54
-msgid "Overall information"
-msgstr "Kopējā informācija"
-
-#: .\myblog\templates\myblog\index.html:57
-msgid "Qualification"
-msgstr "Kvalifikācija"
-
-#: .\myblog\templates\myblog\index.html:58
-msgid "Software engineer (bachelors degree)"
-msgstr "Programmēšanas inženieris (bakalaura grāds)"
-
-#: .\myblog\templates\myblog\index.html:61
-msgid "Graduated"
-msgstr "Absolvēta"
-
-#: .\myblog\templates\myblog\index.html:64
-msgid "Rezekne Academy of Technologies"
-msgstr "Rēzeknes Tehnoloģiju akadēmija"
-
-#: .\myblog\templates\myblog\index.html:67
+#: .\myblog\templates\myblog\index.html:23
 msgid "Current status"
 msgstr "Esošais statuss"
 
+#: .\myblog\templates\myblog\index.html:24
+msgid "Looking for a junior job"
+msgstr "Junior darba meklējumos"
+
+#: .\myblog\templates\myblog\index.html:27
+msgid "Socials"
+msgstr "Saites"
+
+#: .\myblog\templates\myblog\index.html:52
+msgid "Timeline of most major achievements"
+msgstr "Svarīgāko sasniegumu laika grafiks"
+
+#: .\myblog\templates\myblog\index.html:57
+msgid "Graduated"
+msgstr "Absolvēta"
+
+#: .\myblog\templates\myblog\index.html:59
+msgid "Rezekne Academy of Technologies"
+msgstr "Rēzeknes Tehnoloģiju akadēmija"
+
+#: .\myblog\templates\myblog\index.html:60
+msgid "Bachelor's degree as a software engineer"
+msgstr "Bakalaura grāds, kā programmēšanas inženieris"
+
+#: .\myblog\templates\myblog\index.html:66
+msgid "Participating in one week learning course of Testing basics at"
+msgstr "Dalība nedēļas apmācībās par Testēšanas pamatiem"
+
 #: .\myblog\templates\myblog\index.html:68
-msgid "Looking for a job"
-msgstr "Darba meklējumos"
+#: .\myblog\templates\myblog\index.html:134
+msgid "company"
+msgstr "uzņēmumā"
 
-#: .\myblog\templates\myblog\index.html:71
-msgid "Preferable position"
-msgstr "Vēlamā pozīcija"
+#: .\myblog\templates\myblog\index.html:69
+msgid "Received certificate for course passing"
+msgstr "Saņemts sertifikāts par kursa pabeigšanu"
 
-#: .\myblog\templates\myblog\index.html:72
-msgid "(or similar)"
-msgstr "(vai līdzīgi)"
+#: .\myblog\templates\myblog\index.html:75
+msgid ""
+"Completed participation in European Solidarity Corps work project at Affix "
+"company"
+msgstr ""
+"Pabeigta dalība Eiropas Solidaritātes korpusa darba projektā uzņēmumā Affix"
 
 #: .\myblog\templates\myblog\index.html:77
-msgid "Closest plans"
-msgstr "Tuvākie plāni"
+msgid "Received a"
+msgstr "Saņemts"
 
 #: .\myblog\templates\myblog\index.html:78
-msgid ""
-"As a self-driven and responsible\n"
-"\t\t\t\tdeveloper, I believe that my learning journey should never come to "
-"an end.\n"
-"\t\t\t\tMy next learning objectives are"
-msgstr ""
-"Kā patstāvīgs un atbildīgs izstrādātājs, es uzskatu, ka mans ceļojums kaut "
-"kā jauna apgūšanā nekad nedrīkst beigties. Mani nākamie apgūstāmie mērķi ir"
+msgid "certificate"
+msgstr "sertifikāts"
 
-#: .\myblog\templates\myblog\index.html:83
-msgid "Start learning"
-msgstr "Uzsākt apgūt"
+#: .\myblog\templates\myblog\index.html:84
+#: .\myblog\templates\myblog\index.html:93
+#: .\myblog\templates\myblog\index.html:124
+msgid "Freelance opportunity"
+msgstr "Freelance iespēja"
 
 #: .\myblog\templates\myblog\index.html:85
-#: .\myblog\templates\myblog\index.html:90
-msgid "Keep learning"
-msgstr "Turpināt uzlabot zināšanas par"
-
 #: .\myblog\templates\myblog\index.html:94
-#: .\myblog\templates\myblog\other.html:34
-msgid "and"
-msgstr "un"
+#: .\myblog\templates\myblog\index.html:108
+msgid "Developed"
+msgstr "Izstrādāta"
 
-#: .\myblog\templates\myblog\index.html:96
-msgid "Keep using and remembering"
-msgstr "Turpināt izmantot un atcerēties"
+#: .\myblog\templates\myblog\index.html:87
+#: .\myblog\templates\myblog\index.html:95
+#: .\myblog\templates\myblog\index.html:110
+#: .\myblog\templates\myblog\index.html:126
+msgid "homepage"
+msgstr "mājaslapa"
 
-#: .\myblog\templates\myblog\index.html:100
-msgid "Learn"
-msgstr "Apgūt"
+#: .\myblog\templates\myblog\index.html:87
+#: .\myblog\templates\myblog\index.html:95
+msgid "for another company"
+msgstr "citam uzņēmumam"
 
-#: .\myblog\templates\myblog\index.html:101
-msgid "and/or"
-msgstr "un/vai"
+#: .\myblog\templates\myblog\index.html:105
+msgid "Participating in European Solidarity Corps work project"
+msgstr "Dalība Eiropas Solidaritātes korpusa darba projektā"
 
-#: .\myblog\templates\myblog\index.html:104
-msgid "maybe"
-msgstr "iespējams"
+#: .\myblog\templates\myblog\index.html:106
+msgid "at Affix company as a Programming technician"
+msgstr "uzņēmumā Affix, kā programmēšanas tehniķis"
 
-#: .\myblog\templates\myblog\other.html:4 .\templates\inc\_nav.html:27
-msgid "Other"
-msgstr "Cits"
+#: .\myblog\templates\myblog\index.html:110
+msgid "for a company"
+msgstr "uzņēmumam"
 
-#: .\myblog\templates\myblog\other.html:9
-msgid "Technologies"
-msgstr "Tehnoloģijas"
+#: .\myblog\templates\myblog\index.html:116
+msgid "Working at"
+msgstr "Darbs"
 
-#: .\myblog\templates\myblog\other.html:11
-msgid ""
-"The following is a list of programming languages, frameworks,\n"
-"\t\t\t\tlibraries etc. that I have come across in my brief time as a "
-"developer"
-msgstr ""
-"Saraksts zemāk satur programmēšanas valodas, satvarus, bibliotēkas utt., "
-"kuras es paspēju izmantot savā īsā izstrādātāja karjerā"
+#: .\myblog\templates\myblog\index.html:117
+msgid "company as a"
+msgstr "uzņēmumā, kā"
 
-#: .\myblog\templates\myblog\other.html:13
+#: .\myblog\templates\myblog\index.html:118
+msgid "Gained experience in unfamiliar field"
+msgstr "Gūta pieredze nepazīstamā virzienā"
+
+#: .\myblog\templates\myblog\index.html:125
+msgid "Developed personal"
+msgstr "Izstrādāta personīga"
+
+#: .\myblog\templates\myblog\index.html:132
+msgid "Participating in 120h bootcamp of \"JavaScript website building\" at"
+msgstr "Dalība 120 stundu būtkempā par \"JavaScript tīmekļa vietņu izstrādi\""
+
+#: .\myblog\templates\myblog\index.html:135
+msgid "Received certificate for bootcamp passing"
+msgstr "Saņemts sertifikāts par būtkempa pabeigšanu"
+
+#: .\myblog\templates\myblog\index.html:139
+msgid "Stack of technologies"
+msgstr "Tehnoloģiju steks"
+
+#: .\myblog\templates\myblog\index.html:142
 msgid "Highlighted"
 msgstr "Izceltie"
 
-#: .\myblog\templates\myblog\other.html:15
-msgid ""
-"items mean that I used them outside my study process and have some real "
-"experience"
-msgstr ""
-"vārdi nozīmē, ka es tos lietoju ārpus sava studiju procesa un man ir kāda "
-"reāla pieredze"
+#: .\myblog\templates\myblog\index.html:143
+msgid "names mean that I've used them in real life"
+msgstr "nosaukumi nozīmē to, ka es tos pielietoju reālajā dzīvē"
 
-#: .\myblog\templates\myblog\other.html:23
+#: .\myblog\templates\myblog\index.html:150
 msgid "Frontend tools"
 msgstr "Frontend rīki"
 
-#: .\myblog\templates\myblog\other.html:44
+#: .\myblog\templates\myblog\index.html:161
+msgid "optimization and"
+msgstr "optimizācija un"
+
+#: .\myblog\templates\myblog\index.html:161
+msgid "audit"
+msgstr "audits"
+
+#: .\myblog\templates\myblog\index.html:172
 msgid "Programming languages"
 msgstr "Programmēšanas valodas"
 
-#: .\myblog\templates\myblog\other.html:64
+#: .\myblog\templates\myblog\index.html:192
 msgid "Frameworks"
-msgstr "Satvari"
+msgstr "Ietvari"
 
-#: .\myblog\templates\myblog\other.html:84
+#: .\myblog\templates\myblog\index.html:213
 msgid "Additional"
 msgstr "Papildus"
 
-#: .\myblog\templates\myblog\other.html:98
-msgid "Deploying SPA websites on"
-msgstr "SPA mājaslapu publicēšana iekš"
+#: .\myblog\templates\myblog\index.html:226
+msgid "Deploying websites on"
+msgstr "Mjaslapu publicēšana uz"
 
-#: .\myblog\templates\myblog\other.html:109
-msgid "Useful resources"
-msgstr "Noderīgi resursi"
+#: .\myblog\templates\myblog\index.html:236
+msgid "Find more about me on my"
+msgstr "Atrodi vairāk par mani manos"
 
-#: .\myblog\templates\myblog\other.html:111
-msgid "The following is a list of most of the resources I utilize in my work"
-msgstr "Saraksts zemāk ir resursu saraksts, kurus izmantoju savā darbā"
-
-#: .\myblog\templates\myblog\other.html:145
-msgid "Thoughts"
-msgstr "Domas"
-
-#: .\myblog\templates\myblog\other.html:149
-msgid ""
-"Efficient use of search engines can often resolve the\n"
-"\t\t\t\t\t\tmajority of issues. ChatGPT makes all easier at least twice"
-msgstr ""
-"Efektīva meklēšanas resursu izmantošana var bieži atrisināt lielāko daļu "
-"problēmu. ChatGPT padara visu vismaz divkārt vieglāku"
-
-#: .\myblog\templates\myblog\other.html:155
-msgid "Continious learning is crucial for success as a programmer"
-msgstr ""
-"Nepārtraukta mācīšanās ir kritiski svarīga, lai būt sekmīgs programmētājs"
-
-#: .\myblog\templates\myblog\other.html:160
-msgid "Improve English as much as you can"
-msgstr "Uzlabo angļu valodu tik daudz, cik vari"
+#: .\myblog\templates\myblog\index.html:237
+msgid "and"
+msgstr "un"
 
 #: .\templates\base.html:4
 msgid "en"
 msgstr "lv"
 
-#: .\templates\base.html:53
+#: .\templates\base.html:54
 msgid "Move backward"
 msgstr "Atpakaļ"
 
 #: .\templates\inc\_foo.html:6
 msgid ""
-"Page is available in three languages with potential\n"
+"Website is available in three languages with potential\n"
 "\t\t\t\ttranslation variations"
 msgstr "Lapa ir pieejama trijās valodās, ar atšķirīgiem tulkojumiem"
