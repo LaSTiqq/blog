@@ -364,7 +364,7 @@ button[value="lv"]::before {
 
 /****** TIMELINE ******/
 .line {
-  background-image: linear-gradient(45deg, #f27121, #e94057, #8a2387);
+  background-image: linear-gradient(45deg, #21f271, #57e940, #23878a);
   width: 5px;
   height: 1255px;
   position: absolute;
@@ -376,7 +376,7 @@ button[value="lv"]::before {
 }
 .box {
   color: #fff;
-  background-color: #525252;
+  background-color: #5c5c5c;
   box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px #242424;
   border-radius: 6px;
   padding: 10px;
@@ -401,7 +401,7 @@ button[value="lv"]::before {
 .right .box::before,
 .left .box::after {
   content: "";
-  background-image: linear-gradient(45deg, #f27121, #e94057, #8a2387);
+  background-color: #72eb3a;
   width: 15px;
   height: 15px;
   position: absolute;
@@ -418,12 +418,12 @@ button[value="lv"]::before {
   transform: translate(-50%, 35px);
 }
 .year {
-  color: #f27121;
+  color: #72eb3a;
 }
 .dark-mode .right .box::before,
 .dark-mode .left .box::after,
 .dark-mode .line {
-  background-image: linear-gradient(45deg, #8a2387, #e94057, #f27121);
+  background-image: linear-gradient(45deg, #23878a, #57e940, #21f271);
 }
 .dark-mode .box {
   background-color: #333333;
