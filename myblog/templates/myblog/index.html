@@ -5,15 +5,15 @@
 {% block static_content %}
 <div class="container">
 	<div class="row">
-		<div class="col-12 col-md-3">
+		<div class="col-12 col-md-4">
 			<picture>
 				<source srcset="{% static 'img/self_photo.webp' %}" type="image/webp">
-				<img src="{% static 'img/self_photo.png' %}" alt="Selfie" class="img-fluid blog-img photo my-4">
+				<img src="{% static 'img/self_photo.png' %}" alt="Selfie" class="blog-img photo my-4">
 			</picture>
 		</div>
-		<div class="col-12 col-md-5 text-center">
+		<div class="col-12 col-md-4 text-center">
 			<h1 class="big">Lauris Stirna</h1>
-			<figcaption class="blockquote-footer fs-4">
+			<figcaption class="blockquote-footer fs-5">
 				{% trans 'When I began to work on my diploma project I fell in love with creating websites' %}
 			</figcaption>
 		</div>
@@ -26,21 +26,21 @@
 				<li class="text-center">
 					<h2 class="fw-bold mb-4">{% trans 'Socials' %}</h2>
 					<a href="https://www.linkedin.com/in/laurisstirna/" title="LinkedIn" target="_blank" rel="noopener"
-						class="me-1 me-md-3">
+						class="me-1 me-xl-3">
 						<i class="fa-brands fa-linkedin fa-2xl"></i>
 					</a>
 					<a href="https://github.com/LaSTiqq" title="Github" target="_blank" rel="noopener"
-						class="mx-1 mx-md-3">
+						class="mx-1 mx-xl-3">
 						<i class="fa-brands fa-github fa-2xl"></i>
 					</a>
-					<a href="mailto:lavrencij13@gmail.com" title="Email: lavrencij13@gmail.com" class="mx-1 mx-md-3">
+					<a href="mailto:lavrencij13@gmail.com" title="Email: lavrencij13@gmail.com" class="mx-1 mx-xl-3">
 						<i class="fa-solid fa-at fa-2xl"></i>
 					</a>
 					<a href="https://discordapp.com/users/1009206632409997315" title="Discord" target="_blank"
-						rel="noopener" class="mx-1 mx-md-3">
+						rel="noopener" class="mx-1 mx-xl-3">
 						<i class="fa-brands fa-discord fa-2xl"></i>
 					</a>
-					<a href="https://t.me/LaSTiqq" title="Telegram" target="_blank" rel="noopener" class="ms-1 ms-md-3">
+					<a href="https://t.me/LaSTiqq" title="Telegram" target="_blank" rel="noopener" class="ms-1 ms-xl-3">
 						<i class="fa-brands fa-telegram fa-2xl"></i>
 					</a>
 				</li>
@@ -55,7 +55,7 @@
 				<div data-aos="fade-right" data-aos-once="true">
 					<h5 class="year fw-bold">2017-2021</h5>
 					<h6>{% trans 'Graduated' %} <a href="https://rta.lv" rel="noreferrer" target="_blank"
-							class="link-info">
+							class="link-info" title="{% trans 'Rezekne Academy of Technologies' %}">
 							{% trans 'Rezekne Academy of Technologies' %}</a></h6>
 					<small>{% trans "Bachelor's degree as a software engineer" %}</small>
 				</div>
@@ -64,8 +64,8 @@
 				<div data-aos="fade-right" data-aos-once="true">
 					<h5 class="year fw-bold">2021</h5>
 					<h6>{% trans 'Participating in one week learning course of Testing basics at' %} <a
-							href="https://www.testdevlab.com" rel="noreferrer" target="_blank"
-							class="link-info">TestDevLab</a> {% trans 'company' %}</h6>
+							href="https://www.testdevlab.com" rel="noreferrer" target="_blank" class="link-info"
+							title="SIA TestDevLab">TestDevLab</a> {% trans 'company' %}</h6>
 					<small>{% trans 'Received certificate for course passing' %}</small>
 				</div>
 			</div>
@@ -75,7 +75,7 @@
 					<h6>{% trans 'Completed participation in European Solidarity Corps work project at Affix company' %}
 					</h6>
 					<small>{% trans 'Received a' %} <a href="https://www.youthpass.eu" rel="noreferrer" target="_blank"
-							class="link-info">Youthpass</a> {% trans 'certificate' %}</small>
+							class="link-info" title="Youthpass">Youthpass</a> {% trans 'certificate' %}</small>
 				</div>
 			</div>
 			<div class="box">
@@ -83,7 +83,7 @@
 					<h5 class="year fw-bold">2022</h5>
 					<h6>{% trans 'Freelance opportunity' %} #2</h6>
 					<small>{% trans 'Developed' %} <a href="http://retrix.lv" rel="noreferrer" target="_blank"
-							class="link-info">
+							class="link-info" title="retrix.lv">
 							{% trans 'homepage' %}</a> {% trans 'for another company' %}</small>
 				</div>
 			</div>
@@ -92,7 +92,8 @@
 					<h5 class="year fw-bold">2023</h5>
 					<h6>{% trans 'Freelance opportunity' %} #3</h6>
 					<small>{% trans 'Developed' %} <a href="http://elgor.lv" rel="noreferrer" target="_blank"
-							class="link-info">{% trans 'homepage' %}</a> {% trans 'for another company' %}</small>
+							class="link-info" title="elgor.lv">{% trans 'homepage' %}</a>
+						{% trans 'for another company'%}</small>
 				</div>
 			</div>
 		</div>
@@ -106,7 +107,7 @@
 						{% trans 'at Affix company as a Programming technician' %}
 					</h6>
 					<small>{% trans 'Developed' %} <a href="http://affix.lv" rel="noreferrer" target="_blank"
-							class="link-info">
+							class="link-info" title="affix.lv">
 							{% trans 'homepage' %}</a> {% trans 'for a company' %}</small>
 				</div>
 			</div>
@@ -114,7 +115,8 @@
 				<div data-aos="fade-left" data-aos-once="true">
 					<h5 class="year fw-bold">2021</h5>
 					<h6>{% trans 'Working at' %} <a href="https://www.testdevlab.com" rel="noreferrer" target="_blank"
-							class="link-info">TestDevLab</a> {% trans 'company as a' %} Junior QA-Engineer</h6>
+							class="link-info" title="SIA TestDevLab">TestDevLab</a> {% trans 'company as a' %} Junior
+						QA-Engineer</h6>
 					<small>{% trans 'Gained experience in unfamiliar field' %}</small>
 				</div>
 			</div>
@@ -123,14 +125,15 @@
 					<h5 class="year fw-bold">2022</h5>
 					<h6>{% trans 'Freelance opportunity' %} #1</h6>
 					<small>{% trans 'Developed personal' %} <a href="https://laurisstirna.eu.pythonanywhere.com/"
-							rel="noreferrer" class="link-info">{% trans 'homepage' %}</a></small>
+							rel="noreferrer" class="link-info" title="This website">{% trans 'homepage' %}</a></small>
 				</div>
 			</div>
 			<div class="box">
 				<div data-aos="fade-left" data-aos-once="true">
 					<h5 class="year fw-bold">2022</h5>
 					<h6>{% trans 'Participating in 120h bootcamp of "JavaScript website building" at' %} <a
-							href="https://bootcamp.lv" rel="noreferrer" target="_blank" class="link-info">Accenture</a>
+							href="https://bootcamp.lv" rel="noreferrer" target="_blank" class="link-info"
+							title="Accenture">Accenture</a>
 						{% trans 'company' %}</h6>
 					<small>{% trans 'Received certificate for bootcamp passing' %}</small>
 				</div>
