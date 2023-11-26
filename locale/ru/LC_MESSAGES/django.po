@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-29 13:28+0300\n"
+"POT-Creation-Date: 2023-11-26 21:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -89,54 +89,54 @@ msgstr "Обо мне"
 
 #: .\myblog\templates\myblog\index.html:17
 msgid ""
-"When I began to work on my diploma project I fell in love with creating "
-"websites"
-msgstr ""
-"Когда я начал работу над своим дипломным проектом, я влюбился в создание "
-"сайтов"
+"Since I got a Software Engineer's qualification in 2021, I fell in love with "
+"FrontEnd\n"
+"\t\t\t\tdevelopment"
+msgstr "Получив квалификацию Инженера программиста в 2021 году, я влюбился во FrontEnd разработку"
 
-#: .\myblog\templates\myblog\index.html:23
+#: .\myblog\templates\myblog\index.html:24
 msgid "Current status"
 msgstr "Текущий статус"
 
-#: .\myblog\templates\myblog\index.html:24
-msgid "Looking for a junior job"
-msgstr "В поисках junior работы"
+#: .\myblog\templates\myblog\index.html:25
+msgid "Looking for a job"
+msgstr "В поисках работы"
 
-#: .\myblog\templates\myblog\index.html:27
+#: .\myblog\templates\myblog\index.html:28
 msgid "Socials"
 msgstr "Ссылки"
 
-#: .\myblog\templates\myblog\index.html:52
+#: .\myblog\templates\myblog\index.html:53
 msgid "Timeline of most major achievements"
 msgstr "Хронология основных достижений"
 
-#: .\myblog\templates\myblog\index.html:57
+#: .\myblog\templates\myblog\index.html:58
 msgid "Graduated"
 msgstr "Окончил"
 
 #: .\myblog\templates\myblog\index.html:59
+#: .\myblog\templates\myblog\index.html:60
 msgid "Rezekne Academy of Technologies"
 msgstr "Резекненскую Технологическую академию"
 
-#: .\myblog\templates\myblog\index.html:60
+#: .\myblog\templates\myblog\index.html:61
 msgid "Bachelor's degree as a software engineer"
 msgstr "Степень бакалавра, как инженер-программист"
 
-#: .\myblog\templates\myblog\index.html:66
+#: .\myblog\templates\myblog\index.html:67
 msgid "Participating in one week learning course of Testing basics at"
 msgstr "Участие в недельном обучении Основ тестирования в"
 
-#: .\myblog\templates\myblog\index.html:68
-#: .\myblog\templates\myblog\index.html:134
+#: .\myblog\templates\myblog\index.html:69
+#: .\myblog\templates\myblog\index.html:138
 msgid "company"
 msgstr "фирме"
 
-#: .\myblog\templates\myblog\index.html:69
+#: .\myblog\templates\myblog\index.html:70
 msgid "Received certificate for course passing"
 msgstr "Получен сертификат за прохождение курса"
 
-#: .\myblog\templates\myblog\index.html:75
+#: .\myblog\templates\myblog\index.html:76
 msgid ""
 "Completed participation in European Solidarity Corps work project at Affix "
 "company"
@@ -144,119 +144,119 @@ msgstr ""
 "Закончил участие в рабочем проекте Европейского корпуса солидарности в фирме "
 "Affix"
 
-#: .\myblog\templates\myblog\index.html:77
+#: .\myblog\templates\myblog\index.html:78
 msgid "Received a"
 msgstr "Получен"
 
-#: .\myblog\templates\myblog\index.html:78
+#: .\myblog\templates\myblog\index.html:79
 msgid "certificate"
 msgstr "сертификат"
 
-#: .\myblog\templates\myblog\index.html:84
-#: .\myblog\templates\myblog\index.html:93
-#: .\myblog\templates\myblog\index.html:124
+#: .\myblog\templates\myblog\index.html:85
+#: .\myblog\templates\myblog\index.html:94
+#: .\myblog\templates\myblog\index.html:127
 msgid "Freelance opportunity"
 msgstr "Возможность фриланса"
 
-#: .\myblog\templates\myblog\index.html:85
-#: .\myblog\templates\myblog\index.html:94
-#: .\myblog\templates\myblog\index.html:108
+#: .\myblog\templates\myblog\index.html:86
+#: .\myblog\templates\myblog\index.html:95
+#: .\myblog\templates\myblog\index.html:110
 msgid "Developed"
 msgstr "Разработан"
 
-#: .\myblog\templates\myblog\index.html:87
-#: .\myblog\templates\myblog\index.html:95
-#: .\myblog\templates\myblog\index.html:110
-#: .\myblog\templates\myblog\index.html:126
+#: .\myblog\templates\myblog\index.html:88
+#: .\myblog\templates\myblog\index.html:96
+#: .\myblog\templates\myblog\index.html:112
+#: .\myblog\templates\myblog\index.html:129
 msgid "homepage"
 msgstr "сайт"
 
-#: .\myblog\templates\myblog\index.html:87
-#: .\myblog\templates\myblog\index.html:95
+#: .\myblog\templates\myblog\index.html:88
+#: .\myblog\templates\myblog\index.html:97
 msgid "for another company"
 msgstr "для другой фирмы"
 
-#: .\myblog\templates\myblog\index.html:105
+#: .\myblog\templates\myblog\index.html:107
 msgid "Participating in European Solidarity Corps work project"
 msgstr "Участие в рабочем проекте Европейского корпуса солидарности"
 
-#: .\myblog\templates\myblog\index.html:106
+#: .\myblog\templates\myblog\index.html:108
 msgid "at Affix company as a Programming technician"
 msgstr "в фирме Affix, как Техник-программист"
 
-#: .\myblog\templates\myblog\index.html:110
+#: .\myblog\templates\myblog\index.html:112
 msgid "for a company"
 msgstr "для фирмы"
 
-#: .\myblog\templates\myblog\index.html:116
+#: .\myblog\templates\myblog\index.html:118
 msgid "Working at"
 msgstr "Работа в"
 
-#: .\myblog\templates\myblog\index.html:117
+#: .\myblog\templates\myblog\index.html:119
 msgid "company as a"
 msgstr "фирме, как"
 
-#: .\myblog\templates\myblog\index.html:118
+#: .\myblog\templates\myblog\index.html:121
 msgid "Gained experience in unfamiliar field"
 msgstr "Приобретен опыт в незнакомом направлении"
 
-#: .\myblog\templates\myblog\index.html:125
+#: .\myblog\templates\myblog\index.html:128
 msgid "Developed personal"
 msgstr "Разработан личный"
 
-#: .\myblog\templates\myblog\index.html:132
+#: .\myblog\templates\myblog\index.html:135
 msgid "Participating in 120h bootcamp of \"JavaScript website building\" at"
 msgstr "Участие в 120-часовом буткемпе о \"Построении JavaScript сайтов\" в"
 
-#: .\myblog\templates\myblog\index.html:135
+#: .\myblog\templates\myblog\index.html:139
 msgid "Received certificate for bootcamp passing"
 msgstr "Получен сертификат за прохождение буткемпа"
 
-#: .\myblog\templates\myblog\index.html:139
+#: .\myblog\templates\myblog\index.html:143
 msgid "Stack of technologies"
 msgstr "Стэк технологий"
 
-#: .\myblog\templates\myblog\index.html:142
+#: .\myblog\templates\myblog\index.html:146
 msgid "Highlighted"
 msgstr "Выделенные"
 
-#: .\myblog\templates\myblog\index.html:143
+#: .\myblog\templates\myblog\index.html:147
 msgid "names mean that I've used them in real life"
 msgstr "названия означают, что я их применял в реальной жизни"
 
-#: .\myblog\templates\myblog\index.html:150
+#: .\myblog\templates\myblog\index.html:154
 msgid "Frontend tools"
 msgstr "Фронтэнд инструменты"
 
-#: .\myblog\templates\myblog\index.html:161
+#: .\myblog\templates\myblog\index.html:165
 msgid "optimization and"
 msgstr "оптимизация и"
 
-#: .\myblog\templates\myblog\index.html:161
+#: .\myblog\templates\myblog\index.html:165
 msgid "audit"
 msgstr "аудит"
 
-#: .\myblog\templates\myblog\index.html:172
+#: .\myblog\templates\myblog\index.html:176
 msgid "Programming languages"
 msgstr "Языки программирования"
 
-#: .\myblog\templates\myblog\index.html:192
+#: .\myblog\templates\myblog\index.html:196
 msgid "Frameworks"
 msgstr "Фреймворки"
 
-#: .\myblog\templates\myblog\index.html:213
+#: .\myblog\templates\myblog\index.html:217
 msgid "Additional"
 msgstr "Дополнительно"
 
-#: .\myblog\templates\myblog\index.html:226
+#: .\myblog\templates\myblog\index.html:230
 msgid "Deploying websites on"
 msgstr "Развертывание сайтов на"
 
-#: .\myblog\templates\myblog\index.html:236
+#: .\myblog\templates\myblog\index.html:240
 msgid "Find more about me on my"
 msgstr "Найди больше про меня на моих"
 
-#: .\myblog\templates\myblog\index.html:237
+#: .\myblog\templates\myblog\index.html:241
 msgid "and"
 msgstr "и"
 
