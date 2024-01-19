@@ -365,7 +365,7 @@ button[value="lv"]::before {
 .line {
   background-image: linear-gradient(45deg, #21f271, #57e940, #23878a);
   width: 5px;
-  height: 1060px;
+  height: 950px;
   position: absolute;
   top: 490px;
   left: 50%;
@@ -380,6 +380,9 @@ button[value="lv"]::before {
   border-radius: 6px;
   padding: 10px;
 }
+.box p {
+  font-size: 0.875rem;
+}
 .left .box,
 .right .box {
   margin-bottom: 125px;
@@ -391,11 +394,14 @@ button[value="lv"]::before {
   margin-left: 35px;
 }
 .right .box:first-child {
-  margin-top: 150px;
+  margin-top: 125px;
 }
 .left .box:last-child,
 .right .box:last-child {
   margin-bottom: 0;
+}
+.right .box:last-child {
+  margin-top: -25px;
 }
 .right .box::before,
 .left .box::after {
@@ -409,11 +415,9 @@ button[value="lv"]::before {
   z-index: 2;
 }
 .left .box::after {
-  content: "";
   transform: translate(-50%, -35px);
 }
 .right .box::before {
-  content: "";
   transform: translate(-50%, 35px);
 }
 .year {
@@ -438,16 +442,29 @@ button[value="lv"]::before {
   }
   .right .box,
   .left .box {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .right .box:first-child {
-    margin-top: 10px;
+    margin-top: 20px;
   }
   .left .box {
     margin-right: 10px;
   }
   .right .box {
     margin-left: 10px;
+  }
+  .right .box:last-child {
+    margin-top: 0px;
+  }
+  .box h5 {
+    font-size: 0.825rem;
+  }
+  .box h6,
+  .box p {
+    font-size: 0.625rem;
+  }
+  .box p {
+    line-height: 1.25;
   }
   .card {
     text-align: center;
@@ -474,16 +491,29 @@ button[value="lv"]::before {
   }
   .right .box,
   .left .box {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
   }
   .right .box:first-child {
-    margin-top: 10px;
+    margin-top: 50px;
+  }
+  .right .box:last-child {
+    margin-top: 0px;
   }
   .left .box {
     margin-right: 10px;
   }
   .right .box {
     margin-left: 10px;
+  }
+  .box h5 {
+    font-size: 1rem;
+  }
+  .box h6,
+  .box p {
+    font-size: 0.625rem;
+  }
+  .box p {
+    line-height: 1.25;
   }
   .big {
     font-size: 3.25rem;
@@ -511,6 +541,12 @@ button[value="lv"]::before {
   .right .box {
     margin-left: 10px;
   }
+  .box h5 {
+    font-size: 1rem;
+  }
+  .box h6 {
+    font-size: 0.875rem;
+  }
   .big {
     font-size: 3.5rem;
     margin-top: 30px;
@@ -525,13 +561,23 @@ button[value="lv"]::before {
     margin-top: 30px;
   }
   .line {
-    height: 1175px;
+    height: 1000px;
+    top: 535px;
+  }
+  .right .box:last-child {
+    margin-top: 0;
+  }
+  .box h6 {
+    font-size: 0.875rem;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .line {
-    height: 1100px;
+    height: 950px;
     top: 535px;
+  }
+  .right .box:last-child {
+    margin-top: 0;
   }
 }
