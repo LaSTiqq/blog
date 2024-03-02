@@ -1,18 +1,21 @@
-const currentTheme = localStorage.getItem("theme") || "light";
+const currentTheme = localStorage.getItem("data-bs-theme");
 const toggleInput = document.querySelector("#toggle-mode");
-const body = document.querySelector("body");
+const html = document.querySelector("html");
 
 if (currentTheme === "dark") {
-  body.classList.add("dark-mode");
+  html.setAttribute("data-bs-theme", "dark");
   toggleInput.setAttribute("checked", true);
+} else {
+  html.setAttribute("data-bs-theme", "light");
 }
 
 toggleInput.addEventListener("change", () => {
-  body.classList.toggle("dark-mode");
-  if (body.classList.contains("dark-mode")) {
-    localStorage.setItem("theme", "dark");
+  if (html.getAttribute("data-bs-theme") === "dark") {
+    html.setAttribute("data-bs-theme", "light");
+    localStorage.setItem("data-bs-theme", "light");
   } else {
-    localStorage.setItem("theme", "light");
+    html.setAttribute("data-bs-theme", "dark");
+    localStorage.setItem("data-bs-theme", "dark");
   }
 });
 

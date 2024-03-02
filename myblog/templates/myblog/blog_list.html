@@ -4,42 +4,46 @@
 {% block title %}Lauris Stirna :: {% trans 'Blog' %}{% endblock %}
 {% block content %}
 <a name="top"></a>
-<h1 class="mt-4">Blog</h1>
-<figcaption class="blockquote-footer fs-6 mt-2">
-	{% blocktrans %}This section features my personal solutions to problems I've faced and existing solutions I've
-	modified. While they
-	may not be entirely original, they can still be a valuable resource to complement existing materials. It's a
-	compilation of my experiences and knowledge, shared for the benefit of others{% endblocktrans %}.
+<h1 class="fw-bold mt-4">{% trans 'Blog' %}</h1>
+<figcaption class="text-body-secondary fs-6 mt-2">
+	{% blocktrans %}This section features my personal solutions to problems that I've faced and existing solutions that
+	I've
+	modified. While they may not be entirely original, they can still be a valuable resource to complement existing
+	materials.
+	It's a compilation of my experiences and knowledge, shared for the benefit of others{% endblocktrans %}.
 </figcaption>
 <hr>
 <div class="alert alert-danger alert-dismissible fade show" role="alert">
-	<strong>{% blocktrans %} Images may not display properly due to issues with the hosting service,
-		which is separate from the website's host{% endblocktrans %}!</strong>
+	{% blocktrans %} Images may not display properly due to issues with the hosting service,
+	which is separate from the website's host{% endblocktrans %}!
 	<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
 </div>
 {% for item in blog %}
 {% if item.published %}
-<div class="card bg-light border">
-	<div class="card-header border">
+<div class="card">
+	<div class="card-header">
 		{% trans 'Tag' %}: <a href="{{ item.tag.get_absolute_url }}" data-bs-toggle="tooltip" data-bs-placement="top"
-			data-bs-trigger="hover" title="{% trans 'Sort by tag' %}" class="highlight">
-			{{ item.tag.name }}</a>
+			data-bs-trigger="hover" title="{% trans 'Sort by tag' %}" class="text-success focus-ring">
+			<span class="fw-bold">
+				{{ item.tag.name }}
+			</span>
+		</a>
 	</div>
 	<div class="card-body">
 		<h2 class="card-title fw-bold">{{ item.title }}</h2>
 		<div class="row">
 			<div class="col-12 col-lg-4">
-				<img src="{{ item.tag.image }}" alt="Preview image" class="img-fluid mx-auto mb-2 d-block">
+				<img src="{{ item.tag.image }}" alt="Preview image" class="d-block mx-auto img-fluid mt-1 mb-2">
 			</div>
 			<div class="col-12 col-lg-8">
-				<p class="card-text fw-bold">{{ item.preview_text }}</p>
-				<a href="{{ item.get_absolute_url }}" class="btn">{% trans 'Read more' %}...</a>
+				<p class="card-text fw-bold mt-1">{{ item.preview_text }}</p>
+				<a href="{{ item.get_absolute_url }}" class="btn btn-success">{% trans 'Read more' %}...</a>
 			</div>
 		</div>
 	</div>
-	<div class="card-footer border">
-		<small class="fw-bold">{% trans 'Last updated' %}: {{ item.updated_at }}</small><br>
-		<small class="fw-bold">{% trans 'Created at' %}: {{ item.created_at }}</small>
+	<div class="card-footer">
+		<small class="text-body-secondary fw-bold">{% trans 'Last updated' %}: {{ item.updated_at }}</small><br>
+		<small class="text-body-secondary fw-bold">{% trans 'Created at' %}: {{ item.created_at }}</small>
 	</div>
 </div>
 <hr>

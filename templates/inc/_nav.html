@@ -3,54 +3,55 @@
 {% get_current_language as LANGUAGE_CODE %}
 {% get_available_languages as LANGUAGES %}
 {% get_language_info_list for LANGUAGES as languages %}
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg bg-secondary-subtle">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="{% url 'myblog:home' %}">
+		<a class="navbar-brand focus-ring fw-bold" href="{% url 'myblog:home' %}">
 			<img src="{% static 'img/favicon.ico' %}" alt="Logo" width="44" height="44" class="mb-1">
 			Lauris Stirna</a>
 		<button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
 			aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div class="collapse navbar-collapse" id="navbar">
+		<div class="collapse navbar-collapse fw-bold" id="navbar">
 			<ul class="navbar-nav me-auto mb-lg-0">
 				<li class="nav-item">
 					<a class="nav-link {% if request.resolver_match.url_name == 'home' %}active{% endif %}"
 						aria-current="page" href="{% url 'myblog:home' %}">{% trans 'About' %}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link {% if request.resolver_match.url_name == 'blog' %}active{% endif %}"
+					<a class="nav-link {% if request.resolver_match.url_name == 'blog' or request.resolver_match.url_name == 'tag' %}active{% endif %}"
 						href="{% url 'myblog:blog' %}">{% trans 'Blog' %}</a>
 				</li>
 			</ul>
 			<div class="animated">
-				<img src="{% static 'img/arrow_languages.svg' %}" alt="Arrow" id="img-arrow" width="36" height="36">
+				<img src="{% static 'img/arrow_languages.svg' %}" alt="Arrow">
 			</div>
 			<form action="{% url 'set_language' %}" method="post">
 				{% csrf_token %}
 				<input name="next" type="hidden" value="{{ redirect_to }}" />
-				<ul class="d-flex languages">
+				<ul class="d-flex languages list-unstyled">
 					<li class="me-2 me-lg-0">
 						<button type="submit" name="language" value="{{ languages.0.code }}"
-							class="btn btn-sm fw-bold {% if languages.0.code == LANGUAGE_CODE %}active{% endif %}">
+							class="btn btn-success btn-sm {% if languages.0.code == LANGUAGE_CODE %}active{% endif %}">
 							{{ languages.0.name_local|capfirst }}
 						</button>
 					</li>
-					<li class="ms-2 mx-lg-0">
+					<li class="mx-2 mx-lg-0">
 						<button type="submit" name="language" value="{{ languages.2.code }}"
-							class="btn btn-sm fw-bold {% if languages.2.code == LANGUAGE_CODE %}active{% endif %}">
+							class="btn btn-success btn-sm {% if languages.2.code == LANGUAGE_CODE %}active{% endif %}">
 							{{ languages.2.name_local|capfirst }}
 						</button>
 					</li>
-					<li class="mx-2 ms-lg-0">
+					<li class="ms-2 ms-lg-0">
 						<button type="submit" name="language" value="{{ languages.1.code }}"
-							class="btn btn-sm fw-bold {% if languages.1.code == LANGUAGE_CODE %}active{% endif %}">
+							class="btn btn-success btn-sm {% if languages.1.code == LANGUAGE_CODE %}active{% endif %}">
 							{{ languages.1.name_local|capfirst }}
 						</button>
 					</li>
 				</ul>
 			</form>
-			<label class="switch">
+			<label for="toggle-mode" class="visually-hidden">Switch</label>
+			<label class="switch mx-3" name="switch">
 				<span class="sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 						<g fill="#ffd43b">
 							<circle r="5" cy="12" cx="12"></circle>
