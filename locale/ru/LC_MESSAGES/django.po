@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-29 00:16+0300\n"
+"POT-Creation-Date: 2024-06-29 01:11+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -189,7 +189,9 @@ msgstr "Разработан личный"
 
 #: .\myblog\templates\myblog\index.html:124
 msgid "Participating in the \"JavaScript\" Bootcamp in the amount of 120h at"
-msgstr "Участие в обучении о \"Построении JavaScript сайтов\" длительностью 120 часов в"
+msgstr ""
+"Участие в обучении о \"Построении JavaScript сайтов\" длительностью 120 "
+"часов в"
 
 #: .\myblog\templates\myblog\index.html:128
 msgid "Received certificate for bootcamp passing"
@@ -200,38 +202,42 @@ msgid "Stack of technologies"
 msgstr "Стэк технологий"
 
 #: .\myblog\templates\myblog\index.html:135
-msgid "Highlighted"
-msgstr "Выделенные"
+msgid "Learn more about my skills at my"
+msgstr "Узнай больше в моём"
 
-#: .\myblog\templates\myblog\index.html:136
-msgid "names mean that I've used them in real life"
-msgstr "названия означают, что я их применял в реальной жизни"
+#: .\myblog\templates\myblog\index.html:138
+msgid "The higher any item is placed the more I used it"
+msgstr "Чем выше в списке любая вещь, тем чаще я её использовал"
 
-#: .\myblog\templates\myblog\index.html:143
+#: .\myblog\templates\myblog\index.html:145
 msgid "Frontend tools"
 msgstr "Фронтэнд инструменты"
 
-#: .\myblog\templates\myblog\index.html:154
-msgid "optimization and"
-msgstr "оптимизация и"
-
-#: .\myblog\templates\myblog\index.html:155
-msgid "audit"
-msgstr "аудит"
-
-#: .\myblog\templates\myblog\index.html:166
+#: .\myblog\templates\myblog\index.html:163
 msgid "Programming languages"
 msgstr "Языки программирования"
 
-#: .\myblog\templates\myblog\index.html:186
+#: .\myblog\templates\myblog\index.html:183
 msgid "Frameworks"
 msgstr "Фреймворки"
 
-#: .\myblog\templates\myblog\index.html:207
+#: .\myblog\templates\myblog\index.html:203
 msgid "Additional"
 msgstr "Дополнительно"
 
-#: .\myblog\templates\myblog\index.html:220
+#: .\myblog\templates\myblog\index.html:211
+msgid "optimization"
+msgstr "оптимизация"
+
+#: .\myblog\templates\myblog\index.html:212
+msgid "audit"
+msgstr "аудит"
+
+#: .\myblog\templates\myblog\index.html:213
+msgid "Responsive design"
+msgstr "Отзывчивый дизайн"
+
+#: .\myblog\templates\myblog\index.html:214
 msgid "Deploying websites on"
 msgstr "Развертывание сайтов на"
 

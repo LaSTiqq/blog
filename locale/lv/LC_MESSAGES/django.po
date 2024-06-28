@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-29 00:16+0300\n"
+"POT-Creation-Date: 2024-06-29 01:11+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -187,7 +187,8 @@ msgstr "Izstrādāta personīga"
 
 #: .\myblog\templates\myblog\index.html:124
 msgid "Participating in the \"JavaScript\" Bootcamp in the amount of 120h at"
-msgstr "Dalība mācībās par \"JavaScript tīmekļa vietņu izstrādi\" 120 stundu apmērā"
+msgstr ""
+"Dalība mācībās par \"JavaScript tīmekļa vietņu izstrādi\" 120 stundu apmērā"
 
 #: .\myblog\templates\myblog\index.html:128
 msgid "Received certificate for bootcamp passing"
@@ -198,40 +199,44 @@ msgid "Stack of technologies"
 msgstr "Tehnoloģiju steks"
 
 #: .\myblog\templates\myblog\index.html:135
-msgid "Highlighted"
-msgstr "Izceltie"
+msgid "Learn more about my skills at my"
+msgstr "Uzzini vairāk manā"
 
-#: .\myblog\templates\myblog\index.html:136
-msgid "names mean that I've used them in real life"
-msgstr "nosaukumi nozīmē to, ka es tos pielietoju reālajā dzīvē"
+#: .\myblog\templates\myblog\index.html:138
+msgid "The higher any item is placed the more I used it"
+msgstr "Jo augstāk sarakstā ir lieta, jo vairāk to esmu izmantojis"
 
-#: .\myblog\templates\myblog\index.html:143
+#: .\myblog\templates\myblog\index.html:145
 msgid "Frontend tools"
 msgstr "Frontend rīki"
 
-#: .\myblog\templates\myblog\index.html:154
-msgid "optimization and"
-msgstr "optimizācija un"
-
-#: .\myblog\templates\myblog\index.html:155
-msgid "audit"
-msgstr "audits"
-
-#: .\myblog\templates\myblog\index.html:166
+#: .\myblog\templates\myblog\index.html:163
 msgid "Programming languages"
 msgstr "Programmēšanas valodas"
 
-#: .\myblog\templates\myblog\index.html:186
+#: .\myblog\templates\myblog\index.html:183
 msgid "Frameworks"
 msgstr "Ietvari"
 
-#: .\myblog\templates\myblog\index.html:207
+#: .\myblog\templates\myblog\index.html:203
 msgid "Additional"
 msgstr "Papildus"
 
-#: .\myblog\templates\myblog\index.html:220
+#: .\myblog\templates\myblog\index.html:211
+msgid "optimization"
+msgstr "optimizācija"
+
+#: .\myblog\templates\myblog\index.html:212
+msgid "audit"
+msgstr "audits"
+
+#: .\myblog\templates\myblog\index.html:213
+msgid "Responsive design"
+msgstr "Atsaucīgs dizains"
+
+#: .\myblog\templates\myblog\index.html:214
 msgid "Deploying websites on"
-msgstr "Mjaslapu publicēšana uz"
+msgstr "Mājaslapu publicēšana uz"
 
 #: .\templates\base.html:4
 msgid "en"
