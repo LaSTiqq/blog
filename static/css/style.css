@@ -225,7 +225,7 @@ button[value="lv"]::before {
 .line {
   background-image: linear-gradient(45deg, #21f271, #57e940, #23878a);
   width: 5px;
-  height: 950px;
+  height: 800px;
   position: absolute;
   top: 490px;
   left: 50%;
@@ -419,8 +419,8 @@ button[value="lv"]::before {
     margin-top: 10px;
   }
   .line {
-    height: 1000px;
-    top: 535px;
+    height: 880px;
+    top: 480px;
   }
   .right .box:last-child {
     margin-top: 0;
@@ -435,8 +435,8 @@ button[value="lv"]::before {
     margin-top: 25px;
   }
   .line {
-    height: 950px;
-    top: 535px;
+    height: 820px;
+    top: 480px;
   }
   .right .box:last-child {
     margin-top: 0;

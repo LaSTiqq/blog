@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-02 20:09+0200\n"
+"POT-Creation-Date: 2024-06-29 00:16+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,10 +19,12 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
 "2);\n"
 
-#: .\myblog\templates\myblog\blog_list.html:4 .\templates\inc\_nav.html:23
+#: .\myblog\templates\myblog\blog_list.html:4
+#: .\myblog\templates\myblog\blog_list.html:7 .\templates\inc\_nav.html:23
 msgid "Blog"
 msgstr "Blogs"
 
+#: .\myblog\templates\myblog\blog_list.html:9
 msgid ""
 "This section features my personal solutions to problems that I've faced and "
 "existing solutions that\n"
@@ -38,6 +40,7 @@ msgstr ""
 "būt labs papildinājums jau esošajiem materiāliem. Tas ir manas pieredzes un "
 "zināšanu krājums, ar kuru vēlos dalīties"
 
+#: .\myblog\templates\myblog\blog_list.html:17
 msgid ""
 " Images may not display properly due to issues with the hosting service,\n"
 "\twhich is separate from the website's host"
@@ -105,132 +108,128 @@ msgstr "Darba meklējumos"
 msgid "Socials"
 msgstr "Saites"
 
-#: .\myblog\templates\myblog\index.html:53
+#: .\myblog\templates\myblog\index.html:55
 msgid "Timeline of most major achievements"
 msgstr "Svarīgāko sasniegumu laika grafiks"
 
-#: .\myblog\templates\myblog\index.html:58
+#: .\myblog\templates\myblog\index.html:60
 msgid "Graduated"
 msgstr "Absolvēta"
 
-#: .\myblog\templates\myblog\index.html:59
-#: .\myblog\templates\myblog\index.html:60
+#: .\myblog\templates\myblog\index.html:62
 msgid "Rezekne Academy of Technologies"
 msgstr "Rēzeknes Tehnoloģiju akadēmija"
 
-#: .\myblog\templates\myblog\index.html:61
+#: .\myblog\templates\myblog\index.html:63
 msgid "Bachelor's degree as a software engineer"
 msgstr "Bakalaura grāds, kā programmēšanas inženieris"
 
-#: .\myblog\templates\myblog\index.html:67
+#: .\myblog\templates\myblog\index.html:69
 msgid "Participating in one week learning course of Testing basics at"
 msgstr "Dalība nedēļas apmācībās par Testēšanas pamatiem"
 
-#: .\myblog\templates\myblog\index.html:69
-#: .\myblog\templates\myblog\index.html:122
+#: .\myblog\templates\myblog\index.html:71
+#: .\myblog\templates\myblog\index.html:127
 msgid "company"
 msgstr "uzņēmumā"
 
-#: .\myblog\templates\myblog\index.html:70
+#: .\myblog\templates\myblog\index.html:73
 msgid "Received certificate for course passing"
 msgstr "Saņemts sertifikāts par kursa pabeigšanu"
 
-#: .\myblog\templates\myblog\index.html:76
-msgid ""
-"Completed participation in European Solidarity Corps work project at Affix "
-"company"
-msgstr ""
-"Pabeigta dalība Eiropas Solidaritātes korpusa darba projektā uzņēmumā Affix"
-
-#: .\myblog\templates\myblog\index.html:78
-msgid "Received a"
-msgstr "Saņemts"
-
 #: .\myblog\templates\myblog\index.html:79
-msgid "certificate"
-msgstr "sertifikāts"
-
-#: .\myblog\templates\myblog\index.html:86
-#: .\myblog\templates\myblog\index.html:110
-#: .\myblog\templates\myblog\index.html:129
+#: .\myblog\templates\myblog\index.html:88
+#: .\myblog\templates\myblog\index.html:115
 msgid "Freelance opportunity"
 msgstr "Freelance iespēja"
 
-#: .\myblog\templates\myblog\index.html:87
-#: .\myblog\templates\myblog\index.html:102
-#: .\myblog\templates\myblog\index.html:130
+#: .\myblog\templates\myblog\index.html:80
+#: .\myblog\templates\myblog\index.html:89
+#: .\myblog\templates\myblog\index.html:104
 msgid "Developed"
 msgstr "Izstrādāta"
 
-#: .\myblog\templates\myblog\index.html:89
-#: .\myblog\templates\myblog\index.html:104
-#: .\myblog\templates\myblog\index.html:113
-#: .\myblog\templates\myblog\index.html:131
+#: .\myblog\templates\myblog\index.html:82
+#: .\myblog\templates\myblog\index.html:90
+#: .\myblog\templates\myblog\index.html:106
+#: .\myblog\templates\myblog\index.html:118
 msgid "homepage"
 msgstr "mājaslapa"
 
-#: .\myblog\templates\myblog\index.html:89
-#: .\myblog\templates\myblog\index.html:132
+#: .\myblog\templates\myblog\index.html:82
+#: .\myblog\templates\myblog\index.html:91
 msgid "for another company"
 msgstr "citam uzņēmumam"
 
-#: .\myblog\templates\myblog\index.html:99
+#: .\myblog\templates\myblog\index.html:101
 msgid "Participating in European Solidarity Corps work project"
 msgstr "Dalība Eiropas Solidaritātes korpusa darba projektā"
 
-#: .\myblog\templates\myblog\index.html:100
+#: .\myblog\templates\myblog\index.html:102
 msgid "at Affix company as a Programming technician"
 msgstr "uzņēmumā Affix, kā programmēšanas tehniķis"
 
-#: .\myblog\templates\myblog\index.html:104
+#: .\myblog\templates\myblog\index.html:106
 msgid "for a company"
 msgstr "uzņēmumam"
 
-#: .\myblog\templates\myblog\index.html:111
+#: .\myblog\templates\myblog\index.html:106
+msgid "and received"
+msgstr "un saņemts"
+
+#: .\myblog\templates\myblog\index.html:108
+msgid "certificate"
+msgstr "sertifikāts"
+
+#: .\myblog\templates\myblog\index.html:116
 msgid "Developed personal"
 msgstr "Izstrādāta personīga"
 
-#: .\myblog\templates\myblog\index.html:119
-msgid "Participating in 120h bootcamp of \"JavaScript website building\" at"
-msgstr "Dalība 120 stundu būtkempā par \"JavaScript tīmekļa vietņu izstrādi\""
+#: .\myblog\templates\myblog\index.html:124
+msgid "Participating in the \"JavaScript\" Bootcamp in the amount of 120h at"
+msgstr "Dalība mācībās par \"JavaScript tīmekļa vietņu izstrādi\" 120 stundu apmērā"
 
-#: .\myblog\templates\myblog\index.html:123
+#: .\myblog\templates\myblog\index.html:128
 msgid "Received certificate for bootcamp passing"
-msgstr "Saņemts sertifikāts par būtkempa pabeigšanu"
+msgstr "Saņemts sertifikāts par apmācību pabeigšanu"
 
-#: .\myblog\templates\myblog\index.html:136
+#: .\myblog\templates\myblog\index.html:132
 msgid "Stack of technologies"
 msgstr "Tehnoloģiju steks"
 
-#: .\myblog\templates\myblog\index.html:139
+#: .\myblog\templates\myblog\index.html:135
 msgid "Highlighted"
 msgstr "Izceltie"
 
-#: .\myblog\templates\myblog\index.html:140
+#: .\myblog\templates\myblog\index.html:136
 msgid "names mean that I've used them in real life"
 msgstr "nosaukumi nozīmē to, ka es tos pielietoju reālajā dzīvē"
 
-#: .\myblog\templates\myblog\index.html:147
+#: .\myblog\templates\myblog\index.html:143
 msgid "Frontend tools"
 msgstr "Frontend rīki"
 
-#: .\myblog\templates\myblog\index.html:158
+#: .\myblog\templates\myblog\index.html:154
 msgid "optimization and"
 msgstr "optimizācija un"
 
-#: .\myblog\templates\myblog\index.html:170
+#: .\myblog\templates\myblog\index.html:155
+msgid "audit"
+msgstr "audits"
+
+#: .\myblog\templates\myblog\index.html:166
 msgid "Programming languages"
 msgstr "Programmēšanas valodas"
 
-#: .\myblog\templates\myblog\index.html:190
+#: .\myblog\templates\myblog\index.html:186
 msgid "Frameworks"
 msgstr "Ietvari"
 
-#: .\myblog\templates\myblog\index.html:211
+#: .\myblog\templates\myblog\index.html:207
 msgid "Additional"
 msgstr "Papildus"
 
-#: .\myblog\templates\myblog\index.html:224
+#: .\myblog\templates\myblog\index.html:220
 msgid "Deploying websites on"
 msgstr "Mjaslapu publicēšana uz"
 
