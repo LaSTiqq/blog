@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import MainView, BlogList, BlogByTag, BlogDetail, Other
+from .views import MainView, BlogList, BlogByTag, BlogDetail
 
 app_name = 'myblog'
 
