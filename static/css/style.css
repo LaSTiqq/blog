@@ -200,7 +200,6 @@ h2 {
   padding-left: 40px;
 }
 button[value="en"]::before,
-button[value="ru"]::before,
 button[value="lv"]::before {
   content: "";
   width: 24px;
@@ -211,9 +210,6 @@ button[value="lv"]::before {
 }
 button[value="en"]::before {
   background-image: url(../img/en.svg);
-}
-button[value="ru"]::before {
-  background-image: url(../img/ru.svg);
 }
 button[value="lv"]::before {
   background-image: url(../img/lv.svg);
@@ -226,7 +222,7 @@ button[value="lv"]::before {
 .line {
   background-image: linear-gradient(45deg, #21f271, #57e940, #23878a);
   width: 5px;
-  height: 800px;
+  height: 900px;
   position: absolute;
   top: 490px;
   left: 50%;
@@ -420,7 +416,7 @@ button[value="lv"]::before {
     margin-top: 10px;
   }
   .line {
-    height: 880px;
+    height: 1000px;
     top: 480px;
   }
   .right .box:last-child {
@@ -436,7 +432,7 @@ button[value="lv"]::before {
     margin-top: 25px;
   }
   .line {
-    height: 820px;
+    height: 1000px;
     top: 480px;
   }
   .right .box:last-child {

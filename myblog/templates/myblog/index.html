@@ -4,7 +4,7 @@
 {% block title %}Lauris Stirna :: {% trans 'About' %}{% endblock %}
 {% block static_content %}
 <div class="container">
-	<div class="row">
+	<div class="row align-items-center">
 		<div class="col-12 col-md-4">
 			<picture>
 				<source srcset="{% static 'img/self_photo.webp' %}" type="image/webp">
@@ -12,11 +12,7 @@
 			</picture>
 		</div>
 		<div class="col-12 col-md-4 text-center">
-			<h1 class="big fw-bold mb-0">Lauris Stirna</h1>
-			<figcaption class="text-body-secondary fs-5">
-				{% blocktrans %}Since I got a Software Engineer's qualification in 2021, I fell in love with FrontEnd
-				development{% endblocktrans %}
-			</figcaption>
+			<h1 class="big fw-bold">Lauris Stirna</h1>
 		</div>
 		<div class="col-12 col-md-4">
 			<ul class="list-unstyled ul">
@@ -122,6 +118,13 @@
 							class="link-info focus-ring">Accenture</a>
 						{% trans 'company' %}</h3>
 					<p class="mb-0">{% trans 'Received certificate for bootcamp passing' %}</p>
+				</div>
+			</div>
+			<div class="box">
+				<div data-aos="fade-left">
+					<h2 class="text-success fw-bold h6">2024-2024</h2>
+					<h3>{% trans 'Freelance opportunity' %} #4</h3>
+					<p class="mb-0">{% trans 'Developed homepage for another company (currently hidden)' %}</p>
 				</div>
 			</div>
 		</div>

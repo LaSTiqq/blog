@@ -19,5 +19,4 @@ blog/settings.py
 blog/urls.py
 blog/static
 db.sqlite3
-.vscode
 venv
