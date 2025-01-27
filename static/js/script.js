@@ -1,3 +1,4 @@
+//  Dark/Light mode
 const currentTheme = localStorage.getItem("data-bs-theme");
 const toggleInput = document.querySelector("#toggle-mode");
 const html = document.querySelector("html");
@@ -26,3 +27,10 @@ document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach((el) => {
 
 // Code highlight
 Prism.highlightAll();
+
+// AOS
+AOS.init({
+  disable: window.innerWidth < 1360,
+  startEvent: "DOMContentLoaded",
+  once: true,
+});

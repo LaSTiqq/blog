@@ -56,14 +56,6 @@ h2 {
   color: #a74dd6;
   transition: 0.4s;
 }
-.fa-telegram {
-  color: #0088cc;
-  transition: 0.4s;
-}
-.fa-telegram:hover {
-  color: #54c1e8;
-  transition: 0.4s;
-}
 .blog-img {
   display: block;
   margin: 0 auto;
