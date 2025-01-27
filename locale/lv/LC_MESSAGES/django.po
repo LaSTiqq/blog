@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-02 21:36+0200\n"
+"POT-Creation-Date: 2025-01-27 23:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -120,7 +120,7 @@ msgid "Participating in one week learning course of Testing basics at"
 msgstr "Dalība nedēļas apmācībās par Testēšanas pamatiem"
 
 #: .\myblog\templates\myblog\index.html:63
-#: .\myblog\templates\myblog\index.html:119
+#: .\myblog\templates\myblog\index.html:126
 msgid "company"
 msgstr "uzņēmumā"
 
@@ -130,107 +130,110 @@ msgstr "Saņemts sertifikāts par kursa pabeigšanu"
 
 #: .\myblog\templates\myblog\index.html:71
 #: .\myblog\templates\myblog\index.html:80
-#: .\myblog\templates\myblog\index.html:107
-#: .\myblog\templates\myblog\index.html:126
+#: .\myblog\templates\myblog\index.html:114
+#: .\myblog\templates\myblog\index.html:133
 msgid "Freelance opportunity"
 msgstr "Freelance iespēja"
 
 #: .\myblog\templates\myblog\index.html:72
 #: .\myblog\templates\myblog\index.html:81
-#: .\myblog\templates\myblog\index.html:96
+#: .\myblog\templates\myblog\index.html:103
 msgid "Developed"
 msgstr "Izstrādāta"
 
 #: .\myblog\templates\myblog\index.html:74
 #: .\myblog\templates\myblog\index.html:82
-#: .\myblog\templates\myblog\index.html:98
-#: .\myblog\templates\myblog\index.html:110
-msgid "homepage"
-msgstr "mājaslapa"
+#: .\myblog\templates\myblog\index.html:105
+msgid "Django SPA website"
+msgstr "Django SPA mājaslapa"
 
 #: .\myblog\templates\myblog\index.html:74
 #: .\myblog\templates\myblog\index.html:83
 msgid "for another company"
 msgstr "citam uzņēmumam"
 
-#: .\myblog\templates\myblog\index.html:93
+#: .\myblog\templates\myblog\index.html:89
+msgid "Migration from Django to"
+msgstr "Migrācija no Django uz"
+
+#: .\myblog\templates\myblog\index.html:90
+msgid "Migrated three Django SPA websites above to"
+msgstr "Pārceltas trīs Django SPA mājaslapas augstāk uz"
+
+#: .\myblog\templates\myblog\index.html:100
 msgid "Participating in European Solidarity Corps work project"
 msgstr "Dalība Eiropas Solidaritātes korpusa darba projektā"
 
-#: .\myblog\templates\myblog\index.html:94
+#: .\myblog\templates\myblog\index.html:101
 msgid "at Affix company as a Programming technician"
 msgstr "uzņēmumā Affix, kā programmēšanas tehniķis"
 
-#: .\myblog\templates\myblog\index.html:98
+#: .\myblog\templates\myblog\index.html:105
 msgid "for a company"
 msgstr "uzņēmumam"
 
-#: .\myblog\templates\myblog\index.html:98
+#: .\myblog\templates\myblog\index.html:105
 msgid "and received"
 msgstr "un saņemts"
 
-#: .\myblog\templates\myblog\index.html:100
+#: .\myblog\templates\myblog\index.html:107
 msgid "certificate"
 msgstr "sertifikāts"
 
-#: .\myblog\templates\myblog\index.html:108
+#: .\myblog\templates\myblog\index.html:115
 msgid "Developed personal"
 msgstr "Izstrādāta personīga"
 
-#: .\myblog\templates\myblog\index.html:116
+#: .\myblog\templates\myblog\index.html:117
+msgid "Django website"
+msgstr "Mājaslapu publicēšana uz"
+
+#: .\myblog\templates\myblog\index.html:123
 msgid "Participating in the \"JavaScript\" Bootcamp in the amount of 120h at"
 msgstr ""
 "Dalība mācībās par \"JavaScript tīmekļa vietņu izstrādi\" 120 stundu apmērā"
 
-#: .\myblog\templates\myblog\index.html:120
+#: .\myblog\templates\myblog\index.html:127
 msgid "Received certificate for bootcamp passing"
 msgstr "Saņemts sertifikāts par apmācību pabeigšanu"
 
-#: .\myblog\templates\myblog\index.html:127
-msgid "Developed homepage for another company (currently hidden)"
+#: .\myblog\templates\myblog\index.html:134
+msgid "Developed Django website for another company (currently hidden)"
 msgstr "Izstrādātā mājaslapa citam uzņēmumam (pašlaik paslēpta)"
 
-#: .\myblog\templates\myblog\index.html:131
+#: .\myblog\templates\myblog\index.html:138
 msgid "Stack of technologies"
 msgstr "Tehnoloģiju steks"
 
-#: .\myblog\templates\myblog\index.html:134
-msgid "Learn more about my skills at my"
-msgstr "Uzzini vairāk manā"
-
-#: .\myblog\templates\myblog\index.html:137
-msgid "The higher any item is placed the more I used it"
-msgstr "Jo augstāk sarakstā ir lieta, jo vairāk to esmu izmantojis"
-
-#: .\myblog\templates\myblog\index.html:144
+#: .\myblog\templates\myblog\index.html:145
 msgid "Frontend tools"
 msgstr "Frontend rīki"
 
-#: .\myblog\templates\myblog\index.html:162
+#: .\myblog\templates\myblog\index.html:163
 msgid "Programming languages"
 msgstr "Programmēšanas valodas"
 
-#: .\myblog\templates\myblog\index.html:182
+#: .\myblog\templates\myblog\index.html:183
 msgid "Frameworks"
 msgstr "Satvari"
 
-#: .\myblog\templates\myblog\index.html:202
+#: .\myblog\templates\myblog\index.html:203
 msgid "Additional"
 msgstr "Papildus"
 
-#: .\myblog\templates\myblog\index.html:210
+#: .\myblog\templates\myblog\index.html:211
 msgid "optimization"
 msgstr "optimizācija"
 
-#: .\myblog\templates\myblog\index.html:211
+#: .\myblog\templates\myblog\index.html:212
 msgid "audit"
 msgstr "audits"
 
-#: .\myblog\templates\myblog\index.html:212
+#: .\myblog\templates\myblog\index.html:213
 msgid "Responsive design"
 msgstr "Atsaucīgs dizains"
 
-#: .\myblog\templates\myblog\index.html:213
+#: .\myblog\templates\myblog\index.html:214
 msgid "Deploying websites on"
 msgstr "Mājaslapu publicēšana uz"
 
