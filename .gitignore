@@ -20,3 +20,4 @@ blog/urls.py
 blog/static
 db.sqlite3
 venv
+.env
